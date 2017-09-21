@@ -22,7 +22,7 @@
     <string name="disabled">Disabled</string>
     <string name="enabled">Enabled</string>
     <!-- preferences.xml categories-->
-    <string name="pref_cat_general">AnkiDroid</string>
+    <string name="pref_cat_general">ClickFC</string>
     <string name="pref_cat_general_summ">General settings</string>
     <string name="pref_cat_reviewing">Reviewing</string>
     <string name="pref_cat_reviewing_summ">Non-deck-specific reviewer settings</string>
@@ -42,7 +42,7 @@
     <string name="pref_cat_performance">Performance</string>
     <string name="pref_cat_workarounds">Workarounds</string>
     <string name="pref_cat_plugins">Plugins</string>
-    <string name="about_title">About AnkiDroid</string>
+    <string name="about_title">About ClickFC</string>
     <string name="about_version">Version: </string>
 
     <!-- preferences.xml entries-->
@@ -95,7 +95,7 @@
     <string name="tts_summ">Reads out question and answer if no sound file is included</string>
     <string name="sync_fetch_missing_media">Fetch media on sync</string>
     <string name="sync_fetch_missing_media_summ">Automatically fetch missing media when syncing</string>
-    <string name="sync_account">AnkiWeb account</string>
+    <string name="sync_account">ClickFC account</string>
     <string name="sync_account_summ_logged_out">Not logged in</string>
     <string name="sync_account_summ_logged_in">%s</string>
     <string name="automatic_sync_choice">Automatic synchronization</string>
@@ -169,7 +169,7 @@
     <!-- Custom sync server settings -->
     <string name="custom_sync_server_title">Custom sync server</string>
     <string name="custom_sync_server_enable_title">Use custom sync server</string>
-    <string name="custom_sync_server_enable_summary">If you don\'t want to use the proprietary AnkiWeb service you can specify an alternative server here</string>
+    <string name="custom_sync_server_enable_summary">If you don\'t want to use the proprietary ClickFC service you can specify an alternative server here</string>
     <string name="custom_sync_server_base_url_title">Sync url</string>
     <string name="custom_sync_server_media_url_title">Media sync url</string>
 
@@ -243,4 +243,5 @@
     <string name="deck_conf_cram_steps_summ">Define custom steps</string>
     <string name="deck_conf_reminders_enabled">Enable reminder notifications for this deck</string>
     <string name="deck_conf_reminders_time">Remind at</string>
+    <string name="ninja_sync_account">Concurseiro Ninja account</string>
 </resources>
