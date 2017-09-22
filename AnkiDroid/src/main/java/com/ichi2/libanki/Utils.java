@@ -108,7 +108,7 @@ public class Utils {
     private static final String[] FONT_FILE_EXTENSIONS = new String[] {".ttf",".ttc",".otf"};
 
     /* Prevent class from being instantiated */
-    private Utils() { }
+    protected Utils() { }
 
     // Regex pattern used in removing tags from text before diff
     private static final Pattern stylePattern = Pattern.compile("(?s)<style.*?>.*?</style>");

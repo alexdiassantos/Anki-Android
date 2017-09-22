@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Cartões devidos</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d cartões pendentes no ClickFC</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d cartões pendentes no AnkiPro</string>
   <string name="widget_no_cards_due">Sem cartões pendentes</string>
   <string name="widget_loading">Carregando widget&#8230;</string>
   <plurals name="widget_cards_in_decks_due">
@@ -52,8 +52,8 @@
     <item quantity="one">%1$d baralho</item>
     <item quantity="other">%1$d baralhos</item>
   </plurals>
-  <string name="widget_small">ClickFC pequeno</string>
-  <string name="widget_small_button">ClickFC</string>
+  <string name="widget_small">AnkiPro pequeno</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d cartão pendente</item>
     <item quantity="other">%d cartões pendentes</item>
@@ -63,5 +63,5 @@
     <item quantity="other">%d minutos restantes</item>
   </plurals>
   <string name="widget_add_note">Adicionar nota</string>
-  <string name="widget_add_note_button">Adicionar nova nota do ClickFC</string>
+  <string name="widget_add_note_button">Adicionar nova nota do AnkiPro</string>
 </resources>

@@ -43,7 +43,7 @@
   <string name="disabled">Desativado</string>
   <string name="enabled">Habilitado</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">ClickFC</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Configurações gerais</string>
   <string name="pref_cat_reviewing">Revisando</string>
   <string name="pref_cat_reviewing_summ">Configurações gerais do revisor</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Desempenho</string>
   <string name="pref_cat_workarounds">Soluções alternativas</string>
   <string name="pref_cat_plugins">Plugins</string>
-  <string name="about_title">Sobre o ClickFC</string>
+  <string name="about_title">Sobre o AnkiPro</string>
   <string name="about_version">Versão: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Largura do traço</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Zoom da imagem</string>
   <string name="button_size">Tamanho do botão de resposta</string>
   <string name="card_browser_font_size">Dimensionamento de fonte do navegador de cartões</string>
-  <string name="col_path">Diretório do ClickFC</string>
+  <string name="col_path">Diretório do AnkiPro</string>
   <string name="fullscreen_review">Modo tela cheia</string>
   <string name="full_screen_off">Desligar</string>
   <string name="full_screen_system">Ocultar barras de sistema</string>
@@ -115,7 +115,7 @@
   <string name="tts_summ">Lê pergunta e resposta se nenhum arquivo de som estiver incluído</string>
   <string name="sync_fetch_missing_media">Busca mídia durante a sincronização</string>
   <string name="sync_fetch_missing_media_summ">Busca mídia faltando automaticamente durante a sincronização.</string>
-  <string name="sync_account">Conta ClickFC</string>
+  <string name="sync_account">Conta AnkiPro</string>
   <string name="sync_account_summ_logged_out">Não está logado</string>
   <string name="sync_account_summ_logged_in">%s</string>
   <string name="automatic_sync_choice">Sincronização automática</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Desativar tempo limite da tela</string>
   <string name="convert_fen_text">Suporte para notação de xadrez</string>
   <string name="convert_fen_text_summ">Desenhar tabuleiro de xadrez a partir da Notação Forsyth-Edwards. A notação deve estar delimitada pelas tags [fen][/fen].</string>
-<string name="enable_api_title">Habilitar o ClickFC API</string>
-  <string name="enable_api_summary">Deixe outros apps se conectarem ao ClickFC e ler / escrever dados sem a sua intervenção</string>
+<string name="enable_api_title">Habilitar o AnkiPro API</string>
+  <string name="enable_api_summary">Deixe outros apps se conectarem ao AnkiPro e ler / escrever dados sem a sua intervenção</string>
   <string name="custom_buttons">Botões da App bar</string>
   <string name="custom_buttons_summary">Customizar quais ações aparecem na app bar</string>
   <string name="custom_buttons_setting_always_show">Mostrar sempre</string>
@@ -187,7 +187,7 @@
   <!-- Custom sync server settings -->
   <string name="custom_sync_server_title">Servidos de sincronização personalizado</string>
   <string name="custom_sync_server_enable_title">Utilizar servidor de sincronização personalizado</string>
-  <string name="custom_sync_server_enable_summary">Se você não deseja utilizar o serviço proprietário do ClickFC você pode especificar um servidor alternativo aqui</string>
+  <string name="custom_sync_server_enable_summary">Se você não deseja utilizar o serviço proprietário do AnkiPro você pode especificar um servidor alternativo aqui</string>
   <string name="custom_sync_server_base_url_title">Url de sincronismo</string>
   <string name="custom_sync_server_media_url_title">Url de sincronismo de mídia</string>
   <!-- studyoptions -->

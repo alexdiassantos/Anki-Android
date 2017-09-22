@@ -122,8 +122,8 @@
     <item quantity="one">%1$d minuto</item>
     <item quantity="other">%1$d minutos</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Bem-vindo ao ClickFC</string>
-  <string name="fact_adder_intent_title">Cartão ClickFC</string>
+  <string name="studyoptions_welcome_title">Bem-vindo ao AnkiPro</string>
+  <string name="fact_adder_intent_title">Cartão AnkiPro</string>
   <string name="card_editor_add_card">Adicionar nota</string>
   <string name="card_editor_copy_card">Copiar cartão</string>
   <string name="card_editor_reset_card">Redefinir progresso</string>
@@ -145,25 +145,25 @@
   <string name="unknown_type_field_warning">Digite a resposta: campo desconhecido %s</string>
   <string name="delete_deck">Excluindo baralho&#8230;</string>
   <string name="show_hint">Mostrar %s</string>
-  <string name="info_rate">Qualifique o ClickFC</string>
-  <string name="col_load_failed">Carregamento da coleção falhou.\nPressione voltar para fechar ClickFC.</string>
+  <string name="info_rate">Qualifique o AnkiPro</string>
+  <string name="col_load_failed">Carregamento da coleção falhou.\nPressione voltar para fechar AnkiPro.</string>
   <string name="import_title">Importando</string>
   <string name="import_select_title">Selecione um arquivo para importar</string>
   <string name="import_message_add">Adicionar</string>
   <string name="import_message_replace_confirm">Isto irá excluir sua coleção atual e substituí-la pelo conteúdo do arquivo %s</string>
   <string name="import_message_add_confirm">Adicionar \"%s\" a coleção? Isto pode levar um bom tempo</string>
-  <string name="import_log_no_clickfc">Este não é um arquivo clickfc válido</string>
-  <string name="import_error_not_clickfc_extension">O arquivo %s não possui uma extensão .clickfc</string>
-  <string name="import_error_content_provider">O arquivo selecionado não pôde ser importado automaticamente pelo ClickFC. Por favor veja o manual do usuário para aprender a importar manualmente arquivos do anki: \n %s</string>
+  <string name="import_log_no_ankipro">Este não é um arquivo ankipro válido</string>
+  <string name="import_error_not_ankipro_extension">O arquivo %s não possui uma extensão .ankipro</string>
+  <string name="import_error_content_provider">O arquivo selecionado não pôde ser importado automaticamente pelo AnkiPro. Por favor veja o manual do usuário para aprender a importar manualmente arquivos do anki: \n %s</string>
   <string name="import_replacing">Substituindo coleção&#8230;</string>
   <string name="export_include_schedule">Incluir agendamento</string>
   <string name="export_include_media">Incluir a média</string>
-  <string name="confirm_clickfc_export">Exportar a coleção como arquivo clickfc?</string>
-  <string name="confirm_clickfc_export_deck">Exportar \"%s\" como arquivo clickfc?</string>
-  <string name="export_in_progress">Exportando arquivo clickfc...</string>
-  <string name="export_successful_title">E-mail clickfc?</string>
+  <string name="confirm_ankipro_export">Exportar a coleção como arquivo ankipro?</string>
+  <string name="confirm_ankipro_export_deck">Exportar \"%s\" como arquivo ankipro?</string>
+  <string name="export_in_progress">Exportando arquivo ankipro...</string>
+  <string name="export_successful_title">E-mail ankipro?</string>
   <string name="export_successful">Arquivo \"%s\" foi exportado. Você quer enviar um e-mail?</string>
-  <string name="export_email_subject">ClickFC exported collection</string>
+  <string name="export_email_subject">AnkiPro exported collection</string>
   <string name="export_email_text">
 <![CDATA[
          Olá!
@@ -172,8 +172,8 @@
          Tente abri-lo usando uma das <a href="http://ankisrs.net/#download"> distribuições de Anki</a> disponíveis e desfrute de um aprendizado fácil e eficiente!
          ]]>
     </string>
-  <string name="export_unsuccessful">Erro ao exportar arquivo clickfc</string>
-  <string name="import_hint">Para importar cartões, coloque o arquivo clickfc no diretório %s e pressione ok</string>
+  <string name="export_unsuccessful">Erro ao exportar arquivo ankipro</string>
+  <string name="import_hint">Para importar cartões, coloque o arquivo ankipro no diretório %s e pressione ok</string>
   <string name="upgrade_import_no_file_found">Nenhum arquivo %1$s importável encontrado</string>
   <string name="study_options">Opções de baralho</string>
   <string name="select_tts">Definir idioma TTS</string>

@@ -29,7 +29,7 @@
     <string name="terms_and_conditions"><a href="https://ankiweb.net/account/terms">Terms and conditions</a></string>
     <string name="menu_get_shared_decks">Get shared decks</string>
     <string name="connection_error_message">A network error has occurred</string>
-    <string name="not_logged_in_title">Log in to ClickFC</string>
+    <string name="not_logged_in_title">Log in to AnkiPro</string>
     <string name="login_create_account_message">You must log in to a third party account to use the cloud sync service. You can create one in the next step.</string>
     <string name="no_email_client">No email client available</string>
 
@@ -39,8 +39,8 @@
     <string name="password">Password</string>
     <string name="password_repeat">Repeat password</string>
     <string name="log_in">Log in</string>
-    <string name="sign_up_description">Don’t have an ClickFC account? Create one!</string>
-    <string name="sign_up_not_affiliated">Note: ClickFC is not affiliated with AnkiDroid</string>
+    <string name="sign_up_description">Don’t have an AnkiPro account? Create one!</string>
+    <string name="sign_up_not_affiliated">Note: AnkiPro is not affiliated with AnkiDroid</string>
     <string name="sign_up">Sign up</string>
     <string name="logged_as">Logged in as</string>
     <string name="log_out">Log out</string>
@@ -52,7 +52,7 @@
     <string name="downloaddeck_search">Search</string>
     <string name="preferences_title">Preferences</string>
     <string name="deckpreferences_title">Options for XXX</string>
-    <string name="sync_conflict_message">You must either upload this collection or download it from ClickFC, as they can’t be merged. The collection on one side will be overwritten.</string>
+    <string name="sync_conflict_message">You must either upload this collection or download it from AnkiPro, as they can’t be merged. The collection on one side will be overwritten.</string>
     <string name="sync_conflict_local">Upload</string>
     <string name="sync_conflict_remote">Download</string>
     <string name="sync_conflict_remote_confirm">Overwrite your local collection?</string>
@@ -77,7 +77,7 @@
     <string name="sync_remote_db_error">The downloaded database was corrupt. Please try again.</string>
     <string name="sync_overwrite_error">Your current collection couldn’t be overwritten by the downloaded file</string>
     <string name="sync_connection_error">Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder.</string>
-    <string name="sync_error_409">Only one client can access ClickFC at a time. If a previous sync failed, please try again in a few minutes.</string>
+    <string name="sync_error_409">Only one client can access AnkiPro at a time. If a previous sync failed, please try again in a few minutes.</string>
     <string name="sync_write_access_error">The downloaded file couldn’t be saved to the SD card. Either the card is mounted read-only or there isn’t enough space.</string>
     <string name="sync_deletions_message">Syncing deletions…</string>
     <string name="sync_small_objects_message">Syncing small objects…</string>
