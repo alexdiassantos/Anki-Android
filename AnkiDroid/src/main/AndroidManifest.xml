@@ -114,6 +114,7 @@
                     android:mimeType="*/*"
                     android:pathPattern=".*\\.apkg"
                     android:scheme="file" />
+
             </intent-filter>
             <!-- MIME type matcher for .apkg files coming from providers like gmail which hide the file extension -->
             <intent-filter>
@@ -125,7 +126,42 @@
                 <data android:mimeType="application/octet-stream" android:scheme="content"/>
                 <data android:mimeType="application/zip" android:scheme="content"/>
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/ankipro"/>
+                <data android:mimeType="application/vnd.anki"/>
+                <data android:mimeType="application/x-ankipro"/>
+                <data android:mimeType="application/octet-stream" android:scheme="content"/>
+                <data android:mimeType="application/zip" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
 
+                <!-- ankipro extension -->
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.ankipro"
+                    android:scheme="http" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.ankipro"
+                    android:scheme="https" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.ankipro"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.ankipro"
+                    android:scheme="file" />
+            </intent-filter>
             <!-- Tasker DO_SYNC intent -->
             <intent-filter>
                 <action android:name="com.ichi2.anki.DO_SYNC" />

@@ -113,11 +113,12 @@ public class MyAccount extends AnkiActivity {
     // return loginFieldValid;
     // }
 
-    private void saveUserInformation(String username, String hkey) {
+    private void saveUserInformation(String username, String hkey, String password) {
         SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
         Editor editor = preferences.edit();
         editor.putString("username", username);
         editor.putString("hkey", hkey);
+        editor.putString("password",password);
         editor.commit();
     }
 
@@ -239,7 +240,7 @@ public class MyAccount extends AnkiActivity {
 
             if (data.success) {
                 Timber.i("User successfully logged in!");
-                saveUserInformation((String) data.data[0], (String) data.data[1]);
+                saveUserInformation((String) data.data[0], (String) data.data[1],(String)data.data[2]);
 
                 Intent i = MyAccount.this.getIntent();
                 if (i.hasExtra("notLoggedIn") && i.getExtras().getBoolean("notLoggedIn", false)) {

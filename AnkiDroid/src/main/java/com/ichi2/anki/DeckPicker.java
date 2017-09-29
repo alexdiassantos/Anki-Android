@@ -483,7 +483,7 @@ public class DeckPicker extends NavigationDrawerActivity implements
 
     private void configureFloatingActionsMenu() {
         final FloatingActionButton addDeckButton = (FloatingActionButton) findViewById(R.id.add_deck_action);
-        final FloatingActionButton addSharedButton = (FloatingActionButton) findViewById(R.id.add_shared_action);
+        //final FloatingActionButton addSharedButton = (FloatingActionButton) findViewById(R.id.add_shared_action);
         final FloatingActionButton addNoteButton = (FloatingActionButton) findViewById(R.id.add_note_action);
         addDeckButton.setOnClickListener(new OnClickListener() {
             @Override
@@ -512,13 +512,13 @@ public class DeckPicker extends NavigationDrawerActivity implements
                         .show();
             }
         });
-        addSharedButton.setOnClickListener(new OnClickListener() {
+        /*addSharedButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 mActionsMenu.collapse();
                 addSharedDeck();
             }
-        });
+        });*/
         addNoteButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -1586,9 +1586,9 @@ public class DeckPicker extends NavigationDrawerActivity implements
                 }
             } else {
                 // Sync was successful!
-                if (data.data[2] != null && !data.data[2].equals("")) {
+                if (data.data[1] != null && !data.data[1].equals("")) {
                     // There was a media error, so show it
-                    String message = res.getString(R.string.sync_database_acknowledge) + "\n\n" + data.data[2];
+                    String message = res.getString(R.string.sync_database_acknowledge) + "\n\n" + data.data[1];
                     showSimpleMessageDialog(message);
                 } else if (data.data.length > 0 && data.data[0] instanceof String
                         && ((String) data.data[0]).length() > 0) {
@@ -1644,83 +1644,95 @@ public class DeckPicker extends NavigationDrawerActivity implements
     // Callback to import a file -- adding it to existing collection
     @Override
     public void importAdd(String importPath) {
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
-        String hkey = preferences.getString("username", "");
+        Timber.d("importAdd -- update products list");
+        String username = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("username", "");
+        String hkey = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("hkey", "");
+        String password = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("password", "");
+
         if (hkey.length() == 0) {
             Timber.d("Going to register page");
             loginToSyncServer();
-        } else {
-            //Temp dir to check temp data
-            File tempDir = new File(new File(getCol().getPath()).getParent(), "tmpzip");
-            try {
-                // extract the deck from the zip file
-                ZipFile mZip = new ZipFile(new File(importPath), ZipFile.OPEN_READ);
-                Utils.unzipFiles(mZip, tempDir.getAbsolutePath(), new String[]{"collection.anki2","collection.ankicfc","media", "ankipro_keys"}, null);
-            } catch (IOException e) {
-                Timber.e(e, "Failed to unzip apkg.");
-                showSimpleNotification("Error", getResources().getString(R.string.import_log_no_ankipro));
-                return;
-            }
+        }else {
+            Connection.refreshProducts(mSyncListener, new Connection.Payload(new Object[]{username, password}));
 
-            String colpath = new File(tempDir, "collection.ankicfc").getAbsolutePath();
-            if (!(new File(colpath)).exists()) {
-                String colpath2 = new File(tempDir, "collection.anki2").getAbsolutePath();
-                if (!(new File(colpath2)).exists()) {
+            Timber.d("importAdd -- importing files");
+            SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
+            String hkey_alt = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("hkey", "");
+            if (hkey_alt.length() == 0) {
+                Timber.d("Going to register page");
+                loginToSyncServer();
+            } else {
+                //Temp dir to check temp data
+                File tempDir = new File(new File(getCol().getPath()).getParent(), "tmpzip");
+                try {
+                    // extract the deck from the zip file
+                    ZipFile mZip = new ZipFile(new File(importPath), ZipFile.OPEN_READ);
+                    Utils.unzipFiles(mZip, tempDir.getAbsolutePath(), new String[]{"collection.anki2", "collection.ankicfc", "media", "ankipro_keys"}, null);
+                } catch (IOException e) {
+                    Timber.e(e, "Failed to unzip apkg.");
                     showSimpleNotification("Error", getResources().getString(R.string.import_log_no_ankipro));
                     return;
-                }else{
-                    DeckTask.launchDeckTask(DeckTask.TASK_TYPE_IMPORT, mImportAddListener, new TaskData(importPath));
                 }
-            }else {
-                String clickf_keys = new File(tempDir, "ankipro_keys").getAbsolutePath();
-                if (!(new File(clickf_keys)).exists() && (new File(colpath)).exists()) {
-                    showSimpleNotification("Error", getResources().getString(R.string.import_log_no_ankipro));
-                    return;
+
+                String colpath = new File(tempDir, "collection.ankicfc").getAbsolutePath();
+                if (!(new File(colpath)).exists()) {
+                    String colpath2 = new File(tempDir, "collection.anki2").getAbsolutePath();
+                    if (!(new File(colpath2)).exists()) {
+                        showSimpleNotification("Error", getResources().getString(R.string.import_log_no_ankipro));
+                        return;
+                    } else {
+                        DeckTask.launchDeckTask(DeckTask.TASK_TYPE_IMPORT, mImportAddListener, new TaskData(importPath));
+                    }
                 } else {
-                    try {
-                        FileReader fileReader = new FileReader(clickf_keys);
-                        BufferedReader lerArq = new BufferedReader(fileReader);
-                        String linha = lerArq.readLine();
-                        String[] prod_id_key = Utils.splitFields(linha);
+                    String clickf_keys = new File(tempDir, "ankipro_keys").getAbsolutePath();
+                    if (!(new File(clickf_keys)).exists() && (new File(colpath)).exists()) {
+                        showSimpleNotification("Error", getResources().getString(R.string.import_log_no_ankipro));
+                        return;
+                    } else {
+                        try {
+                            FileReader fileReader = new FileReader(clickf_keys);
+                            BufferedReader lerArq = new BufferedReader(fileReader);
+                            String linha = lerArq.readLine();
+                            String[] prod_id_key = Utils.splitFields(linha);
 
-                        //Open current products list
-                        List<Produto> products_list;
-                        String produts_str = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("ninjaproducts", "");
+                            //Open current products list
+                            List<Produto> products_list;
+                            String produts_str = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("ninjaproducts", "");
 
-                        Gson gson = new Gson();
-                        Type listOfTestObject = new TypeToken<List<Produto>>() {
-                        }.getType();
+                            Gson gson = new Gson();
+                            Type listOfTestObject = new TypeToken<List<Produto>>() {
+                            }.getType();
 
-                        products_list = gson.fromJson(produts_str, listOfTestObject);
-                        boolean not_found = true;
+                            products_list = gson.fromJson(produts_str, listOfTestObject);
+                            boolean not_found = true;
 
-                        if ((products_list != null) && (products_list.size() > 0)) {
-                            for (Produto product : products_list) {
-                                //if (product.isMine()) {
+                            if ((products_list != null) && (products_list.size() > 0)) {
+                                for (Produto product : products_list) {
+                                    //if (product.isMine()) {
                                     if (product.getId() == Integer.parseInt(prod_id_key[0])) {
                                         not_found = false;
                                         DeckTask.launchDeckTask(DeckTask.TASK_TYPE_IMPORT, mImportAddListener, new TaskData(importPath));
                                     }
-                                //}
-                            }
-                            if (not_found) {
-                                Timber.e("This product is not present on the products buyed.", importPath);
+                                    //}
+                                }
+                                if (not_found) {
+                                    Timber.e("This product is not present on the products buyed.", importPath);
+                                    UIUtils.showThemedToast(this, getResources().getString(R.string.deck_ninja_empty), false);
+                                    sendErrorReport();
+                                }
+                            } else {
+                                Timber.e("No products available.", importPath);
                                 UIUtils.showThemedToast(this, getResources().getString(R.string.deck_ninja_empty), false);
                                 sendErrorReport();
                             }
-                        } else {
-                            Timber.e("No products available.", importPath);
-                            UIUtils.showThemedToast(this, getResources().getString(R.string.deck_ninja_empty), false);
-                            sendErrorReport();
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        } catch (IOException e) {
+                            e.printStackTrace();
                         }
-                    } catch (FileNotFoundException e) {
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        e.printStackTrace();
                     }
                 }
             }
-            BackupAnkiProManager.removeDir(tempDir);
         }
     }
 

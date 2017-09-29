@@ -122,16 +122,18 @@ public class AnkiProAccount extends AnkiActivity {
     // return loginFieldValid;
     // }
 
-    private void saveAnkiProUserInformation(String username, String ninjakey, List<Produto> result) {
+    private void saveAnkiProUserInformation(String username, String ninjakey,String password, List<Produto> result) {
         SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
         Editor editor = preferences.edit();
         editor.remove("username");
         editor.remove("hkey");
         editor.remove("ninjaproducts");
+        editor.remove("password");
 
         //After cleaning the data
         editor.putString("username", username);
         editor.putString("hkey", ninjakey);
+        editor.putString("password", password);
 
         Gson gson = new Gson();
         Type listOfTestObject = new TypeToken<List<Produto>>(){}.getType();
@@ -214,6 +216,14 @@ public class AnkiProAccount extends AnkiActivity {
             }
         });
 
+        Button signUpButton = (Button) mLoginToAnkiProAccountView.findViewById(R.id.sign_up_button);
+        signUpButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openUrl(Uri.parse(getResources().getString(R.string.link_ninja_register)));
+            }
+
+        });
 
         mLoggedIntoAnkiProAccountView = getLayoutInflater().inflate(R.layout.ankipro_account_logged_in, null);
         mUsernameLoggedIn = (TextView) mLoggedIntoAnkiProAccountView.findViewById(R.id.username_logged_in);
@@ -259,7 +269,7 @@ public class AnkiProAccount extends AnkiActivity {
 
             if (data.success) {
                 Timber.i("Concurseiro Ninja Account - User successfully logged in!");
-                saveAnkiProUserInformation((String) data.data[0], (String) data.data[1],(List<Produto>)data.result);
+                saveAnkiProUserInformation((String) data.data[0], (String) data.data[1],(String)data.data[2],(List<Produto>)data.result);
 
                 Intent i = AnkiProAccount.this.getIntent();
                 if (i.hasExtra("notLoggedIn") && i.getExtras().getBoolean("notLoggedIn", false)) {

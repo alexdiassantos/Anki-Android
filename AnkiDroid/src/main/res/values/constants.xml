@@ -137,8 +137,9 @@
     <string name="resetpw_url">http://ankiweb.net/account/resetpw</string>
     <string name="register_url">https://ankiweb.net/account/register</string>
     <string name="changelog_url">https://ankidroid.org/docs/changelog.html</string>
-    <string name="resetninja_pw_url">http://ankiweb.net/account/resetpw</string>
-    <string name="link_ninja_register">http://ankiweb.net/account/resetpw</string>
+    <string name="resetninja_pw_url">https://www.ankipro.com/</string>
+    <string name="link_ninja_register">https://www.ankipro.com/</string>
+    <string name="link_ninja_buy">https://www.ankipro.com/</string>
 
     <string-array name="leech_action_values">
         <item>0</item>
@@ -192,7 +193,7 @@
         <item>@string/settings</item>
         <item>@string/night_mode</item>
         <item>@string/help</item>
-        <item>@string/send_feedback</item>
+        <!--item>@string/send_feedback</item-->
     </string-array>
 
     <string-array name="day_theme_values">

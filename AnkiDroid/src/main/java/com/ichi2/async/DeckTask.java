@@ -743,7 +743,7 @@ public class DeckTask extends BaseAsyncTask<DeckTask.TaskData, DeckTask.TaskData
 
 
     private TaskData doInBackgroundImportAdd(TaskData... params) {
-        Timber.d("doInBackgroundImportAdd");
+        Timber.d("doInBackgroundImportAdd -- get resources");
         Resources res = AnkiDroidApp.getInstance().getBaseContext().getResources();
         Collection col = CollectionHelper.getInstance().getCol(mContext);
         String path = params[0].getString();
