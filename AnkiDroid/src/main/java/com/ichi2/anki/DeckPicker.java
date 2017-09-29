@@ -1653,7 +1653,6 @@ public class DeckPicker extends NavigationDrawerActivity implements
             Timber.d("Going to register page");
             loginToSyncServer();
         }else {
-            Connection.refreshProducts(mSyncListener, new Connection.Payload(new Object[]{username, password}));
 
             Timber.d("importAdd -- importing files");
             SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
@@ -1695,6 +1694,8 @@ public class DeckPicker extends NavigationDrawerActivity implements
                             String linha = lerArq.readLine();
                             String[] prod_id_key = Utils.splitFields(linha);
 
+                            Connection.refreshProducts(mSyncListener, new Connection.Payload(new Object[]{username, password}));
+
                             //Open current products list
                             List<Produto> products_list;
                             String produts_str = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("ninjaproducts", "");
@@ -1717,7 +1718,7 @@ public class DeckPicker extends NavigationDrawerActivity implements
                                 }
                                 if (not_found) {
                                     Timber.e("This product is not present on the products buyed.", importPath);
-                                    UIUtils.showThemedToast(this, getResources().getString(R.string.deck_ninja_empty), false);
+                                    UIUtils.showThemedToast(this, getResources().getString(R.string.product_not_present), false);
                                     sendErrorReport();
                                 }
                             } else {

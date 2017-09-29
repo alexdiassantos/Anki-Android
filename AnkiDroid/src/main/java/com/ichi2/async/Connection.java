@@ -19,12 +19,15 @@
 package com.ichi2.async;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.PowerManager;
 import android.util.Xml;
 
 import com.ankipro.model.Produto;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.ichi2.anki.AnkiDroidApp;
 import com.ichi2.anki.CollectionHelper;
 import com.ichi2.anki.R;
@@ -48,6 +51,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.ref.WeakReference;
+import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
@@ -832,6 +836,18 @@ public class Connection extends BaseAsyncTask<Connection.Payload, Object, Connec
                 }
 
             }
+            SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance().getApplicationContext());
+            SharedPreferences.Editor editor = preferences.edit();
+
+            editor.remove("ninjaproducts");
+
+
+            Gson gson = new Gson();
+            Type listOfTestObject = new TypeToken<List<Produto>>(){}.getType();
+            String sproducts = gson.toJson(data.result, listOfTestObject);
+            editor.putString("ninjaproducts",sproducts);
+
+            editor.commit();
             return data;
 
         }  catch (IOException | XmlPullParserException e2) {
