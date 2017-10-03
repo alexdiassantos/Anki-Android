@@ -187,7 +187,7 @@ public class DeckPicker extends NavigationDrawerActivity implements
      */
     private long mFocusedDeck;
 
-
+    private String importPathToRefresh;
 
     // ----------------------------------------------------------------------------
     // LISTENERS
@@ -1640,6 +1640,73 @@ public class DeckPicker extends NavigationDrawerActivity implements
         startActivityForResultWithAnimation(myAccount, LOG_IN_FOR_SYNC, ActivityTransitionAnimation.FADE);
     }
 
+    private Connection.TaskListener mProdListener = new Connection.TaskListener() {
+        @Override
+        public void onProgressUpdate(Object... values) {
+            // Pass
+            System.out.println("refreshing products...");
+        }
+
+
+        @Override
+        public void onPreExecute() {
+            Timber.d("Concurseiro Ninja Account - refreshProducts.onPreExcecute()");
+            if (mProgressDialog == null || !mProgressDialog.isShowing()) {
+                mProgressDialog = StyledProgressDialog.show(DeckPicker.this, "",
+                        getResources().getString(R.string.alert_logging_message), false);
+            }
+        }
+
+
+        @Override
+        public void onPostExecute(Connection.Payload data) {
+            if (mProgressDialog != null) {
+                mProgressDialog.dismiss();
+            }
+
+            if (data.success) {
+                Timber.e("Concurseiro Ninja Account - Refresh products - Login success, code %d", data.returnType);
+
+                SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance().getApplicationContext());
+                SharedPreferences.Editor editor = preferences.edit();
+
+                editor.remove("ninjaproducts");
+
+                Gson gson = new Gson();
+                Type listOfTestObject = new TypeToken<List<Produto>>(){}.getType();
+                String sproducts = gson.toJson(data.result, listOfTestObject);
+                editor.putString("ninjaproducts",sproducts);
+
+                editor.commit();
+
+                checkProducts();
+            } else {
+                Timber.e("Concurseiro Ninja Account - Login failed, error code %d", data.returnType);
+                if (data.returnType == 401) {
+                    // If the deck is empty and has no children then show a message saying it's empty
+                    final Uri helpUrl = Uri.parse(getResources().getString(R.string.link_ninja_register));
+                    mayOpenUrl(helpUrl);
+                    UIUtils.showSnackbar(DeckPicker.this, R.string.wrong_ninja_password, false, R.string.wrong_ninja_help, new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            openUrl(helpUrl);
+                        }
+                    }, findViewById(R.id.root_layout));
+                }else if (data.returnType == 403) {
+                    //TODO make AnkiNinja return no authorized
+                    UIUtils.showSimpleSnackbar(DeckPicker.this, R.string.invalid_ninja_username_password, true);
+                } else {
+                    UIUtils.showSimpleSnackbar(DeckPicker.this, R.string.connection_error_message, true);
+                }
+            }
+        }
+
+
+        @Override
+        public void onDisconnected() {
+            UIUtils.showSimpleSnackbar(DeckPicker.this, R.string.youre_offline, true);
+        }
+    };
 
     // Callback to import a file -- adding it to existing collection
     @Override
@@ -1688,55 +1755,59 @@ public class DeckPicker extends NavigationDrawerActivity implements
                         showSimpleNotification("Error", getResources().getString(R.string.import_log_no_ankipro));
                         return;
                     } else {
-                        try {
-                            FileReader fileReader = new FileReader(clickf_keys);
-                            BufferedReader lerArq = new BufferedReader(fileReader);
-                            String linha = lerArq.readLine();
-                            String[] prod_id_key = Utils.splitFields(linha);
-
-                            Connection.refreshProducts(mSyncListener, new Connection.Payload(new Object[]{username, password}));
-
-                            //Open current products list
-                            List<Produto> products_list;
-                            String produts_str = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("ninjaproducts", "");
-
-                            Gson gson = new Gson();
-                            Type listOfTestObject = new TypeToken<List<Produto>>() {
-                            }.getType();
-
-                            products_list = gson.fromJson(produts_str, listOfTestObject);
-                            boolean not_found = true;
-
-                            if ((products_list != null) && (products_list.size() > 0)) {
-                                for (Produto product : products_list) {
-                                    //if (product.isMine()) {
-                                    if (product.getId() == Integer.parseInt(prod_id_key[0])) {
-                                        not_found = false;
-                                        DeckTask.launchDeckTask(DeckTask.TASK_TYPE_IMPORT, mImportAddListener, new TaskData(importPath));
-                                    }
-                                    //}
-                                }
-                                if (not_found) {
-                                    Timber.e("This product is not present on the products buyed.", importPath);
-                                    UIUtils.showThemedToast(this, getResources().getString(R.string.product_not_present), false);
-                                    sendErrorReport();
-                                }
-                            } else {
-                                Timber.e("No products available.", importPath);
-                                UIUtils.showThemedToast(this, getResources().getString(R.string.deck_ninja_empty), false);
-                                sendErrorReport();
-                            }
-                        } catch (FileNotFoundException e) {
-                            e.printStackTrace();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
+                        importPathToRefresh = importPath;
+                        Connection.refreshProducts(mProdListener, new Connection.Payload(new Object[]{username, password}));
                     }
                 }
             }
         }
     }
 
+    private void checkProducts(){
+        try {
+            File tempDir = new File(new File(getCol().getPath()).getParent(), "tmpzip");
+            String clickf_keys = new File(tempDir, "ankipro_keys").getAbsolutePath();
+            FileReader fileReader = new FileReader(clickf_keys);
+            BufferedReader lerArq = new BufferedReader(fileReader);
+            String linha = lerArq.readLine();
+            String[] prod_id_key = Utils.splitFields(linha);
+
+            //Open current products list
+            List<Produto> products_list;
+            String produts_str = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("ninjaproducts", "");
+
+            Gson gson = new Gson();
+            Type listOfTestObject = new TypeToken<List<Produto>>() {
+            }.getType();
+
+            products_list = gson.fromJson(produts_str, listOfTestObject);
+            boolean not_found = true;
+
+            if ((products_list != null) && (products_list.size() > 0)) {
+                for (Produto product : products_list) {
+                    //if (product.isMine()) {
+                    if (product.getId() == Integer.parseInt(prod_id_key[0])) {
+                        not_found = false;
+                        DeckTask.launchDeckTask(DeckTask.TASK_TYPE_IMPORT, mImportAddListener, new TaskData(importPathToRefresh));
+                    }
+                    //}
+                }
+                if (not_found) {
+                    Timber.e("This product is not present on the products buyed.");
+                    UIUtils.showThemedToast(this, getResources().getString(R.string.product_not_present), false);
+                    sendErrorReport();
+                }
+            } else {
+                Timber.e("No products available.");
+                UIUtils.showThemedToast(this, getResources().getString(R.string.deck_ninja_empty), false);
+                sendErrorReport();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     // Callback to import a file -- replacing the existing collection
     @Override
@@ -2427,4 +2498,7 @@ public class DeckPicker extends NavigationDrawerActivity implements
             }
         });
     }
+
+
+
 }

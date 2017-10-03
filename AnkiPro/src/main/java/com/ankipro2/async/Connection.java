@@ -834,20 +834,8 @@ public class Connection extends BaseAsyncTask<Connection.Payload, Object, Connec
                 }else{
                     data.returnType = responseCode;
                 }
-
             }
-            SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance().getApplicationContext());
-            SharedPreferences.Editor editor = preferences.edit();
 
-            editor.remove("ninjaproducts");
-
-
-            Gson gson = new Gson();
-            Type listOfTestObject = new TypeToken<List<Produto>>(){}.getType();
-            String sproducts = gson.toJson(data.result, listOfTestObject);
-            editor.putString("ninjaproducts",sproducts);
-
-            editor.commit();
             return data;
 
         }  catch (IOException | XmlPullParserException e2) {

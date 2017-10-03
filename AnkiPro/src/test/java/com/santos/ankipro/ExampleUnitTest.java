@@ -1,4 +1,4 @@
-package com.santos.ankipro;
+package com.ankipro2.anki;
 
 import org.junit.Test;
 
