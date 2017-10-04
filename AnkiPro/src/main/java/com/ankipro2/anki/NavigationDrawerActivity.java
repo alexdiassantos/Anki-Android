@@ -93,7 +93,7 @@ public class NavigationDrawerActivity extends AnkiActivity implements Navigation
             });
         }
         // Configure night-mode switch
-        final SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(NavigationDrawerActivity.this);
+        final SharedPreferences preferences = AnkiProApp.getSharedPrefs(NavigationDrawerActivity.this);
         View actionLayout = MenuItemCompat.getActionView(mNavigationView.getMenu().findItem(R.id.nav_night_mode));
         mNightModeSwitch = (SwitchCompat) actionLayout.findViewById(R.id.switch_compat);
         mNightModeSwitch.setChecked(preferences.getBoolean("invertedColors", false));
@@ -220,12 +220,12 @@ public class NavigationDrawerActivity extends AnkiActivity implements Navigation
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(this);
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(this);
         // Update language
-        AnkiDroidApp.setLanguage(preferences.getString(Preferences.LANGUAGE, ""));
+        AnkiProApp.setLanguage(preferences.getString(Preferences.LANGUAGE, ""));
         // Restart the activity on preference change
         if (requestCode == REQUEST_PREFERENCES_UPDATE) {
-            if (mOldColPath!=null && CollectionHelper.getCurrentAnkiDroidDirectory(this).equals(mOldColPath)) {
+            if (mOldColPath!=null && CollectionHelper.getCurrentAnkiProDirectory(this).equals(mOldColPath)) {
                 // collection path hasn't been changed so just restart the current activity
                 if ((this instanceof Reviewer) && preferences.getBoolean("tts", false)) {
                     // Workaround to kick user back to StudyOptions after opening settings from Reviewer
@@ -291,16 +291,16 @@ public class NavigationDrawerActivity extends AnkiActivity implements Navigation
                         mNightModeSwitch.performClick();
                         break;
                     case R.id.nav_settings:
-                        mOldColPath = CollectionHelper.getCurrentAnkiDroidDirectory(NavigationDrawerActivity.this);
+                        mOldColPath = CollectionHelper.getCurrentAnkiProDirectory(NavigationDrawerActivity.this);
                         // Remember the theme we started with so we can restart the Activity if it changes
                         mOldTheme = Themes.getCurrentTheme(getApplicationContext());
                         startActivityForResultWithAnimation(new Intent(NavigationDrawerActivity.this, Preferences.class), REQUEST_PREFERENCES_UPDATE, ActivityTransitionAnimation.FADE);
                         break;
                     case R.id.nav_help:
-                        openUrl(Uri.parse(AnkiDroidApp.getManualUrl()));
+                        openUrl(Uri.parse(AnkiProApp.getManualUrl()));
                         break;
                     case R.id.nav_feedback:
-                        openUrl(Uri.parse(AnkiDroidApp.getFeedbackUrl()));
+                        openUrl(Uri.parse(AnkiProApp.getFeedbackUrl()));
                         break;
                     default:
                         break;

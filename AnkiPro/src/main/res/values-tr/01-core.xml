@@ -107,7 +107,7 @@
   <string name="create">Oluştur</string>
   <string name="new_dynamic_deck">Filtreli deste oluştur</string>
   <string name="night_mode">Gece modu</string>
-  <string name="directory_inaccessible">AnkiDroid dizinine ulaşılamıyor</string>
+  <string name="directory_inaccessible">AnkiPro dizinine ulaşılamıyor</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">Bir kart oluşturulamadı</string>
   <string name="card_template_editor_would_delete_note"> Bu kart tipini kaldırmak bir veya daha fazla notun silinmesine neden olur. Lütfen önce yeni bir kart türü oluşturun.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">AnkiDroid veritabanını oku ve yaz</string>
+  <string name="read_write_permission_label">AnkiPro veritabanını oku ve yaz</string>
   <string name="read_write_permission_description">varolan notlara, kartlara, not türlerine ve destelere erişmek, ve yenilerini oluşturmek</string>
 </resources>

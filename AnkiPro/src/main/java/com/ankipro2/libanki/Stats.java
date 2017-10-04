@@ -21,7 +21,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.text.TextUtils;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.stats.OverviewStatsBuilder;
 import com.ankipro2.anki.stats.StatsMetaInfo;
@@ -106,7 +106,7 @@ public class Stats {
     public Object[] getMetaInfo() {
         String title;
         if (mWholeCollection) {
-            title = AnkiDroidApp.getInstance().getResources().getString(R.string.card_browser_all_decks);
+            title = AnkiProApp.getInstance().getResources().getString(R.string.card_browser_all_decks);
         } else {
             try {
                 title = mCol.getDecks().current().getString("name");

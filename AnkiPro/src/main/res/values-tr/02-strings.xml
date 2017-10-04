@@ -122,8 +122,8 @@
     <item quantity="one">%1$d dakikada</item>
     <item quantity="other">%1$d dakikada</item>
   </plurals>
-  <string name="studyoptions_welcome_title">AnkiDroid\'e Hoşgeldiniz</string>
-  <string name="fact_adder_intent_title">AnkiDroid Kartı</string>
+  <string name="studyoptions_welcome_title">AnkiPro\'e Hoşgeldiniz</string>
+  <string name="fact_adder_intent_title">AnkiPro Kartı</string>
   <string name="card_editor_add_card">Not ekle</string>
   <string name="card_editor_copy_card">Kartı kopyala</string>
   <string name="card_editor_reset_card">İlerlemeyi sıfırla</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Yanıtı yazın: bilinmeyen alan %s</string>
   <string name="delete_deck">Deste siliniyor...\nLütfen bekleyin.</string>
   <string name="show_hint">%s göster</string>
-  <string name="info_rate">AnkiDroid\'e Oy Ver</string>
-  <string name="col_load_failed">Koleksiyon yükleme başarısız oldu.\nAnkiDroid\'i kapatmak için geriye basın.</string>
+  <string name="info_rate">AnkiPro\'e Oy Ver</string>
+  <string name="col_load_failed">Koleksiyon yükleme başarısız oldu.\nAnkiPro\'i kapatmak için geriye basın.</string>
   <string name="import_title">İçeri Aktarılıyor</string>
   <string name="import_select_title">Aktarılacak bir dosya seçin</string>
   <string name="import_message_add">Ekle</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">\"%s\" koleksiyona eklensin mi? Bu uzun sürebilir.</string>
   <string name="import_log_no_apkg">Bu geçerli bir apkg dosyası değil</string>
   <string name="import_error_not_apkg_extension">%s dosyasının .apkg uzantısı yok</string>
-  <string name="import_error_content_provider">Seçilen dosya AnkiDroid tarafından otomatik olarak aktarılamadı. Lütfen anki dosyalarının nasıl elle içeri aktarıldığı hakkında kullanıcı kılavuzuna bakın:\n %s</string>
+  <string name="import_error_content_provider">Seçilen dosya AnkiPro tarafından otomatik olarak aktarılamadı. Lütfen anki dosyalarının nasıl elle içeri aktarıldığı hakkında kullanıcı kılavuzuna bakın:\n %s</string>
   <string name="import_replacing">Koleksiyon değiştiriliyor&#8230;</string>
   <string name="export_include_schedule">Zamanlama dâhil</string>
   <string name="export_include_media">Medya dâhil</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">apkg dosyası keydediliyor&#8230;</string>
   <string name="export_successful_title">Apkg gönderilsin mi?</string>
   <string name="export_successful">Dosya \"%s\" dışarı çıkartıldı. Başka bir uygulama ile göndermek istiyor musunuz?</string>
-  <string name="export_email_subject">AnkiDroid hafızakartlarına çıkartıldı: %s</string>
+  <string name="export_email_subject">AnkiPro hafızakartlarına çıkartıldı: %s</string>
   <string name="export_email_text">
 <![CDATA[
         Selam!
         <br/><br/>
-        Bu, <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>\'den gönderilmiş bir bilgi kartı destesidir.
+        Bu, <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>\'den gönderilmiş bir bilgi kartı destesidir.
         İndirdikten sonra mevcut <a href="http://ankisrs.net/#download">Anki dağıtımları</a>nın biriyle açıp kolay ve verimli öğrenmenin tadını çıkarın!        ]]>
     </string>
   <string name="export_unsuccessful">Apkg dosyasını kaydederken hata</string>

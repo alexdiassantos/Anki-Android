@@ -55,11 +55,11 @@
   <string name="initializing_tts">S\'està inicialitzant el TTS&#8230;</string>
   <string name="tts_no_tts">No parlis</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s: <br/> Flashcards per Android</h2>AnkiDroid és una aplicació de flashcards que és totalment compatible amb el programari d\'escriptori <a href=\"%2$s\"> Anki</a>. Podeu crear, descarregar i aprendre sobre aquest material en tant AnkiDroid o Anki i sincronitzar-los fàcilment amb AnkiWeb.]]></item>
-    <item><![CDATA[Per ajudar-nos a fer millor la AnkiDroid, si us plau informeu els errors al <a href=\"%1$s\"> buscador d\'incidències</a>; noves idees són molt benvingudes. Trobeu respostes a la <a href=\"%2$s\"> wiki</a> o comenceu un debat al <a href=\"%3$s\"> fòrum</a>.]]></item>
-    <item><![CDATA[AnkiDroid és <a href=\"%1$s\"> programari de font oberta <a/>, així que tothom es animat a <a href=\"%2$s\"> ser col·laborador</a> :-)]]></item>
-    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid és alliberat sota la <a href=\"%1$s\"> llicència de GNU-GPL v3</a> i el codi font està disponible <a href=\"%2$s\"> a GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s: <br/> Flashcards per Android</h2>AnkiPro és una aplicació de flashcards que és totalment compatible amb el programari d\'escriptori <a href=\"%2$s\"> Anki</a>. Podeu crear, descarregar i aprendre sobre aquest material en tant AnkiPro o Anki i sincronitzar-los fàcilment amb AnkiWeb.]]></item>
+    <item><![CDATA[Per ajudar-nos a fer millor la AnkiPro, si us plau informeu els errors al <a href=\"%1$s\"> buscador d\'incidències</a>; noves idees són molt benvingudes. Trobeu respostes a la <a href=\"%2$s\"> wiki</a> o comenceu un debat al <a href=\"%3$s\"> fòrum</a>.]]></item>
+    <item><![CDATA[AnkiPro és <a href=\"%1$s\"> programari de font oberta <a/>, així que tothom es animat a <a href=\"%2$s\"> ser col·laborador</a> :-)]]></item>
+    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiPro, update the wiki, provide screenshots, or blog about AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro és alliberat sota la <a href=\"%1$s\"> llicència de GNU-GPL v3</a> i el codi font està disponible <a href=\"%2$s\"> a GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Previsualització</string>
   <string name="reset_card_dialog_title">Reinicia el progrés de les fitxes</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Planificar una revisió en x dies:</string>
   <string name="reschedule_card_dialog_acknowledge">Carta planificada</string>
   <string name="answering_error_title">Error de la base de dades</string>
-  <string name="answering_error_message">S\'ha produït un error en escriure a la col·lecció. Això podria estar relacionat amb una base de dades defectuosa o amb espai insuficient al disc.\n\nSi passa molt sovint, si us plau, intenteu comprovar la base de dades, reparar la col·lecció o restaurar-ho des d\'una còpia de seguretat. Feu clic a \"opcions\" per a fer-ho.\n\nTot i així, també podria ser un error d\'AnkiDroid; si us plau envieu l\'error i podrem comprovar-ho.</string>
+  <string name="answering_error_message">S\'ha produït un error en escriure a la col·lecció. Això podria estar relacionat amb una base de dades defectuosa o amb espai insuficient al disc.\n\nSi passa molt sovint, si us plau, intenteu comprovar la base de dades, reparar la col·lecció o restaurar-ho des d\'una còpia de seguretat. Feu clic a \"opcions\" per a fer-ho.\n\nTot i així, també podria ser un error d\'AnkiPro; si us plau envieu l\'error i podrem comprovar-ho.</string>
   <string name="answering_error_report">Informa dels errors</string>
   <string name="repair_deck_dialog">Realment voleu intentar reparar la base de dades? \n\nAbans de començar, es desarà una còpia a la carpeta \'%s\'.</string>
   <string name="intent_add_saved_information">Dades desades</string>
   <string name="intent_add_clear_all">Neteja-ho tot</string>
   <string name="intent_aedict_empty">La categoria \'per omissió\' és buida</string>
-  <string name="intent_aedict_category">Per afegir fitxes d\'AnkiDroid treieu totes les categories del bloc de notes o afegiu-ne una anomenada \'per omissió\'</string>
+  <string name="intent_aedict_category">Per afegir fitxes d\'AnkiPro treieu totes les categories del bloc de notes o afegiu-ne una anomenada \'per omissió\'</string>
   <string name="custom_study_new_total_new">Noves fitxes al paquet: %s</string>
   <string name="custom_study_rev_total_rev">Revisions vençudes al paquet: %s</string>
   <string name="custom_study_new_extend">Augmenta el límit de fitxes d\'avui en</string>

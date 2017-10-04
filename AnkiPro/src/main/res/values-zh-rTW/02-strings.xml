@@ -120,8 +120,8 @@
   <plurals name="timebox_reached_minutes">
     <item quantity="other">%1$d 分鐘</item>
   </plurals>
-  <string name="studyoptions_welcome_title">歡迎使用 AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid 卡片</string>
+  <string name="studyoptions_welcome_title">歡迎使用 AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro 卡片</string>
   <string name="card_editor_add_card">增加筆記</string>
   <string name="card_editor_copy_card">複製卡片</string>
   <string name="card_editor_reset_card">重設卡片進度</string>
@@ -142,8 +142,8 @@
   <string name="unknown_type_field_warning">輸入答案：未知的表格 %s</string>
   <string name="delete_deck">刪除牌組中...\n請稍候</string>
   <string name="show_hint">顯示%s</string>
-  <string name="info_rate">評價AnkiDroid</string>
-  <string name="col_load_failed">載入收藏時發生錯誤。\n按返回鍵來關閉 AnkiDroid</string>
+  <string name="info_rate">評價AnkiPro</string>
+  <string name="col_load_failed">載入收藏時發生錯誤。\n按返回鍵來關閉 AnkiPro</string>
   <string name="import_title">Importing</string>
   <string name="import_select_title">選擇欲匯入的檔案</string>
   <string name="import_message_add">新增</string>
@@ -151,7 +151,7 @@
   <string name="import_message_add_confirm">新增「%s」到收藏嗎？這可能會花上好一段時間</string>
   <string name="import_log_no_apkg">請不是有效的apkg檔</string>
   <string name="import_error_not_apkg_extension">檔案 \"%s\" 的副檔名不是 .apkg</string>
-  <string name="import_error_content_provider">所選的檔案無法被 AnkiDroid 自動匯入。請參考使用者手冊瞭解如何手動匯入 anki 檔案：\n%s</string>
+  <string name="import_error_content_provider">所選的檔案無法被 AnkiPro 自動匯入。請參考使用者手冊瞭解如何手動匯入 anki 檔案：\n%s</string>
   <string name="import_replacing">Replacing collection&#8230;</string>
   <string name="export_include_schedule">包含進度</string>
   <string name="export_include_media">包含媒體</string>
@@ -160,12 +160,12 @@
   <string name="export_in_progress">正在匯出 apkg 檔案&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

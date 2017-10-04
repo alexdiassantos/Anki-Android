@@ -277,7 +277,7 @@ public class BasicTextFieldController extends FieldControllerBase implements IFi
 
     /*
      * (non-Javadoc)
-     * @see com.ichi2.anki.IFieldController#onActivityResult(int, int, android.content.Intent) When activity started
+     * @see com.ankipro2.anki.IFieldController#onActivityResult(int, int, android.content.Intent) When activity started
      * from here returns, the MultimediaEditFieldActivity passes control here back. And the results from the started before
      * activity are received.
      */

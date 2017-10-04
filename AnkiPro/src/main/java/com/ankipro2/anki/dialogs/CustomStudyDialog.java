@@ -33,7 +33,7 @@ import android.widget.TextView;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.ankipro2.anki.AnkiActivity;
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.CollectionHelper;
 import com.ankipro2.anki.DeckOptions;
 import com.ankipro2.anki.R;
@@ -240,7 +240,7 @@ public class CustomStudyDialog extends DialogFragment {
                         switch (dialogId) {
                             case CUSTOM_STUDY_NEW:
                                 try {
-                                    AnkiDroidApp.getSharedPrefs(getActivity()).edit().putInt("extendNew", n).commit();
+                                    AnkiProApp.getSharedPrefs(getActivity()).edit().putInt("extendNew", n).commit();
                                     JSONObject deck = col.getDecks().get(did);
                                     deck.put("extendNew", n);
                                     col.getDecks().save(deck);
@@ -252,7 +252,7 @@ public class CustomStudyDialog extends DialogFragment {
                                 break;
                             case CUSTOM_STUDY_REV:
                                 try {
-                                    AnkiDroidApp.getSharedPrefs(getActivity()).edit().putInt("extendRev", n).commit();
+                                    AnkiProApp.getSharedPrefs(getActivity()).edit().putInt("extendRev", n).commit();
                                     JSONObject deck = col.getDecks().get(did);
                                     deck.put("extendRev", n);
                                     col.getDecks().save(deck);
@@ -371,7 +371,7 @@ public class CustomStudyDialog extends DialogFragment {
 
 
     private String getText1() {
-        Resources res = AnkiDroidApp.getAppResources();
+        Resources res = AnkiProApp.getAppResources();
         Collection col = CollectionHelper.getInstance().getCol(getActivity());
         switch (getArguments().getInt("id")) {
             case CUSTOM_STUDY_NEW:
@@ -384,7 +384,7 @@ public class CustomStudyDialog extends DialogFragment {
     }
 
     private String getText2() {
-        Resources res = AnkiDroidApp.getAppResources();
+        Resources res = AnkiProApp.getAppResources();
         switch (getArguments().getInt("id")) {
             case CUSTOM_STUDY_NEW:
                 return res.getString(R.string.custom_study_new_extend);
@@ -404,7 +404,7 @@ public class CustomStudyDialog extends DialogFragment {
     }
 
     private String getDefaultValue() {
-        SharedPreferences prefs = AnkiDroidApp.getSharedPrefs(getActivity());
+        SharedPreferences prefs = AnkiProApp.getSharedPrefs(getActivity());
         switch (getArguments().getInt("id")) {
             case CUSTOM_STUDY_NEW:
                 return Integer.toString(prefs.getInt("extendNew", 10));

@@ -57,7 +57,7 @@
   <string name="backup_error">त्रुटि</string>
   <string name="backup_invalid_file_error">चयनित बैकअप फ़ाइल अमान्य था</string>
   <string name="backup_restore_select_title">पुनर्स्थापित करने के लिए बैकअप चुनें</string>
-  <string name="backup_restore_no_backups">No backups available on this device. If you have backups on your desktop computer, copy them manually into your AnkiDroid folder.</string>
+  <string name="backup_restore_no_backups">No backups available on this device. If you have backups on your desktop computer, copy them manually into your AnkiPro folder.</string>
   <string name="open_collection_failed_title">संग्रह नहीं खोला गया</string>
   <string name="open_collection_failed_message">Database couldn’t be opened. It’s either not a real Anki database or has been corrupted.\n\nTouch “options” for various options to restore the database, or for more information about repairing corrupted collections see:\n%1$s</string>
   <string name="corrupt_db_message">Your collection has become corrupted.\n\nTouch “options” to restore from a backup, or if that doesn’t work, see the following instructions for manually repairing the database:\n%1$s</string>

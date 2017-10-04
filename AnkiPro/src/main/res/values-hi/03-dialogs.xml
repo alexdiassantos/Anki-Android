@@ -55,11 +55,11 @@
   <string name="initializing_tts">लेख-से-बोली सेवा शुरू की जा रही है...</string>
   <string name="tts_no_tts">बात न करें</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>एंड्रॉइड के लिए फ़्लैशकार्ड</h2>AnkiDroid एक फ़्लैशकार्ड अनुप्रयोग है जो डेस्कटॉप सॉफ्टवेयर <a href=\"%2$s\">Anki</a> से पूरी तरह सांगत है। आप Anki डेस्कटॉप और AnkiDroid सामग्री बना, डाउनलोड कर और सीख सकते हैं, और AnkiWeb से साथ आसानी से समकालीन कर सकते हैं।]]></item>
-    <item><![CDATA[AnkiDroid को बेहतर बनाने में हमारी सहायता करने के लिए, कृपया <a href=\"%1$s\">समस्या ट्रैकर</a> को दोष सूचित करें; नई सुविधाओं के विचार भी स्वीकारे जाते हैं। <a href=\"%2$s\"> विकि</a> पर उतर खोजें या <a href=\"%3$s\">फोरम</a> पर बातचीत शुरू करें।]]></item>
-    <item><![CDATA[AnkiDroid एक <a href=\"%1$s\">मुक्त स्रोत सॉफ्टवेयर<a/> है, इसलिए हम सभी को <a href=\"%2$s\">योगदानकर्ता बनने</a> के लिए प्रोत्सहित करते हैं :-)]]></item>
-    <item><![CDATA[गैर-विकासक भी सहायता कर सकते हैं। उदाहरण के लिए, आप AnkiDroid के<a href=\"%1$s\">अनुवाद में सहायता</a>, विकि का अद्यतन, स्क्रीनशॉट प्रदान, या AnkiDroid के बारे में ब्लॉग कर सकते हैं।]]></item>
-    <item><![CDATA[AnkiDroid <a href=\"%1$s\"> v3 GNU-GPL लाइसेंस</a> के तहत जारी किया गया है और स्रोत कोड <a href=\"%2$s\"> GitHub पर</a>उपलब्ध है।]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>एंड्रॉइड के लिए फ़्लैशकार्ड</h2>AnkiPro एक फ़्लैशकार्ड अनुप्रयोग है जो डेस्कटॉप सॉफ्टवेयर <a href=\"%2$s\">Anki</a> से पूरी तरह सांगत है। आप Anki डेस्कटॉप और AnkiPro सामग्री बना, डाउनलोड कर और सीख सकते हैं, और AnkiWeb से साथ आसानी से समकालीन कर सकते हैं।]]></item>
+    <item><![CDATA[AnkiPro को बेहतर बनाने में हमारी सहायता करने के लिए, कृपया <a href=\"%1$s\">समस्या ट्रैकर</a> को दोष सूचित करें; नई सुविधाओं के विचार भी स्वीकारे जाते हैं। <a href=\"%2$s\"> विकि</a> पर उतर खोजें या <a href=\"%3$s\">फोरम</a> पर बातचीत शुरू करें।]]></item>
+    <item><![CDATA[AnkiPro एक <a href=\"%1$s\">मुक्त स्रोत सॉफ्टवेयर<a/> है, इसलिए हम सभी को <a href=\"%2$s\">योगदानकर्ता बनने</a> के लिए प्रोत्सहित करते हैं :-)]]></item>
+    <item><![CDATA[गैर-विकासक भी सहायता कर सकते हैं। उदाहरण के लिए, आप AnkiPro के<a href=\"%1$s\">अनुवाद में सहायता</a>, विकि का अद्यतन, स्क्रीनशॉट प्रदान, या AnkiPro के बारे में ब्लॉग कर सकते हैं।]]></item>
+    <item><![CDATA[AnkiPro <a href=\"%1$s\"> v3 GNU-GPL लाइसेंस</a> के तहत जारी किया गया है और स्रोत कोड <a href=\"%2$s\"> GitHub पर</a>उपलब्ध है।]]></item>
   </string-array>
   <string name="preview_title">पूर्वावलोकन</string>
   <string name="reset_card_dialog_title">पत्ता प्रगति रीसेट करें</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">X दिनों में समीक्षा के लिए पुनर्निर्धारित करें:</string>
   <string name="reschedule_card_dialog_acknowledge">पत्ता पुनर्निर्धारित</string>
   <string name="answering_error_title">डेटाबेस त्रुटि</string>
-  <string name="answering_error_message">Writing to the collection failed. The databese could be corrupt or there may not to be enough empty space on disk.\n\nIf this happens more often, try checking the database, repairing the collection or restoring it from a backup. Touch “options” for that.\n\Or it could be an AnkiDroid bug as well; please report the error so that we can check this.</string>
+  <string name="answering_error_message">Writing to the collection failed. The databese could be corrupt or there may not to be enough empty space on disk.\n\nIf this happens more often, try checking the database, repairing the collection or restoring it from a backup. Touch “options” for that.\n\Or it could be an AnkiPro bug as well; please report the error so that we can check this.</string>
   <string name="answering_error_report">त्रुटि की सूचना दें</string>
   <string name="repair_deck_dialog">Do you really want to try to repair the database?\n\nBefore starting the attempt, a copy will be created in subfolder “%s”.</string>
   <string name="intent_add_saved_information">सहेजा गया डेटा</string>
   <string name="intent_add_clear_all">सभी साफ़ करें</string>
   <string name="intent_aedict_empty">Category “default” is empty</string>
-  <string name="intent_aedict_category">AnkiDroid में कार्ड जोड़ने के लिए सभी नोटपैड श्रेणियों को हटाएँ या एक \"डिफ़ॉल्ट\" नामक पत्ता जोड़ें</string>
+  <string name="intent_aedict_category">AnkiPro में कार्ड जोड़ने के लिए सभी नोटपैड श्रेणियों को हटाएँ या एक \"डिफ़ॉल्ट\" नामक पत्ता जोड़ें</string>
   <string name="custom_study_new_total_new">डेक में नए पत्ते: %s</string>
   <string name="custom_study_rev_total_rev">डेक में समीक्षा के लिए बाकी: %s</string>
   <string name="custom_study_new_extend">Increase today’s new card limit by</string>

@@ -54,11 +54,11 @@
   <string name="initializing_tts">テキスト読み上げ機能（TTS）を初期化しています...</string>
   <string name="tts_no_tts">音声なし</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Android用のフラッシュカード</h2>AnkiDroidは、PCソフトウェア<a href=\"%2$s\">Anki</a>と完全互換のフラッシュカードアプリです。AnkiDroidとAnkiのどちらでも教材を作成し、ダウンロードし、学習し、無料のオンラインサービスAnkiWebを介して簡単に双方を同期することができます。]]></item>
-    <item><![CDATA[AnkiDroidをよりよいものにするため、バグ（不具合）を見つけた場合は<a href=\"%1$s\">こちら</a>へ報告していただければ幸いです。新しい機能のアイデアも大歓迎です。<a href=\"%2$s\">Wiki</a>をご覧になった上で、<a href=\"%3$s\">フォーラム</a>でディスカッションを開始してください。]]></item>
-    <item><![CDATA[AnkiDroid は<a href=\"%1$s\">オープンソースソフトウェア<a/>です。誰もが<a href=\"%2$s\">貢献者</a>になることができます :-)　]]></item>
-    <item><![CDATA[ソフトウェア開発の専門知識を持っていない方も、例えばAnkiDroidの<a href=\"%1$s\">翻訳を改善</a>したり、Wikiを更新したり、スクリーンショット画像を提供したり、AnkiDroidのことをSNSに書いたりして、このアプリの発展に貢献することができます。]]></item>
-    <item><![CDATA[AnkiDroidは、<a href="%1$s">GNU GPL v3 ライセンス</a>の下でリリースされています。ソースコードは<a href="%2$s">こちら</a>です。]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Android用のフラッシュカード</h2>AnkiProは、PCソフトウェア<a href=\"%2$s\">Anki</a>と完全互換のフラッシュカードアプリです。AnkiProとAnkiのどちらでも教材を作成し、ダウンロードし、学習し、無料のオンラインサービスAnkiWebを介して簡単に双方を同期することができます。]]></item>
+    <item><![CDATA[AnkiProをよりよいものにするため、バグ（不具合）を見つけた場合は<a href=\"%1$s\">こちら</a>へ報告していただければ幸いです。新しい機能のアイデアも大歓迎です。<a href=\"%2$s\">Wiki</a>をご覧になった上で、<a href=\"%3$s\">フォーラム</a>でディスカッションを開始してください。]]></item>
+    <item><![CDATA[AnkiPro は<a href=\"%1$s\">オープンソースソフトウェア<a/>です。誰もが<a href=\"%2$s\">貢献者</a>になることができます :-)　]]></item>
+    <item><![CDATA[ソフトウェア開発の専門知識を持っていない方も、例えばAnkiProの<a href=\"%1$s\">翻訳を改善</a>したり、Wikiを更新したり、スクリーンショット画像を提供したり、AnkiProのことをSNSに書いたりして、このアプリの発展に貢献することができます。]]></item>
+    <item><![CDATA[AnkiProは、<a href="%1$s">GNU GPL v3 ライセンス</a>の下でリリースされています。ソースコードは<a href="%2$s">こちら</a>です。]]></item>
   </string-array>
   <string name="preview_title">プレビュー</string>
   <string name="reset_card_dialog_title">カードの進行状況をリセット</string>
@@ -68,13 +68,13 @@
   <string name="reschedule_card_dialog_message">x日後に復習する</string>
   <string name="reschedule_card_dialog_acknowledge">カードのスケジュールを変更しました</string>
   <string name="answering_error_title">データベース エラー</string>
-  <string name="answering_error_message">コレクションへの書き込み中にエラーが発生しました。これは、データの破損か、ディスクの容量の不足が原因と考えられます。\n\n繰り返しエラーが発生する場合には、データをチェックするか、バックアップからコレクションを修復してください。\n\nまた、AnkiDroidのバグかもしれませんので\'オプション\'をクリックして、エラーを報告してください。</string>
+  <string name="answering_error_message">コレクションへの書き込み中にエラーが発生しました。これは、データの破損か、ディスクの容量の不足が原因と考えられます。\n\n繰り返しエラーが発生する場合には、データをチェックするか、バックアップからコレクションを修復してください。\n\nまた、AnkiProのバグかもしれませんので\'オプション\'をクリックして、エラーを報告してください。</string>
   <string name="answering_error_report">エラーを報告する</string>
   <string name="repair_deck_dialog">本当にデータの修復を行いますか？　\n\n処理を開始する前に、サブフォルダー（%s）にコピーが作成されます。</string>
   <string name="intent_add_saved_information">保存されたデータ</string>
   <string name="intent_add_clear_all">すべて消去</string>
   <string name="intent_aedict_empty">カテゴリー \'default\' が空です。</string>
-  <string name="intent_aedict_category">AnkiDroidにカードを登録するため、すべてのNotepadカテゴリを削除するか追、\'default\' という名前のカテゴリを追加してください。</string>
+  <string name="intent_aedict_category">AnkiProにカードを登録するため、すべてのNotepadカテゴリを削除するか追、\'default\' という名前のカテゴリを追加してください。</string>
   <string name="custom_study_new_total_new">デッキの中の新規カードの枚数: %s</string>
   <string name="custom_study_rev_total_rev">予定日時に達した復習カード数: %s</string>
   <string name="custom_study_new_extend">今日の新規カードの上限をあと x 枚上げる</string>

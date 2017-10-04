@@ -57,7 +57,7 @@
   <string name="backup_error">Erreur</string>
   <string name="backup_invalid_file_error">Ce fichier de sauvegarde est invalide</string>
   <string name="backup_restore_select_title">Choisissez la sauvegarde à récupérer</string>
-  <string name="backup_restore_no_backups">Aucune sauvegarde disponible pour ce paquet. Si vous en possédez sur votre ordinateur, veuillez les copier manuellement dans votre dossier AnkiDroid.</string>
+  <string name="backup_restore_no_backups">Aucune sauvegarde disponible pour ce paquet. Si vous en possédez sur votre ordinateur, veuillez les copier manuellement dans votre dossier AnkiPro.</string>
   <string name="open_collection_failed_title">La collection n’est pas ouverte</string>
   <string name="open_collection_failed_message">La base de données n’a pas pu être ouverte. Ce n’est pas une véritable base de données Anki, ou elle a été corrompue.\n\nTouchez « options » pour plusieurs options de restauration de la base de données, ou pour plus d’informations sur la réparation de collections corrompues voir : \n%1$s</string>
   <string name="corrupt_db_message">Malheureusement, votre collection a été corrompue.\n\nTouchez « options » pour la restaurer à partir d’une sauvegarde, ou si cela ne fonctionne pas, consultez les instructions suivantes pour réparer manuellement la base de données : \n%1$s</string>

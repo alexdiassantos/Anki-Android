@@ -56,11 +56,11 @@
   <string name="initializing_tts">Pradedamas teksto skaitymas balsu&#8230;</string>
   <string name="tts_no_tts">Nekalbėkite</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Atminties kortelės „Android“ sistemai</h2>AnkiDroid tai mokymosi kortelių programa, kurią galite naudoti ir kompiuteriu <a href=\"%2$s\">„Anki“</a>. Medžiagą galite kurti, parsisiųsti ir mokytis naudodami tiek „AnkiDroid“ mobiliąją, tiek „Anki“ kompiuterinę versiją, kurios tarpusavyje yra susinchronizuojamos prisijungus prie „AnkiWeb“ svetainės.]]></item>
-    <item><![CDATA[Norėdami mums padėti tobulinti „AnkiDroid“ programą, prašome pranešti apie pastebėtas klaidas <a href=\"%1$s\">problemų registratoriui</a>. Taip pat laukiame naujų idėjų. Atsakymus į kilusius klausimus rasite <a href=\"%2$s\">wiki</a> svetainėje, o padiskutuoti galite mūsų <a href=\"%3$s\">forume</a>.]]></item>
-    <item><![CDATA[„AnkiDroid“ yra <a href=\"%1$s\">atviroji programa<a/>, todėl kiekvieną skatiname <a href=\"%2$s\">prisidėti</a> prie jos kūrimo ir tobulinimo :-)]]></item>
-    <item><![CDATA[Prisidėti gali ne tik kūrėjai. Pavyzdžiui, galite mums <a href=\"%1$s\">padėti versti</a> „AnkiDroid“ programą, atnaujinti „wiki“ duomenis, atsiųsti ekrano kopijų ar rašyti tinklaraštį apie „AnkiDroid“.]]></item>
-    <item><![CDATA[„AnkiDroid“ yra išleista pagal <a href=\"%1$s\">GNU-GPL v3 licenciją</a>, o pirminį programos tekstą galite rasti <a href=\"%2$s\">„GitHub“</a> svetainėje.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Atminties kortelės „Android“ sistemai</h2>AnkiPro tai mokymosi kortelių programa, kurią galite naudoti ir kompiuteriu <a href=\"%2$s\">„Anki“</a>. Medžiagą galite kurti, parsisiųsti ir mokytis naudodami tiek „AnkiPro“ mobiliąją, tiek „Anki“ kompiuterinę versiją, kurios tarpusavyje yra susinchronizuojamos prisijungus prie „AnkiWeb“ svetainės.]]></item>
+    <item><![CDATA[Norėdami mums padėti tobulinti „AnkiPro“ programą, prašome pranešti apie pastebėtas klaidas <a href=\"%1$s\">problemų registratoriui</a>. Taip pat laukiame naujų idėjų. Atsakymus į kilusius klausimus rasite <a href=\"%2$s\">wiki</a> svetainėje, o padiskutuoti galite mūsų <a href=\"%3$s\">forume</a>.]]></item>
+    <item><![CDATA[„AnkiPro“ yra <a href=\"%1$s\">atviroji programa<a/>, todėl kiekvieną skatiname <a href=\"%2$s\">prisidėti</a> prie jos kūrimo ir tobulinimo :-)]]></item>
+    <item><![CDATA[Prisidėti gali ne tik kūrėjai. Pavyzdžiui, galite mums <a href=\"%1$s\">padėti versti</a> „AnkiPro“ programą, atnaujinti „wiki“ duomenis, atsiųsti ekrano kopijų ar rašyti tinklaraštį apie „AnkiPro“.]]></item>
+    <item><![CDATA[„AnkiPro“ yra išleista pagal <a href=\"%1$s\">GNU-GPL v3 licenciją</a>, o pirminį programos tekstą galite rasti <a href=\"%2$s\">„GitHub“</a> svetainėje.]]></item>
   </string-array>
   <string name="preview_title">Peržiūrėti</string>
   <string name="reset_card_dialog_title">Atkurti kortelių eigą</string>
@@ -70,13 +70,13 @@
   <string name="reschedule_card_dialog_message">Peržiūrėti kortelę po x dienų:</string>
   <string name="reschedule_card_dialog_acknowledge">Kortelės mokymosi diena pakeista</string>
   <string name="answering_error_title">Duomenų bazės klaida</string>
-  <string name="answering_error_message">Įrašyti kolekcijos nepavyko. Duomenų bazė yra galimai sugadinta arba diske nėra pakankamai vietos.\n\nJei tai nutinka dažnai, patikrinkite duomenų bazę, pataisykite kolekciją arba atkurkite ją iš atsarginės kopijos. Norėdami tai padaryti, spauskite „Parinktys“.\n\Taip pat gali būti, kad tai yra „AnkiDroid“ pranešimas apie klaidą. Tokiu atveju, prašome apie šią klaidą mums pranešti, kad galėtume ją patikrinti.</string>
+  <string name="answering_error_message">Įrašyti kolekcijos nepavyko. Duomenų bazė yra galimai sugadinta arba diske nėra pakankamai vietos.\n\nJei tai nutinka dažnai, patikrinkite duomenų bazę, pataisykite kolekciją arba atkurkite ją iš atsarginės kopijos. Norėdami tai padaryti, spauskite „Parinktys“.\n\Taip pat gali būti, kad tai yra „AnkiPro“ pranešimas apie klaidą. Tokiu atveju, prašome apie šią klaidą mums pranešti, kad galėtume ją patikrinti.</string>
   <string name="answering_error_report">Pranešti apie klaidą</string>
   <string name="repair_deck_dialog">Ar tikrai norite taisyti duomenų bazę?\n\nPrieš tai atliekant, poaplankyje „%s“ bus sukurta kopija.</string>
   <string name="intent_add_saved_information">Išsaugoti duomenys</string>
   <string name="intent_add_clear_all">Išvalyti viską</string>
   <string name="intent_aedict_empty">Kategorija „numatytieji“ yra tuščia</string>
-  <string name="intent_aedict_category">Norėdami „AnkiDroid“ programoje pridėti kortelių, pašalinkite visas „Notepad“ kategorijas arba pridėkite vieną, kuri vadintųsi „numatytoji“</string>
+  <string name="intent_aedict_category">Norėdami „AnkiPro“ programoje pridėti kortelių, pašalinkite visas „Notepad“ kategorijas arba pridėkite vieną, kuri vadintųsi „numatytoji“</string>
   <string name="custom_study_new_total_new">Naujos rinkinio kortelės: %s</string>
   <string name="custom_study_rev_total_rev">Mokymuisi paruoštos rinkinio kortelės: %s</string>
   <string name="custom_study_new_extend">Padidinti šiandienos naujų kortelių skaičių</string>

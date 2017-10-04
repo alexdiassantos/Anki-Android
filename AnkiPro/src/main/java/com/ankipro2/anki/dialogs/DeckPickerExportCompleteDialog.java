@@ -53,12 +53,12 @@ public class DeckPickerExportCompleteDialog extends AsyncDialogFragment {
 
 
     public String getNotificationMessage() {
-        if (CollectionHelper.getCurrentAnkiDroidDirectory(getContext()).equals(CollectionHelper.getDefaultAnkiDroidDirectory())) {
+        if (CollectionHelper.getCurrentAnkiProDirectory(getContext()).equals(CollectionHelper.getDefaultAnkiProDirectory())) {
             // Show a relative path if the collection is stored in the default location
-            File exportFile = new File("AnkiDroid/export/", new File(getArguments().getString("exportPath")).getName());
+            File exportFile = new File("AnkiPro/export/", new File(getArguments().getString("exportPath")).getName());
             return res().getString(R.string.export_successful, exportFile.getPath());
         } else {
-            // Show the absolute path if the user has messed with the AnkiDroid directory
+            // Show the absolute path if the user has messed with the AnkiPro directory
             return res().getString(R.string.export_successful, getArguments().getString("exportPath"));
         }
     }

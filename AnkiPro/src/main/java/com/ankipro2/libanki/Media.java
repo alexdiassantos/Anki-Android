@@ -60,7 +60,7 @@ import timber.log.Timber;
 /**
  * Media manager - handles the addition and removal of media files from the media directory (collection.media) and
  * maintains the media database (collection.media.ad.db2) which is used to determine the state of files for syncing.
- * Note that the media database has an additional prefix for AnkiDroid (.ad) to avoid any potential issues caused by
+ * Note that the media database has an additional prefix for AnkiPro (.ad) to avoid any potential issues caused by
  * users copying the file to the desktop client and vice versa.
  * <p>
  * Unlike the python version of this module, we do not (and cannot) modify the current working directory (CWD) before
@@ -138,7 +138,7 @@ public class Media {
         if (mCol.getServer()) {
             return;
         }
-        // NOTE: We use a custom prefix for AnkiDroid to avoid issues caused by copying
+        // NOTE: We use a custom prefix for AnkiPro to avoid issues caused by copying
         // the db to the desktop or vice versa.
         String path = dir() + ".ad.db2";
         File dbFile = new File(path);
@@ -216,7 +216,7 @@ public class Media {
      */
 
     /**
-     * In AnkiDroid, adding a media file will not only copy it to the media directory, but will also insert an entry
+     * In AnkiPro, adding a media file will not only copy it to the media directory, but will also insert an entry
      * into the media database marking it as a new addition.
      */
     public String addFile(File ofile) throws IOException {
@@ -797,7 +797,7 @@ public class Media {
      * - This method will be repeatedly called from MediaSyncer until there are no more files (marked "dirty" in the DB)
      * to send.
      * <p>
-     * - Since AnkiDroid avoids scanning the media folder on every sync, it is possible for a file to be marked as a
+     * - Since AnkiPro avoids scanning the media folder on every sync, it is possible for a file to be marked as a
      * new addition but actually have been deleted (e.g., with a file manager). In this case we skip over the file
      * and mark it as removed in the database. (This behaviour differs from the desktop client).
      * <p>

@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Αναμένουσες Κάρτες</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d κάρτες AnkiDroid εις αναμονή</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d κάρτες AnkiPro εις αναμονή</string>
   <string name="widget_no_cards_due">Δεν απομένουν επαναλήψεις</string>
   <string name="widget_loading">Φόρτωση widget...</string>
   <plurals name="widget_cards_in_decks_due">
@@ -52,8 +52,8 @@
     <item quantity="one">%1$d deck</item>
     <item quantity="other">%1$d decks</item>
   </plurals>
-  <string name="widget_small">AnkiDroid Μικρό</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">AnkiPro Μικρό</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d card due</item>
     <item quantity="other">%d cards due</item>
@@ -63,5 +63,5 @@
     <item quantity="other">%d minutes remaining</item>
   </plurals>
   <string name="widget_add_note">Add note</string>
-  <string name="widget_add_note_button">Add new AnkiDroid note</string>
+  <string name="widget_add_note_button">Add new AnkiPro note</string>
 </resources>

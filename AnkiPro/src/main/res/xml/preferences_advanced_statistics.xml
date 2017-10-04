@@ -3,7 +3,7 @@
 
 <!-- Advanced Statistics Preferences -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://arbitrary.app.namespace/com.ichi2.anki">
+    xmlns:app="http://arbitrary.app.namespace/com.ankipro2.anki">
 
     <CheckBoxPreference
         android:defaultValue="false"

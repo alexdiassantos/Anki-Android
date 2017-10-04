@@ -110,7 +110,7 @@
   <string name="create">Создать</string>
   <string name="new_dynamic_deck">Создать фильтрованную колоду</string>
   <string name="night_mode">Ночной режим</string>
-  <string name="directory_inaccessible">Недоступен каталог AnkiDroid</string>
+  <string name="directory_inaccessible">Недоступен каталог AnkiPro</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -165,6 +165,6 @@
   <string name="invalid_template">Невозможно сгенерировать карточку</string>
   <string name="card_template_editor_would_delete_note"> Сначала создайте новый тип карточки, так как удаление этого типа приведёт к удалению одной или нескольких записей. </string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Чтение и запись в базу данных AnkiDroid</string>
+  <string name="read_write_permission_label">Чтение и запись в базу данных AnkiPro</string>
   <string name="read_write_permission_description">доступ к записям, карточкам, типам записей и колодам, а также создание новых</string>
 </resources>

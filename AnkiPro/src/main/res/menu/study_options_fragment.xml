@@ -1,28 +1,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ankidroid="http://schemas.android.com/apk/res-auto" >
+    xmlns:ankipro="http://schemas.android.com/apk/res-auto" >
     <item
         android:id="@+id/action_undo"
         android:enabled="true"
         android:icon="@drawable/ic_undo_white_24dp"
         android:title="@string/undo"
-        ankidroid:showAsAction="always"/>
+        ankipro:showAsAction="always"/>
     <item
         android:id="@+id/action_rebuild"
         android:title="@string/rebuild_cram_label"
         android:visibility = "gone"
         android:icon="@drawable/ic_refresh_white_24dp"
-        ankidroid:showAsAction="ifRoom"/>
+        ankipro:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_empty"
         android:title="@string/empty_cram_label"
         android:visibility = "gone"
         android:icon="@drawable/ic_clear_white_24dp"
-        ankidroid:showAsAction="ifRoom"/>
+        ankipro:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_custom_study"
         android:title="@string/custom_study"
         android:icon="@drawable/ic_build_white_24dp"
-        ankidroid:showAsAction="ifRoom"/>
+        ankipro:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_rename"
         android:title="@string/rename_deck"

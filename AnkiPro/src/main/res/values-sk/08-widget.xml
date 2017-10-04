@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Kartičky na preskúšanie</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d AnkiDroid kartičiek na preskúšanie</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d AnkiPro kartičiek na preskúšanie</string>
   <string name="widget_no_cards_due">Žiadne kartičky na preskúšanie</string>
   <string name="widget_loading">Načítava sa widget...</string>
   <plurals name="widget_cards_in_decks_due">
@@ -54,8 +54,8 @@
     <item quantity="few">%1$d balíčky</item>
     <item quantity="other">%1$d balíčkov</item>
   </plurals>
-  <string name="widget_small">Malý AnkiDroid</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">Malý AnkiPro</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d kartička na preskúšanie</item>
     <item quantity="few">%d kartičky na preskúšanie</item>
@@ -67,5 +67,5 @@
     <item quantity="other">zostáva %d minút</item>
   </plurals>
   <string name="widget_add_note">Pridať poznámku</string>
-  <string name="widget_add_note_button">Pridať novú poznámku Ankidroid</string>
+  <string name="widget_add_note_button">Pridať novú poznámku Ankipro</string>
 </resources>

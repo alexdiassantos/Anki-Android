@@ -107,7 +107,7 @@
   <string name="create">Crear</string>
   <string name="new_dynamic_deck">Crear mazo filtrado</string>
   <string name="night_mode">Modo nocturno</string>
-  <string name="directory_inaccessible">No se puede acceder a la carpeta de AnkiDroid</string>
+  <string name="directory_inaccessible">No se puede acceder a la carpeta de AnkiPro</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">Una tarjeta no pudo ser generada</string>
   <string name="card_template_editor_would_delete_note">Eliminar este tipo de tarjeta podría causar la eliminación de una o más notas. Por favor, cree primero un nuevo tipo de tarjeta.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Leer y escribir en la base de datos de AnkiDroid</string>
+  <string name="read_write_permission_label">Leer y escribir en la base de datos de AnkiPro</string>
   <string name="read_write_permission_description">acceder a las notas existentes, tarjetas, tipos de nota y mazos, así como crear nuevos</string>
 </resources>

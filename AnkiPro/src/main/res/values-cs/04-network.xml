@@ -57,7 +57,7 @@
   <string name="password_repeat">Opakujte heslo</string>
   <string name="log_in">Přihlášení</string>
   <string name="sign_up_description">Nemáte ještě účet AnkiWeb? Je zdarma.</string>
-  <string name="sign_up_not_affiliated">Poznámka: Služba AnkiWeb není součástí AnkiDroid a naopak. Jedná se o dvě samostatné služby</string>
+  <string name="sign_up_not_affiliated">Poznámka: Služba AnkiWeb není součástí AnkiPro a naopak. Jedná se o dvě samostatné služby</string>
   <string name="sign_up">Zaregistrovat se</string>
   <string name="logged_as">Přihlášen jako</string>
   <string name="log_out">Odhlásit se</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">Multimédia úspěšně synchronizovány</string>
   <string name="sync_media_changes_count">%d změn v multimédiích k odeslání</string>
   <string name="sync_media_downloaded_count">%d multimediálních souborů staženo</string>
-  <string name="sync_sanity_failed">Po synchronizaci byla kolekce v nekonzistentním stavu. Chcete-li tento problém vyřešit, AnkiDroid vynutí úplnou synchronizaci. Vyberte si, na které straně chcete ponechat kolekci. Zvolte Zrušit, pokud chcete synchronizovat později.</string>
+  <string name="sync_sanity_failed">Po synchronizaci byla kolekce v nekonzistentním stavu. Chcete-li tento problém vyřešit, AnkiPro vynutí úplnou synchronizaci. Vyberte si, na které straně chcete ponechat kolekci. Zvolte Zrušit, pokud chcete synchronizovat později.</string>
   <string name="sync_media_sanity_failed">Synchronizace multimédií dokončena, ale počet multimédií nesouhlasí se serverem. Další synchronizace multimédií bude úplná pro opravu případné chyby.</string>
   <string name="sync_media_error">Chyba synchronizace multimediálních dat.</string>
   <string name="sync_media_error_check">Chyba během synchronizace souborů médií. Doporučujeme provést kontrolu médií.</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">Vynutit úplnou synchronizaci</string>
   <string name="force_full_sync_summary">Při příští synchronizaci vynutit změny v jednom směru</string>
   <string name="full_sync_confirmation">Požadovaná změna způsobí kompletní nahrání databáze na server při příští synchronizaci Vaší sbírky. Máte-li změny nebo naplánované zkoušení na jiném zařízení, které ještě nebyly synchronizovány, budou ztraceny. Chcete pokračovat?</string>
-  <string name="full_sync_confirmation_upgrade">Kvůli chybě v dříve nainstalované verzi AnkiDroid doporučujeme vynutit úplnou synchronizaci.</string>
-  <string name="sync_error_501_upgrade_required">Proveďte upgrade na nejnovější verzi AnkiDroid</string>
+  <string name="full_sync_confirmation_upgrade">Kvůli chybě v dříve nainstalované verzi AnkiPro doporučujeme vynutit úplnou synchronizaci.</string>
+  <string name="sync_error_501_upgrade_required">Proveďte upgrade na nejnovější verzi AnkiPro</string>
 </resources>

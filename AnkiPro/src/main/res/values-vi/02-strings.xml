@@ -120,8 +120,8 @@
   <plurals name="timebox_reached_minutes">
     <item quantity="other">%1$d phút</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Chào mừng đến với AnkiDroid</string>
-  <string name="fact_adder_intent_title">Thẻ AnkiDroid</string>
+  <string name="studyoptions_welcome_title">Chào mừng đến với AnkiPro</string>
+  <string name="fact_adder_intent_title">Thẻ AnkiPro</string>
   <string name="card_editor_add_card">Thêm ghi chú</string>
   <string name="card_editor_copy_card">Sao chép thẻ</string>
   <string name="card_editor_reset_card">Thiết lập lại quá trình học</string>
@@ -142,8 +142,8 @@
   <string name="unknown_type_field_warning">Gõ đáp án: trường lạ %s</string>
   <string name="delete_deck">Đang xoá bộ thẻ&#8230;</string>
   <string name="show_hint">Hiện %s</string>
-  <string name="info_rate">Đánh giá AnkiDroid</string>
-  <string name="col_load_failed">Lỗi nạp bộ sưu tập.\nẤn quay lại để đóng AnkiDroid.</string>
+  <string name="info_rate">Đánh giá AnkiPro</string>
+  <string name="col_load_failed">Lỗi nạp bộ sưu tập.\nẤn quay lại để đóng AnkiPro.</string>
   <string name="import_title">Đang nhập</string>
   <string name="import_select_title">Chọn một tệp để nhập</string>
   <string name="import_message_add">Thêm</string>
@@ -151,7 +151,7 @@
   <string name="import_message_add_confirm">Thêm \"%s\" vào bộ sưu tập? Có thể hơi lâu</string>
   <string name="import_log_no_apkg">Đây không phải tập tin apkg hợp lệ</string>
   <string name="import_error_not_apkg_extension">Tên tệp \"%s\" không có phần mở rộng .apkg</string>
-  <string name="import_error_content_provider">Tệp đã chọn không thể được nhập tự động bởi AnkiDroid. Xin xem hướng dẫn sử dụng để biết cách nhập thủ công tệp anki: \n%s</string>
+  <string name="import_error_content_provider">Tệp đã chọn không thể được nhập tự động bởi AnkiPro. Xin xem hướng dẫn sử dụng để biết cách nhập thủ công tệp anki: \n%s</string>
   <string name="import_replacing">Đang thay thế bộ sưu tập&#8230;</string>
   <string name="export_include_schedule">Gồm cả việc lên lịch</string>
   <string name="export_include_media">Gồm cả các tệp đa phương tiện</string>
@@ -160,12 +160,12 @@
   <string name="export_in_progress">Đang xuất tệp apkg&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

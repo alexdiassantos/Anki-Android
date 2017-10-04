@@ -72,7 +72,7 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="com.ankipro2.anki.AnkiDroidApp"
+        android:name="com.ankipro2.anki.AnkiProApp"
         android:allowBackup="true"
         android:icon="@mipmap/anki"
         android:roundIcon="@mipmap/anki_round"
@@ -269,7 +269,7 @@
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ankipro2.anki.dialogs.AnkiDroidCrashReportDialog"
+        <activity android:name="com.ankipro2.anki.dialogs.AnkiProCrashReportDialog"
             android:theme="@style/Theme.CrashReportDialog"
             android:launchMode="singleInstance"
             android:excludeFromRecents="true"
@@ -294,7 +294,7 @@
 
         <!-- small widget -->
         <receiver
-            android:name="com.ankipro2.widget.AnkiDroidWidgetSmall"
+            android:name="com.ankipro2.widget.AnkiProWidgetSmall"
             android:label="@string/widget_small" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -319,7 +319,7 @@
         </receiver>
 
         <!-- Service to perform web API queries -->
-        <service android:name="com.ankipro2.widget.AnkiDroidWidgetSmall$UpdateService" />
+        <service android:name="com.ankipro2.widget.AnkiProWidgetSmall$UpdateService" />
 
         <receiver
             android:name="com.ankipro2.anki.receiver.SdCardReceiver"

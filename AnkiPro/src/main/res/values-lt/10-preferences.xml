@@ -43,7 +43,7 @@
   <string name="disabled">Išjungta</string>
   <string name="enabled">Įjungta</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">„AnkiDroid“</string>
+  <string name="pref_cat_general">„AnkiPro“</string>
   <string name="pref_cat_general_summ">Bendrieji nustatymai</string>
   <string name="pref_cat_reviewing">Peržiūra</string>
   <string name="pref_cat_reviewing_summ">Su konkrečiu rinkiniu nesusiję peržiūros nustatymai</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Efektyvumas</string>
   <string name="pref_cat_workarounds">Alternatyvūs būdai</string>
   <string name="pref_cat_plugins">Papildiniai</string>
-  <string name="about_title">Apie „AnkiDroid“</string>
+  <string name="about_title">Apie „AnkiPro“</string>
   <string name="about_version">Versija: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Linijos plotis</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Vaizdo priartinimas</string>
   <string name="button_size">Atsakymo mygtuko dydis</string>
   <string name="card_browser_font_size">Kortelių naršyklės šrifto dydis</string>
-  <string name="col_path">„AnkiDroid“ katalogas</string>
+  <string name="col_path">„AnkiPro“ katalogas</string>
   <string name="fullscreen_review">Viso ekrano režimas</string>
   <string name="full_screen_off">Išjungta</string>
   <string name="full_screen_system">Slėpti sistemines juostas</string>
@@ -170,8 +170,8 @@
   <string name="pref_keep_screen_on_summ">Išjungti ekrano užgesimui skirtą laiką</string>
   <string name="convert_fen_text">Šachmatų žymėjimo pagalba</string>
   <string name="convert_fen_text_summ">Nubraižykite šachmatų lentą pagal Forsyth-Edwards žymėjimą. Žymėjimą reikia įrašyti tarp [fen][/fen] žymių.</string>
-  <string name="enable_api_title">Įjungti „AnkiDroid“ programų sąsają</string>
-  <string name="enable_api_summary">Leisti kitoms programoms jungtis prie „AnkiDroid“ ir nuskaityti/įrašyti duomenis be jūsų leidimo</string>
+  <string name="enable_api_title">Įjungti „AnkiPro“ programų sąsają</string>
+  <string name="enable_api_summary">Leisti kitoms programoms jungtis prie „AnkiPro“ ir nuskaityti/įrašyti duomenis be jūsų leidimo</string>
   <string name="custom_buttons">Programos juostos mygtukai</string>
   <string name="custom_buttons_summary">Nurodykite, kokius veiksmus bus leidžiama atlikti programos juostoje</string>
   <string name="custom_buttons_setting_always_show">Visada rodyti</string>

@@ -107,7 +107,7 @@
   <string name="create">Créer</string>
   <string name="new_dynamic_deck">Créer un paquet filtré</string>
   <string name="night_mode">Mode nuit</string>
-  <string name="directory_inaccessible">Le répertoire d\'AnkiDroid est inaccessible</string>
+  <string name="directory_inaccessible">Le répertoire d\'AnkiPro est inaccessible</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -162,6 +162,6 @@
   <string name="card_template_editor_would_delete_note"> Retirer ce type de carte provoquerait la suppression 
         d\'une ou de plusieurs notes. Veuillez d\'abord créer un nouveau type de carte.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Lire et écrire dans la base de données d\'AnkiDroid</string>
+  <string name="read_write_permission_label">Lire et écrire dans la base de données d\'AnkiPro</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

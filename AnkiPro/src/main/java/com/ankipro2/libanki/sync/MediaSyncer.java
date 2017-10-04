@@ -20,7 +20,7 @@ package com.ankipro2.libanki.sync;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.exception.MediaSyncException;
 import com.ankipro2.anki.exception.UnknownHttpResponseException;
@@ -56,7 +56,7 @@ import timber.log.Timber;
  * 
  * Given these two points, we have decided to avoid the call to findChanges() on every sync and
  * only do it on the first sync to build the initial database. Changes to the media collection
- * made through AnkiDroid (e.g., multimedia note editor, media check) are recorded directly in
+ * made through AnkiPro (e.g., multimedia note editor, media check) are recorded directly in
  * the media database as they are made. This allows us to skip finding media changes entirely
  * as the database already contains the changes.
  * 
@@ -184,7 +184,7 @@ public class MediaSyncer {
                     }
 
                     mCon.publishProgress(String.format(
-                            AnkiDroidApp.getAppResources().getString(R.string.sync_media_changes_count), toSend));
+                            AnkiProApp.getAppResources().getString(R.string.sync_media_changes_count), toSend));
 
                     JSONArray changes = mServer.uploadChanges(zip);
                     int processedCnt = changes.getInt(0);
@@ -249,7 +249,7 @@ public class MediaSyncer {
                     fnames = fnames.subList(cnt, fnames.size());
                 }
                 mCon.publishProgress(String.format(
-                        AnkiDroidApp.getAppResources().getString(R.string.sync_media_downloaded_count), mDownloadCount));
+                        AnkiProApp.getAppResources().getString(R.string.sync_media_downloaded_count), mDownloadCount));
             } catch (IOException | UnknownHttpResponseException e) {
                 Timber.e(e, "Error downloading media files");
                 throw new RuntimeException(e);

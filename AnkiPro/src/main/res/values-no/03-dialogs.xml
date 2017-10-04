@@ -55,11 +55,11 @@
   <string name="initializing_tts">Initializing TTS&#8230;</string>
   <string name="tts_no_tts">Ikke snakk</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Flashcards for Android</h2>AnkiDroid is a flashcard application which is fully compatible with the desktop software <a href=\"%2$s\">Anki</a>. You can create, download and learn material on both AnkiDroid or Anki Desktop, and synchronize them easily with AnkiWeb.]]></item>
-    <item><![CDATA[To help us make AnkiDroid better, please report bugs to <a href=\"%1$s\">the issue tracker</a>; new feature ideas are very welcome too. Find answers on <a href=\"%2$s\">the wiki</a> or start a discussion on <a href=\"%3$s\">the forum</a>.]]></item>
-    <item><![CDATA[AnkiDroid is <a href=\"%1$s\">open source software<a/>, so everyone is encouraged to <a href=\"%2$s\">become a contributor</a> :-)]]></item>
-    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid is released under the <a href=\"%1$s\">GNU-GPL v3 license</a> and the source code is available <a href=\"%2$s\">on GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Flashcards for Android</h2>AnkiPro is a flashcard application which is fully compatible with the desktop software <a href=\"%2$s\">Anki</a>. You can create, download and learn material on both AnkiPro or Anki Desktop, and synchronize them easily with AnkiWeb.]]></item>
+    <item><![CDATA[To help us make AnkiPro better, please report bugs to <a href=\"%1$s\">the issue tracker</a>; new feature ideas are very welcome too. Find answers on <a href=\"%2$s\">the wiki</a> or start a discussion on <a href=\"%3$s\">the forum</a>.]]></item>
+    <item><![CDATA[AnkiPro is <a href=\"%1$s\">open source software<a/>, so everyone is encouraged to <a href=\"%2$s\">become a contributor</a> :-)]]></item>
+    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiPro, update the wiki, provide screenshots, or blog about AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro is released under the <a href=\"%1$s\">GNU-GPL v3 license</a> and the source code is available <a href=\"%2$s\">on GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Preview</string>
   <string name="reset_card_dialog_title">Tilbakestille fremdrift for kort</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Reschedule for review in x days:</string>
   <string name="reschedule_card_dialog_acknowledge">Card rescheduled</string>
   <string name="answering_error_title">Databasefeil</string>
-  <string name="answering_error_message">Det oppstod en feil under skriving til samlingen. Dette kan ha sammenheng med en ødelagt database eller manglende plass på disken.\n\nHvis det skjer igjen, vennligst prøv å kontrollere databasen, reparere samlingen, eller gjenopprette den fra en sikkerhetskopi. Klikk i så fall \'valg\'.\n\nUansett kan det hende at det er en feil i AnkiDroid; så vennligst rapporter feilen, sånn at vi kan undersøke tilfellet.</string>
+  <string name="answering_error_message">Det oppstod en feil under skriving til samlingen. Dette kan ha sammenheng med en ødelagt database eller manglende plass på disken.\n\nHvis det skjer igjen, vennligst prøv å kontrollere databasen, reparere samlingen, eller gjenopprette den fra en sikkerhetskopi. Klikk i så fall \'valg\'.\n\nUansett kan det hende at det er en feil i AnkiPro; så vennligst rapporter feilen, sånn at vi kan undersøke tilfellet.</string>
   <string name="answering_error_report">Rapporter feil</string>
   <string name="repair_deck_dialog">Vil du virkelig prøve å reparere databasen?\n\nEn kopi vil bli opprettet i undermappen \'%s\' før forsøket starter.</string>
   <string name="intent_add_saved_information">Lagrede data</string>
   <string name="intent_add_clear_all">Fjern alle</string>
   <string name="intent_aedict_empty">Kategorien \'standard\' er tom</string>
-  <string name="intent_aedict_category">For å legge kort til AnkiDroid, fjern alle notisblokk-kategorier eller legg til en som heter \'default\'</string>
+  <string name="intent_aedict_category">For å legge kort til AnkiPro, fjern alle notisblokk-kategorier eller legg til en som heter \'default\'</string>
   <string name="custom_study_new_total_new">New cards in deck: %s</string>
   <string name="custom_study_rev_total_rev">Reviews due in deck: %s</string>
   <string name="custom_study_new_extend">Increase today’s new card limit by</string>

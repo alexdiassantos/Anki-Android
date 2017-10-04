@@ -55,11 +55,11 @@
   <string name="initializing_tts">TTS indítása&#8230;</string>
   <string name="tts_no_tts">Ne beszélj</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Flashcards for Android</h2>AnkiDroid is a flashcard application which is fully compatible with the desktop software <a href=\"%2$s\">Anki</a>. You can create, download and learn material on both AnkiDroid or Anki Desktop, and synchronize them easily with AnkiWeb.]]></item>
-    <item><![CDATA[To help us make AnkiDroid better, please report bugs to <a href=\"%1$s\">the issue tracker</a>; new feature ideas are very welcome too. Find answers on <a href=\"%2$s\">the wiki</a> or start a discussion on <a href=\"%3$s\">the forum</a>.]]></item>
-    <item><![CDATA[AnkiDroid is <a href=\"%1$s\">open source software<a/>, so everyone is encouraged to <a href=\"%2$s\">become a contributor</a> :-)]]></item>
-    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid is released under the <a href=\"%1$s\">GNU-GPL v3 license</a> and the source code is available <a href=\"%2$s\">on GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Flashcards for Android</h2>AnkiPro is a flashcard application which is fully compatible with the desktop software <a href=\"%2$s\">Anki</a>. You can create, download and learn material on both AnkiPro or Anki Desktop, and synchronize them easily with AnkiWeb.]]></item>
+    <item><![CDATA[To help us make AnkiPro better, please report bugs to <a href=\"%1$s\">the issue tracker</a>; new feature ideas are very welcome too. Find answers on <a href=\"%2$s\">the wiki</a> or start a discussion on <a href=\"%3$s\">the forum</a>.]]></item>
+    <item><![CDATA[AnkiPro is <a href=\"%1$s\">open source software<a/>, so everyone is encouraged to <a href=\"%2$s\">become a contributor</a> :-)]]></item>
+    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiPro, update the wiki, provide screenshots, or blog about AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro is released under the <a href=\"%1$s\">GNU-GPL v3 license</a> and the source code is available <a href=\"%2$s\">on GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Előnézet</string>
   <string name="reset_card_dialog_title">Kártya folyamatát alaphelyzetbe</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Ismétléshez átütemezés x nap:</string>
   <string name="reschedule_card_dialog_acknowledge">Átütemezett kártya</string>
   <string name="answering_error_title">Adatbázishiba</string>
-  <string name="answering_error_message">Hiba történet a gyűjteménybe írás közben. Ennek okozója lehet a sérült adatbázis, vagy a kevés a háttértáron.\n\nHa gyakran megtörténik, ellenőrizd az adatbázist, javítsd a gyűjteményt, vagy állítsd vissza biztonsági mentésből. Ehhez kattints a \'Beállítások\'-ra.\n\nAz is lehet, hogy az AnkiDroid-ban van a hiba, kérjük jelentsd nekünk a hibát!</string>
+  <string name="answering_error_message">Hiba történet a gyűjteménybe írás közben. Ennek okozója lehet a sérült adatbázis, vagy a kevés a háttértáron.\n\nHa gyakran megtörténik, ellenőrizd az adatbázist, javítsd a gyűjteményt, vagy állítsd vissza biztonsági mentésből. Ehhez kattints a \'Beállítások\'-ra.\n\nAz is lehet, hogy az AnkiPro-ban van a hiba, kérjük jelentsd nekünk a hibát!</string>
   <string name="answering_error_report">Hibák jelentése</string>
   <string name="repair_deck_dialog">Tényleg megpróbálod megjavítani az adatbázist?\n\nEnnek megkísérlése előtt a program létrehoz egy másolatot a \'%s\' almappában.</string>
   <string name="intent_add_saved_information">Mentett adatok</string>
   <string name="intent_add_clear_all">Mindent töröl</string>
   <string name="intent_aedict_empty">Az \"alap\" kategória üres</string>
-  <string name="intent_aedict_category">Hogy új kártyákat adj az AnkiDroid-hoz, távolítsd el az összes Jegyzettömb/Notepad/ kategóriát, vagy adj hozzá egyet \'default\' névvel</string>
+  <string name="intent_aedict_category">Hogy új kártyákat adj az AnkiPro-hoz, távolítsd el az összes Jegyzettömb/Notepad/ kategóriát, vagy adj hozzá egyet \'default\' névvel</string>
   <string name="custom_study_new_total_new">Új kártyák a pakliban: %s</string>
   <string name="custom_study_rev_total_rev">Esedékes ismétlések a pakliban: %s</string>
   <string name="custom_study_new_extend">Mai új kártyák számának növelése</string>

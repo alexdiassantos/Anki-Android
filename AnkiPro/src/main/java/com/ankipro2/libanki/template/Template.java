@@ -36,7 +36,7 @@ import java.util.regex.Pattern;
  * and tags with their respective data. The data is derived from a context object that is given to
  * the class when constructed which maps tags to the data that they should be replaced with.
  * <p/>
- * The AnkiDroid version of this class makes some assumptions about the valid data types that flow
+ * The AnkiPro version of this class makes some assumptions about the valid data types that flow
  * through it and is thus simplified. Namely, the context is assumed to always be a Map<String, String>,
  * and sections are only ever considered to be String objects. Tests have shown that strings are the
  * only data type used, and thus code that handles anything else has been omitted.

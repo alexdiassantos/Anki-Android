@@ -54,11 +54,11 @@
   <string name="initializing_tts">正在初始化 TTS&#8230;</string>
   <string name="tts_no_tts">不要發音</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>給 Android 的 Flashcard</h2>AnkiDroid 是完全相容桌面版本的 flashcard 應用程式 <a href=\"%2$s\">Anki</a>。 你可以任意在 AnkiDroid 或是桌面版 Anki 上新增、下載和學習東西，並使用 AnkiWeb 輕鬆同步這些記錄。]]></item>
-    <item><![CDATA[為了協助我們讓 AnkiDroid 更好，請到 <a href=\"%1$s\">issue tracker</a> 回報錯誤; 任何有關新功能的點子也很歡迎。在 <a href=\"%2$s\">wiki</a> 尋找答案或是在<a href=\"%3$s\">論壇</a>參與討論。]]></item>
-    <item><![CDATA[AnkiDroid 是<a href=\"%1$s\">自由軟體<a/>，所以我們鼓勵任何人<a href=\"%2$s\">成爲貢獻者</a> :-)]]></item>
-    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid 在 <a href=\"%1$s\">GNU-GPL v3 授權</a>下釋出且你可在<a href=\"%2$s\">GitHub</a> 上取得其程式碼]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>給 Android 的 Flashcard</h2>AnkiPro 是完全相容桌面版本的 flashcard 應用程式 <a href=\"%2$s\">Anki</a>。 你可以任意在 AnkiPro 或是桌面版 Anki 上新增、下載和學習東西，並使用 AnkiWeb 輕鬆同步這些記錄。]]></item>
+    <item><![CDATA[為了協助我們讓 AnkiPro 更好，請到 <a href=\"%1$s\">issue tracker</a> 回報錯誤; 任何有關新功能的點子也很歡迎。在 <a href=\"%2$s\">wiki</a> 尋找答案或是在<a href=\"%3$s\">論壇</a>參與討論。]]></item>
+    <item><![CDATA[AnkiPro 是<a href=\"%1$s\">自由軟體<a/>，所以我們鼓勵任何人<a href=\"%2$s\">成爲貢獻者</a> :-)]]></item>
+    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiPro, update the wiki, provide screenshots, or blog about AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro 在 <a href=\"%1$s\">GNU-GPL v3 授權</a>下釋出且你可在<a href=\"%2$s\">GitHub</a> 上取得其程式碼]]></item>
   </string-array>
   <string name="preview_title">預覽</string>
   <string name="reset_card_dialog_title">重置卡片進度</string>
@@ -68,13 +68,13 @@
   <string name="reschedule_card_dialog_message">重置 x 天內複習的進度：</string>
   <string name="reschedule_card_dialog_acknowledge">已重置卡片進度</string>
   <string name="answering_error_title">資料庫錯誤</string>
-  <string name="answering_error_message">寫入資料庫時發生錯誤。可能是資料庫毀損或是記憶卡空間不足。\n\n如果這經常發生的話，請嘗試檢查資料庫，修復你的收藏或從備份中還原。\n當然這也可能是 AnkiDroid 的程式錯誤，請回報錯誤讓我們知道。</string>
+  <string name="answering_error_message">寫入資料庫時發生錯誤。可能是資料庫毀損或是記憶卡空間不足。\n\n如果這經常發生的話，請嘗試檢查資料庫，修復你的收藏或從備份中還原。\n當然這也可能是 AnkiPro 的程式錯誤，請回報錯誤讓我們知道。</string>
   <string name="answering_error_report">回報錯誤</string>
   <string name="repair_deck_dialog">你真的想要修復資料庫嗎？\n\n在開始修復之前，會先複製一份備份檔案放置於資料夾\'%s\'中。</string>
   <string name="intent_add_saved_information">儲存的資料</string>
   <string name="intent_add_clear_all">全部清除</string>
   <string name="intent_aedict_empty">\'default\'類別是空的</string>
-  <string name="intent_aedict_category">若要增加新卡片至 AnkiDroid，刪除所有的記事本類別或新增一個 \'default\' 牌組</string>
+  <string name="intent_aedict_category">若要增加新卡片至 AnkiPro，刪除所有的記事本類別或新增一個 \'default\' 牌組</string>
   <string name="custom_study_new_total_new">牌組 %s 的新卡片</string>
   <string name="custom_study_rev_total_rev">牌組 %s 複習到期的卡片</string>
   <string name="custom_study_new_extend">增加今天的新卡片限制</string>

@@ -20,7 +20,7 @@ import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabaseCorruptException;
 import android.net.Uri;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.CollectionHelper;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.exception.UnknownHttpResponseException;
@@ -54,7 +54,7 @@ public class FullSyncer extends HttpSyncer {
         mPostVars = new HashMap<>();
         mPostVars.put("k", hkey);
         mPostVars.put("v",
-                String.format(Locale.US, "ankidroid,%s,%s", VersionUtils.getPkgVersionName(), Utils.platDesc()));
+                String.format(Locale.US, "ankipro,%s,%s", VersionUtils.getPkgVersionName(), Utils.platDesc()));
         mCol = col;
         mCon = con;
     }
@@ -63,7 +63,7 @@ public class FullSyncer extends HttpSyncer {
     @Override
     public String syncURL() {
         // Allow user to specify custom sync server
-        SharedPreferences userPreferences = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance());
+        SharedPreferences userPreferences = AnkiProApp.getSharedPrefs(AnkiProApp.getInstance());
         if (userPreferences!= null && userPreferences.getBoolean("useCustomSyncServer", false)) {
             Uri syncBase = Uri.parse(userPreferences.getString("syncBaseUrl", Consts.SYNC_BASE));
             return syncBase.buildUpon().appendPath("sync").toString() + "/";
@@ -96,7 +96,7 @@ public class FullSyncer extends HttpSyncer {
         } else {
             // Allow for case where collection is completely unreadable
             Timber.w("Collection was unexpectedly null when doing full sync download");
-            path = CollectionHelper.getCollectionPath(AnkiDroidApp.getInstance());
+            path = CollectionHelper.getCollectionPath(AnkiProApp.getInstance());
         }
         String tpath = path + ".tmp";
         try {

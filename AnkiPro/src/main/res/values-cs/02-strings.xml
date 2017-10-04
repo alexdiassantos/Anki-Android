@@ -124,8 +124,8 @@
     <item quantity="few">%1$d minuty</item>
     <item quantity="other">%1$d minut</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Vítejte v AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid karta</string>
+  <string name="studyoptions_welcome_title">Vítejte v AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro karta</string>
   <string name="card_editor_add_card">Přidat poznámku</string>
   <string name="card_editor_copy_card">Kopírovat kartu</string>
   <string name="card_editor_reset_card">Obnovit proces učení</string>
@@ -148,8 +148,8 @@
   <string name="unknown_type_field_warning">Zápis odpovědi: neznámé pole %s</string>
   <string name="delete_deck">Odstraňování balíčku...\nProsím čekejte.</string>
   <string name="show_hint">Zobrazit %s</string>
-  <string name="info_rate">Ohodnotit AnkiDroid</string>
-  <string name="col_load_failed">Načítání kolekce se nezdařilo.\nStiskněte zpět pro zavření AnkiDroid.</string>
+  <string name="info_rate">Ohodnotit AnkiPro</string>
+  <string name="col_load_failed">Načítání kolekce se nezdařilo.\nStiskněte zpět pro zavření AnkiPro.</string>
   <string name="import_title">Importuje se</string>
   <string name="import_select_title">Vyberte soubor k importu</string>
   <string name="import_message_add">Přidat</string>
@@ -157,7 +157,7 @@
   <string name="import_message_add_confirm">Přidat \"%s\" do kolekce? To může trvat dlouhou dobu</string>
   <string name="import_log_no_apkg">Toto není platný apkg soubor</string>
   <string name="import_error_not_apkg_extension">Souboru %s nemá příponu .apkg</string>
-  <string name="import_error_content_provider">Vybraný soubor nelze automaticky importovat pomocí AnkiDroid. V uživatelské příručce naleznete, jak provést ruční import souborů anki: \n %s</string>
+  <string name="import_error_content_provider">Vybraný soubor nelze automaticky importovat pomocí AnkiPro. V uživatelské příručce naleznete, jak provést ruční import souborů anki: \n %s</string>
   <string name="import_replacing">Nahrazuji kolekci&#8230;</string>
   <string name="export_include_schedule">Zahrnout plánování</string>
   <string name="export_include_media">Zahrnout multimédia</string>
@@ -166,12 +166,12 @@
   <string name="export_in_progress">Exportuji soubor apkg&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

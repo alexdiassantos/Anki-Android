@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">آیا می خواهید \"%s\" را به مجموعه اضافه کنید ؟ ممکن است زمان زیادی طول بکشد</string>
   <string name="import_log_no_apkg">این فایل، یک فایل معتبر apkg نیست.</string>
   <string name="import_error_not_apkg_extension">نام این فایل %s داراى پسوند apkg. نیست</string>
-  <string name="import_error_content_provider">فایل انتخاب شده به صورت خودکار توسط ankidroid نمی تواند وارد شود. لطفا راهنمای کاربر را ببینید که چگونه به صورت دستی بتوان فایل anki را وارد کرد:\n%s</string>
+  <string name="import_error_content_provider">فایل انتخاب شده به صورت خودکار توسط ankipro نمی تواند وارد شود. لطفا راهنمای کاربر را ببینید که چگونه به صورت دستی بتوان فایل anki را وارد کرد:\n%s</string>
   <string name="import_replacing">در حال جایگزین کردن مجموعه&#8230;</string>
   <string name="export_include_schedule">به همراه زمانبندی</string>
   <string name="export_include_media">به همراه رسانه</string>
@@ -168,7 +168,7 @@
 <![CDATA[
         سلام!
         <br/><br/>
-        این یک دسته از فلش کارت های ankidroid هست که توسط <a href="https://ankidroid.org/docs/manual.html">ankidroid برای شما ارسال شده است</a>.
+        این یک دسته از فلش کارت های ankipro هست که توسط <a href="https://ankipro.org/docs/manual.html">ankipro برای شما ارسال شده است</a>.
         برای استفاده از آن یکی از عامل های در دسترس <a href="http://ankisrs.net/#download">anki را امتحان کنید</a> و از یادگیری کارآمد و آسان لذت ببرید.
         ]]>
     </string>

@@ -57,7 +57,7 @@
   <string name="password_repeat">Повторити пароль</string>
   <string name="log_in">Ввійти</string>
   <string name="sign_up_description">Не маєте облікового запису AnkiWeb? Це безкоштовно!</string>
-  <string name="sign_up_not_affiliated">Примітка: AnkiWeb не є афілійованим з AnkiDroid</string>
+  <string name="sign_up_not_affiliated">Примітка: AnkiWeb не є афілійованим з AnkiPro</string>
   <string name="sign_up">Створити обліковий запис</string>
   <string name="logged_as">Ви ввійшли як</string>
   <string name="log_out">Вийти</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">Медіа успішно синхронізовано.</string>
   <string name="sync_media_changes_count">%d змін медіа потрібно завантажити</string>
   <string name="sync_media_downloaded_count">%d завантажені медіа файли</string>
-  <string name="sync_sanity_failed">Після синхронізації, деякі дані вашої колекції виявилися в суперечливому стані. Щоб усунути цю проблему, AnkiDroid виконає повну синхронізацію. Будь ласка, виберіть яку версію Ви хочете залишити, або скасуйте, якщо ви хочете синхронізувати пізніше.</string>
+  <string name="sync_sanity_failed">Після синхронізації, деякі дані вашої колекції виявилися в суперечливому стані. Щоб усунути цю проблему, AnkiPro виконає повну синхронізацію. Будь ласка, виберіть яку версію Ви хочете залишити, або скасуйте, якщо ви хочете синхронізувати пізніше.</string>
   <string name="sync_media_sanity_failed">Синхронізацію медіа завершено, але кількість медіа файлів не співпала з кількістю файлів на сервері. Наступна синхронізація буде повною, щоб виправити будь-які помилки.</string>
   <string name="sync_media_error">Помилка синхронізації даних медіа.</string>
   <string name="sync_media_error_check">Помилка під час синхронізації медіа. Рекомендується перевірка медіа.</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">Змусити повню синхронізацію</string>
   <string name="force_full_sync_summary">Під час наступної синхронізації примусити зміни лише в одному напрямку</string>
   <string name="full_sync_confirmation">Обрана зміна потребує повного перезавантаження бази давних під час наступної синхронізації ваших колекцій. Якщо ви мали перегляди або інші ще не синхронізвані зміни у черзі на інших пристроях, їх буде втрачено. Продовжити?</string>
-  <string name="full_sync_confirmation_upgrade">Через помилку у попередній версії, AnkiDroid рекомендовано примусово синхронізувати.</string>
-  <string name="sync_error_501_upgrade_required">Будь ласка, оновіться до останньої версії AnkiDroid</string>
+  <string name="full_sync_confirmation_upgrade">Через помилку у попередній версії, AnkiPro рекомендовано примусово синхронізувати.</string>
+  <string name="sync_error_501_upgrade_required">Будь ласка, оновіться до останньої версії AnkiPro</string>
 </resources>

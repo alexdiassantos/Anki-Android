@@ -55,11 +55,11 @@
   <string name="initializing_tts">Initialisiere Vorlesen&#8230;</string>
   <string name="tts_no_tts">Nicht vorlesen</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Lernkartei für Android</h2>AnkiDroid ist eine Lernkartei-Anwendung, die voll kompatibel mit der Desktop-Software <a href=\"%2$s\">Anki</a> ist. Sie können mit AnkiDroid oder Anki Desktop Inhalte erstellen, herunterladen und lernen, und dann ganz einfach mit AnkiWeb synchronisieren.]]></item>
-    <item><![CDATA[Um AnkiDroid zu verbessern, melden Sie Bugs bitte in dem <a href=\"%1$s\">Issue-Tracker</a>; Sie können dort auch Ideen für neue Funktionen eintragen. Schauen Sie sich auch das <a href=\"%2$s\">Wiki</a> an oder schreiben Sie einen Post im <a href=\"%3$s\">Forum</a>.]]></item>
-    <item><![CDATA[AnkiDroid ist <a href=\"%1$s\">quelloffene Software<a/>, und wir würden uns freuen, auch Sie <a href=\"%2$s\">als neue Mitwirkende</a> willkommen heißen zu können :-)]]></item>
-    <item><![CDATA[Auch Nicht-Entwickler können helfen. Sie können z. B. beim <a href=\"%1$s\">Übersetzen</a> von AnkiDroid helfen, das Wiki aktualisieren, Bildschirmfotos machen oder über AnkiDroid bloggen.]]></item>
-    <item><![CDATA[AnkiDroid ist nach <a href=\"%1$s\">GNU-GPL v3</a> lizenziert, der Quellcode ist <a href=\"%2$s\">bei GitHub</a> verfügbar.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Lernkartei für Android</h2>AnkiPro ist eine Lernkartei-Anwendung, die voll kompatibel mit der Desktop-Software <a href=\"%2$s\">Anki</a> ist. Sie können mit AnkiPro oder Anki Desktop Inhalte erstellen, herunterladen und lernen, und dann ganz einfach mit AnkiWeb synchronisieren.]]></item>
+    <item><![CDATA[Um AnkiPro zu verbessern, melden Sie Bugs bitte in dem <a href=\"%1$s\">Issue-Tracker</a>; Sie können dort auch Ideen für neue Funktionen eintragen. Schauen Sie sich auch das <a href=\"%2$s\">Wiki</a> an oder schreiben Sie einen Post im <a href=\"%3$s\">Forum</a>.]]></item>
+    <item><![CDATA[AnkiPro ist <a href=\"%1$s\">quelloffene Software<a/>, und wir würden uns freuen, auch Sie <a href=\"%2$s\">als neue Mitwirkende</a> willkommen heißen zu können :-)]]></item>
+    <item><![CDATA[Auch Nicht-Entwickler können helfen. Sie können z. B. beim <a href=\"%1$s\">Übersetzen</a> von AnkiPro helfen, das Wiki aktualisieren, Bildschirmfotos machen oder über AnkiPro bloggen.]]></item>
+    <item><![CDATA[AnkiPro ist nach <a href=\"%1$s\">GNU-GPL v3</a> lizenziert, der Quellcode ist <a href=\"%2$s\">bei GitHub</a> verfügbar.]]></item>
   </string-array>
   <string name="preview_title">Vorschau</string>
   <string name="reset_card_dialog_title">Lernfortschritt zurücksetzen</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Neues Intervall: In x Tagen Lernen:</string>
   <string name="reschedule_card_dialog_acknowledge">Karte neu geplant</string>
   <string name="answering_error_title">Datenbankfehler</string>
-  <string name="answering_error_message">Beim Zugriff auf die Datenbank ist ein Fehler aufgetreten. Dies kann an einer defekten Datenbank oder an unzureichendem Speicherplatz liegen.\n\nWenn dies öfter vorkommt, versuchen Sie bitte, die Sammlung zu reparieren oder von einem Backup wiederherzustellen. Klicken Sie dafür auf »Optionen«.\n\nEs könnte aber auch ein AnkiDroid-Fehler sein; bitte melden Sie den Fehler deshalb, damit wir das überprüfen können.</string>
+  <string name="answering_error_message">Beim Zugriff auf die Datenbank ist ein Fehler aufgetreten. Dies kann an einer defekten Datenbank oder an unzureichendem Speicherplatz liegen.\n\nWenn dies öfter vorkommt, versuchen Sie bitte, die Sammlung zu reparieren oder von einem Backup wiederherzustellen. Klicken Sie dafür auf »Optionen«.\n\nEs könnte aber auch ein AnkiPro-Fehler sein; bitte melden Sie den Fehler deshalb, damit wir das überprüfen können.</string>
   <string name="answering_error_report">Fehler melden</string>
   <string name="repair_deck_dialog">Möchten Sie wirklich versuchen, die Datenbank zu reparieren?\n\nBevor der Versuch startet, wird eine Kopie im Unterordner »%s« angelegt.</string>
   <string name="intent_add_saved_information">Gespeicherte Daten</string>
   <string name="intent_add_clear_all">Alles löschen</string>
   <string name="intent_aedict_empty">Kategorie »Standard« ist leer</string>
-  <string name="intent_aedict_category">Entfernen Sie alle Notepad-Kategorien um Karten zu AnkiDroid hinzuzufügen oder fügen Sie die Kategorie »Standard« hinzu</string>
+  <string name="intent_aedict_category">Entfernen Sie alle Notepad-Kategorien um Karten zu AnkiPro hinzuzufügen oder fügen Sie die Kategorie »Standard« hinzu</string>
   <string name="custom_study_new_total_new">Neue Karten im Stapel: %s</string>
   <string name="custom_study_rev_total_rev">Fällige Wiederholungen des Stapels: %s</string>
   <string name="custom_study_new_extend">Limit für neue Karten für heute erhöhen um</string>

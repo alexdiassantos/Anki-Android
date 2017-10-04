@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Karty do przejrzenia</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d kart AnkiDroid do przejrzenia</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d kart AnkiPro do przejrzenia</string>
   <string name="widget_no_cards_due">Brak kart do przejrzenia</string>
   <string name="widget_loading">Ładowanie widżetu...</string>
   <plurals name="widget_cards_in_decks_due">
@@ -54,8 +54,8 @@
     <item quantity="few">%1$d talie</item>
     <item quantity="other">%1$d talie</item>
   </plurals>
-  <string name="widget_small">AnkiDroid Mały</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">AnkiPro Mały</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d karta do przejrzenia</item>
     <item quantity="few">%d karty do przejrzenia</item>
@@ -67,5 +67,5 @@
     <item quantity="other">Pozostało %d minut</item>
   </plurals>
   <string name="widget_add_note">Dodaj notatkę</string>
-  <string name="widget_add_note_button">Dodaj nową notatkę AnkiDroid</string>
+  <string name="widget_add_note_button">Dodaj nową notatkę AnkiPro</string>
 </resources>

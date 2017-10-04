@@ -43,7 +43,7 @@
   <string name="disabled">Inaktiverad</string>
   <string name="enabled">Aktiverad</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Allmäna inställningar</string>
   <string name="pref_cat_reviewing">Repetition</string>
   <string name="pref_cat_reviewing_summ">Inställningar ej specifika för kortlek</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Prestanda</string>
   <string name="pref_cat_workarounds">Specialfunktioner</string>
   <string name="pref_cat_plugins">Plugins</string>
-  <string name="about_title">Om AnkiDroid</string>
+  <string name="about_title">Om AnkiPro</string>
   <string name="about_version">Version: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Streckbredd</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Bild-zoom</string>
   <string name="button_size">Storlek på svarsknapp</string>
   <string name="card_browser_font_size">Typsnittsstorlek i kortbläddrare</string>
-  <string name="col_path">AnkiDroid sökväg</string>
+  <string name="col_path">AnkiPro sökväg</string>
   <string name="fullscreen_review">Fullskärmsläge</string>
   <string name="full_screen_off">Av</string>
   <string name="full_screen_system">Dölj systemets statusfält</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Inaktivera skärmtimeout</string>
   <string name="convert_fen_text">Stöd för schack-notation</string>
   <string name="convert_fen_text_summ">Rita ett schackbräde med Forsyth–Edwards Notation. Notationen måste använda [fen][/fen]-märkning</string>
-  <string name="enable_api_title">Aktivera AnkiDroid API</string>
-  <string name="enable_api_summary">Låt andra appar ansluta till AnkiDroid och läsa / skriva data utan din medverkan</string>
+  <string name="enable_api_title">Aktivera AnkiPro API</string>
+  <string name="enable_api_summary">Låt andra appar ansluta till AnkiPro och läsa / skriva data utan din medverkan</string>
   <string name="custom_buttons">Appfältets knappar</string>
   <string name="custom_buttons_summary">Anpassa vilka funktioner som syns i appfältet</string>
   <string name="custom_buttons_setting_always_show">Visa alltid</string>

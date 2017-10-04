@@ -55,11 +55,11 @@
   <string name="initializing_tts">TTS initialiseren&#8230;</string>
   <string name="tts_no_tts">Niet spreken</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s: <br/> Flashcards voor Android</h2>AnkiDroid is een flashcard-app die volledig compatibel met de desktopsoftware <a href=\"%2$s\"> Anki</a>. Zowel in AnkiDroid als in Anki voor desktop kunt u kaarten maken, downloaden en leren en deze gemakkelijk synchroniseren met AnkiWeb.]]></item>
-    <item><![CDATA[Om AnkiDroid beter te helpen maken, gelieve de bugs te rapporteren in <a href=\"%1$s\"> de issue tracker</a>; nieuwe ideeën voor functionaliteiten zijn ook zeer welkom. U kunt ook antwoorden vinden op <a href=\"%2$s\"> de wiki</a> of een discussie starten op <a href=\"%3$s\"> het forum</a>.]]></item>
-    <item><![CDATA[AnkiDroid is <a href=\"%1$s\"> open bronsoftware<a/>, zodat iedereen wordt aangemoedigd om <a href=\"%2$s\"> bij te dragen</a> :-)]]></item>
-    <item><![CDATA[Non-ontwikkelaars kunnen ook helpen. U kunt bijvoorbeeld <a href=\"%1$s\"> helpen met het vertalen</a> van AnkiDroid, de wiki bijwerken, screenshots sturen, of over AnkiDroid bloggen.]]></item>
-    <item><![CDATA[AnkiDroid is vrijgegeven onder de <a href=\"%1$s\"> GNU-GPL v3 licentie</a> en de broncode is beschikbaar <a href=\"%2$s\"> op GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s: <br/> Flashcards voor Android</h2>AnkiPro is een flashcard-app die volledig compatibel met de desktopsoftware <a href=\"%2$s\"> Anki</a>. Zowel in AnkiPro als in Anki voor desktop kunt u kaarten maken, downloaden en leren en deze gemakkelijk synchroniseren met AnkiWeb.]]></item>
+    <item><![CDATA[Om AnkiPro beter te helpen maken, gelieve de bugs te rapporteren in <a href=\"%1$s\"> de issue tracker</a>; nieuwe ideeën voor functionaliteiten zijn ook zeer welkom. U kunt ook antwoorden vinden op <a href=\"%2$s\"> de wiki</a> of een discussie starten op <a href=\"%3$s\"> het forum</a>.]]></item>
+    <item><![CDATA[AnkiPro is <a href=\"%1$s\"> open bronsoftware<a/>, zodat iedereen wordt aangemoedigd om <a href=\"%2$s\"> bij te dragen</a> :-)]]></item>
+    <item><![CDATA[Non-ontwikkelaars kunnen ook helpen. U kunt bijvoorbeeld <a href=\"%1$s\"> helpen met het vertalen</a> van AnkiPro, de wiki bijwerken, screenshots sturen, of over AnkiPro bloggen.]]></item>
+    <item><![CDATA[AnkiPro is vrijgegeven onder de <a href=\"%1$s\"> GNU-GPL v3 licentie</a> en de broncode is beschikbaar <a href=\"%2$s\"> op GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Voorbeeld</string>
   <string name="reset_card_dialog_title">Herstel leervoortgang</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Plannen voor herhaling over x dagen:</string>
   <string name="reschedule_card_dialog_acknowledge">Kaart opnieuw gepland</string>
   <string name="answering_error_title">Fout in database</string>
-  <string name="answering_error_message">Er is een fout opgetreden tijdens het schrijven naar de collectie. Dit kan wijzen op een corrupte database of op onvoldoende opslagruimte.\n\nAls dit vaker gebeurt, probeer de database te controleren, de collectie te herstellen of terug te zetten vanaf een back-up. Klik hiervoor op \'instellingen\'.\n\nHet kan ook een fout in AnkiDroid zijn; Meld de fout zodat we dit kunnen controleren.</string>
+  <string name="answering_error_message">Er is een fout opgetreden tijdens het schrijven naar de collectie. Dit kan wijzen op een corrupte database of op onvoldoende opslagruimte.\n\nAls dit vaker gebeurt, probeer de database te controleren, de collectie te herstellen of terug te zetten vanaf een back-up. Klik hiervoor op \'instellingen\'.\n\nHet kan ook een fout in AnkiPro zijn; Meld de fout zodat we dit kunnen controleren.</string>
   <string name="answering_error_report">Fout melden</string>
   <string name="repair_deck_dialog">Weet u zeker dat wilt proberen de database te repareren?\n\nVoordat dit wordt geprobeerd, wordt een kopie gemaakt in de submap \'%s\'.</string>
   <string name="intent_add_saved_information">opgelagen data</string>
   <string name="intent_add_clear_all">Alles legen</string>
   <string name="intent_aedict_empty">Categorie \'standaard\' is leeg</string>
-  <string name="intent_aedict_category">Om kaarten aan AnkiDroid toe te voegen verwijder je alle Notepad categorieën of voeg een toe met de naam \'standaard\'</string>
+  <string name="intent_aedict_category">Om kaarten aan AnkiPro toe te voegen verwijder je alle Notepad categorieën of voeg een toe met de naam \'standaard\'</string>
   <string name="custom_study_new_total_new">Nieuwe kaarten in set: %s</string>
   <string name="custom_study_rev_total_rev">Herhalingen op komst in set: %s</string>
   <string name="custom_study_new_extend">Verhoog de nieuwe kaartenlimiet voor vandaag met</string>

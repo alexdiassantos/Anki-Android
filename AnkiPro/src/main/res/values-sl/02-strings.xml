@@ -126,8 +126,8 @@
     <item quantity="few">%1$d minute</item>
     <item quantity="other">%1$d minut</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Dobrodošli v AnkiDroid</string>
-  <string name="fact_adder_intent_title">Kartica AnkiDroid</string>
+  <string name="studyoptions_welcome_title">Dobrodošli v AnkiPro</string>
+  <string name="fact_adder_intent_title">Kartica AnkiPro</string>
   <string name="card_editor_add_card">Dodaj zapisek</string>
   <string name="card_editor_copy_card">Kopiraj kartico</string>
   <string name="card_editor_reset_card">Ponastavi napredek</string>
@@ -151,8 +151,8 @@
   <string name="unknown_type_field_warning">Vnos odgovora: neznano polje %s</string>
   <string name="delete_deck">Brisanje kompleta &#8230;</string>
   <string name="show_hint">Prikaži %s</string>
-  <string name="info_rate">Oceni AnkiDroid</string>
-  <string name="col_load_failed">Nalaganje zbirke je spodletelo\n Pritisnite Nazaj, da zaprete AnkiDroid.</string>
+  <string name="info_rate">Oceni AnkiPro</string>
+  <string name="col_load_failed">Nalaganje zbirke je spodletelo\n Pritisnite Nazaj, da zaprete AnkiPro.</string>
   <string name="import_title">Uvažanje</string>
   <string name="import_select_title">Izberite datoteko za uvoz</string>
   <string name="import_message_add">Dodaj</string>
@@ -160,7 +160,7 @@
   <string name="import_message_add_confirm">Dodaj \"%s\" v zbirko? To lahko traja dolgo časa</string>
   <string name="import_log_no_apkg">To ni veljavna datoteka apkg</string>
   <string name="import_error_not_apkg_extension">Ime datoteke \"%s\" nima končnice .apkg</string>
-  <string name="import_error_content_provider">Izbrane datoteke AnkiDroid ni mogel samodejno uvoziti. Oglejte si uporabniški priročnik o načinu ročnega uvoza datotek anki: \n%s</string>
+  <string name="import_error_content_provider">Izbrane datoteke AnkiPro ni mogel samodejno uvoziti. Oglejte si uporabniški priročnik o načinu ročnega uvoza datotek anki: \n%s</string>
   <string name="import_replacing">Nadomeščanje zbirke &#8230;</string>
   <string name="export_include_schedule">Vključi urnik</string>
   <string name="export_include_media">Vključi predstavnost</string>
@@ -169,12 +169,12 @@
   <string name="export_in_progress">Izvažanje datoteke apkg &#8230;</string>
   <string name="export_successful_title">Pošlji apkg?</string>
   <string name="export_successful">Datoteka \"%s\" je bila izvožena. Ali jo želite poslati z drugim programom?</string>
-  <string name="export_email_subject">Izvožene pomnilne kartice AnkiDroid: %s</string>
+  <string name="export_email_subject">Izvožene pomnilne kartice AnkiPro: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        Ta komplet pomnilnih kartic je bil poslan iz <a href="https://ankidroid.org/docs/manual.html">AnkiDroida</a>.
+        Ta komplet pomnilnih kartic je bil poslan iz <a href="https://ankipro.org/docs/manual.html">AnkiProa</a>.
         Poskusite ga odpreti z eno od razpoložljivih <a href="http://ankisrs.net/#download">distribucij Anki</a> in uživajte v enostavnem in učinkovitem učenju!
         ]]>
     </string>

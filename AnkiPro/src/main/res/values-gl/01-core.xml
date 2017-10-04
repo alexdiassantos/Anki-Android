@@ -107,7 +107,7 @@
   <string name="create">Crear</string>
   <string name="new_dynamic_deck">Crear baralla filtrada</string>
   <string name="night_mode">Modo noite</string>
-  <string name="directory_inaccessible">O directorio AnkiDroid non está accesible</string>
+  <string name="directory_inaccessible">O directorio AnkiPro non está accesible</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">Non foi posible xerar un cartón</string>
   <string name="card_template_editor_would_delete_note">Ao eliminar este tipo de cartón poderíanse eliminar unha ou máis notas. Por favor, crea primeiro un novo tipo de cartón.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Ler e escribir na bases de datos do AnkiDroid</string>
+  <string name="read_write_permission_label">Ler e escribir na bases de datos do AnkiPro</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

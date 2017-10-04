@@ -104,7 +104,7 @@
   <string name="create">建立</string>
   <string name="new_dynamic_deck">新增篩選牌組</string>
   <string name="night_mode">夜間模式</string>
-  <string name="directory_inaccessible">無法存取 AnkiDroid 目錄</string>
+  <string name="directory_inaccessible">無法存取 AnkiPro 目錄</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -157,6 +157,6 @@
   <string name="invalid_template">A card could not be generated</string>
   <string name="card_template_editor_would_delete_note">移除這個卡片種類將會導致一或多個筆記被刪除。請先新增一個卡片種類。</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">讀寫 AnkiDroid 資料庫</string>
+  <string name="read_write_permission_label">讀寫 AnkiPro 資料庫</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

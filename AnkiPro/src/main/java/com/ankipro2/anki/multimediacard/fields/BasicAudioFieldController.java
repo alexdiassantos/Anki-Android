@@ -67,7 +67,7 @@ public class BasicAudioFieldController extends FieldControllerBase implements IF
             try {
                 Collection col = CollectionHelper.getInstance().getCol(context);
                 File storingDirectory = new File(col.getMedia().dir());
-                file = File.createTempFile("ankidroid_audiorec", ".3gp", storingDirectory);
+                file = File.createTempFile("ankipro_audiorec", ".3gp", storingDirectory);
                 tempAudioPath = file.getAbsolutePath();
             } catch (IOException e) {
                 Timber.e("Could not create temporary audio file. " + e.getMessage());

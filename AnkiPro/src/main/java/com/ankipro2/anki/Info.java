@@ -90,18 +90,18 @@ public class Info extends AnkiActivity {
                 if (mType == TYPE_ABOUT) {
                     if (CompatHelper.isKindle()) {
                         Intent intent = new Intent("android.intent.action.VIEW",
-                                Uri.parse("http://www.amazon.com/gp/mas/dl/android?p=com.ichi2.anki"));
+                                Uri.parse("http://www.amazon.com/gp/mas/dl/android?p=com.ankipro2.anki"));
                         startActivity(intent);
                     } else {
                         Info.this.startActivity(new Intent(Intent.ACTION_VIEW, Uri
-                                .parse("market://details?id=com.ichi2.anki")));
+                                .parse("market://details?id=com.ankipro2.anki")));
                     }
                     return;
                 }
                 setResult(RESULT_OK);
                 switch (mType) {
                     case TYPE_NEW_VERSION:
-                        AnkiDroidApp.getSharedPrefs(Info.this.getBaseContext()).edit()
+                        AnkiProApp.getSharedPrefs(Info.this.getBaseContext()).edit()
                                 .putString("lastVersion", VersionUtils.getPkgVersionName()).commit();
                         break;
                 }
@@ -156,7 +156,7 @@ public class Info extends AnkiActivity {
             case TYPE_NEW_VERSION:
                 getSupportActionBar().setDisplayHomeAsUpEnabled(false);
                 webView.loadUrl("file:///android_asset/changelog.html");
-                //webView.loadUrl("https://ankidroid.org/docs/changelog.html");
+                //webView.loadUrl("https://ankipro.org/docs/changelog.html");
                 break;
 
             default:
@@ -189,8 +189,8 @@ public class Info extends AnkiActivity {
      */
     public String copyDebugInfo() {
         StringBuilder sb = new StringBuilder();
-        // AnkiDroid Version
-        sb.append("AnkiDroid Version = ").append(VersionUtils.getPkgVersionName()).append("\n\n");
+        // AnkiPro Version
+        sb.append("AnkiPro Version = ").append(VersionUtils.getPkgVersionName()).append("\n\n");
         // Android SDK
         sb.append("Android Version = " + Build.VERSION.RELEASE).append("\n\n");
         // ACRA install ID

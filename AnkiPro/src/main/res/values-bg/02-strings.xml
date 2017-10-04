@@ -122,8 +122,8 @@
     <item quantity="one">%1$d минута</item>
     <item quantity="other">%1$d минути</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Добре дошли в AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid карта</string>
+  <string name="studyoptions_welcome_title">Добре дошли в AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro карта</string>
   <string name="card_editor_add_card">Нова бележка</string>
   <string name="card_editor_copy_card">копиране на карта</string>
   <string name="card_editor_reset_card">Начално състояние на напредъка</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Въведете отговор: неизвестно поле %s</string>
   <string name="delete_deck">Изтриване на тесте&#8230;</string>
   <string name="show_hint">Покажи %s</string>
-  <string name="info_rate">Оцени AnkiDroid</string>
-  <string name="col_load_failed">Зареждането на колекцията се провали. \nНатиснете назад за да затворите AnkiDroid.</string>
+  <string name="info_rate">Оцени AnkiPro</string>
+  <string name="col_load_failed">Зареждането на колекцията се провали. \nНатиснете назад за да затворите AnkiPro.</string>
   <string name="import_title">Внасяне</string>
   <string name="import_select_title">Изберете файл за импортиране</string>
   <string name="import_message_add">Добави</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">Добавяне на \"%s\" към колекцията? Това може да отнеме дълго време</string>
   <string name="import_log_no_apkg">Това не е валиден apkg файл</string>
   <string name="import_error_not_apkg_extension">Файлът \"%s\" не е с .apkg разширение</string>
-  <string name="import_error_content_provider">Избраният файл не можа да бъде импортиран автоматично от AnkiDroid. Моля, вижте ръководството на потребителя за как да ръчно да импортирате anki файлове: \n%s</string>
+  <string name="import_error_content_provider">Избраният файл не можа да бъде импортиран автоматично от AnkiPro. Моля, вижте ръководството на потребителя за как да ръчно да импортирате anki файлове: \n%s</string>
   <string name="import_replacing">Замяна на колекция&#8230;</string>
   <string name="export_include_schedule">Включване на планирането</string>
   <string name="export_include_media">Включване на медия</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">Експортиране apkg файл&#8230;</string>
   <string name="export_successful_title">Изпращане на apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

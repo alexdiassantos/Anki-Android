@@ -848,7 +848,7 @@ public class Utils {
 
     /** Returns a list of files for the installed custom fonts. */
     public static List<AnkiFont> getCustomFonts(Context context) {
-        String deckPath = CollectionHelper.getCurrentAnkiDroidDirectory(context);
+        String deckPath = CollectionHelper.getCurrentAnkiProDirectory(context);
         String fontsPath = deckPath + "/fonts/";
         File fontsDir = new File(fontsPath);
         int fontsCount = 0;
@@ -861,7 +861,7 @@ public class Utils {
         try {
             ankiDroidFonts = context.getAssets().list("fonts");
         } catch (IOException e) {
-            Timber.e(e, "Error on retrieving ankidroid fonts");
+            Timber.e(e, "Error on retrieving ankipro fonts");
         }
         List<AnkiFont> fonts = new ArrayList<>();
         for (int i = 0; i < fontsCount; i++) {
@@ -895,7 +895,7 @@ public class Utils {
 
     /** Returns a list of apkg-files. */
     public static List<File> getImportableDecks(Context context) {
-        String deckPath = CollectionHelper.getCurrentAnkiDroidDirectory(context);
+        String deckPath = CollectionHelper.getCurrentAnkiProDirectory(context);
         File dir = new File(deckPath);
         int deckCount = 0;
         File[] deckList = null;

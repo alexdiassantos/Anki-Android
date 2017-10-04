@@ -57,7 +57,7 @@
   <string name="password_repeat">Поновите лозинку</string>
   <string name="log_in">Пријави се</string>
   <string name="sign_up_description">Немате AnkiWeb налог? Бесплатан је!</string>
-  <string name="sign_up_not_affiliated">Note: AnkiWeb is not affiliated with AnkiDroid</string>
+  <string name="sign_up_not_affiliated">Note: AnkiWeb is not affiliated with AnkiPro</string>
   <string name="sign_up">Региструј</string>
   <string name="logged_as">Prijavljen kao</string>
   <string name="log_out">Odjavi se</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">Медија датотеке су успешно синхронизоване.</string>
   <string name="sync_media_changes_count">%d медијске промене за отпремање</string>
   <string name="sync_media_downloaded_count">%d медијске промене за преузимање</string>
-  <string name="sync_sanity_failed">После синхронизације, неки подаци из ваше колекције су противречни. Да би уклонио тај проблем AnkiDroid ће извршити потпуну синхронизацију. Изаберите коју верзију желите да оставите, или откажите, ако желите да синхронизујете касније.</string>
+  <string name="sync_sanity_failed">После синхронизације, неки подаци из ваше колекције су противречни. Да би уклонио тај проблем AnkiPro ће извршити потпуну синхронизацију. Изаберите коју верзију желите да оставите, или откажите, ако желите да синхронизујете касније.</string>
   <string name="sync_media_sanity_failed">Синхронизација медија датотека је завршена, али број медија датотека на вашем мобилном уређају се не слаже са бројем на серверу. При следећој синхронизацији ће бити уклоњене све грешке.</string>
   <string name="sync_media_error">Грешка у синхронизацији медија података.</string>
   <string name="sync_media_error_check">Error while syncing media. A media check is recommended.</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">Уради потпуну синхронизацију</string>
   <string name="force_full_sync_summary">При следећој синхронизацији, презапиши у једном смеру</string>
   <string name="full_sync_confirmation">Измена, коју сте затражили, захтеваће учитавање целе базе података приликом следеће синхронизације ваше колекције. Ако на другом уређају имате измене које још нису синхронизоване, изгубићете их. Да ли желите да наставите?</string>
-  <string name="full_sync_confirmation_upgrade">Због грешке у ранијој верзији AnkiDroid, потребно је урадити потпуну синхронизацију.</string>
-  <string name="sync_error_501_upgrade_required">Молимо, инсталирајте последњу верзију AnkiDroid</string>
+  <string name="full_sync_confirmation_upgrade">Због грешке у ранијој верзији AnkiPro, потребно је урадити потпуну синхронизацију.</string>
+  <string name="sync_error_501_upgrade_required">Молимо, инсталирајте последњу верзију AnkiPro</string>
 </resources>

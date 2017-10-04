@@ -43,7 +43,7 @@
   <string name="disabled">無効</string>
   <string name="enabled">有効</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">一般設定</string>
   <string name="pref_cat_reviewing">カードの学習</string>
   <string name="pref_cat_reviewing_summ">特定のデッキに限定されない設定</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">パフォーマンス</string>
   <string name="pref_cat_workarounds">回避策</string>
   <string name="pref_cat_plugins">プラグイン</string>
-  <string name="about_title">AnkiDroidについて</string>
+  <string name="about_title">AnkiProについて</string>
   <string name="about_version">バージョン：</string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">線の太さ</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">画像の拡大・縮小</string>
   <string name="button_size">解答表示ボタン・回答ボタンのサイズ</string>
   <string name="card_browser_font_size">ブラウザ用フォントサイズ</string>
-  <string name="col_path">AnkiDroidディレクトリ</string>
+  <string name="col_path">AnkiProディレクトリ</string>
   <string name="fullscreen_review">フルスクリーンモード</string>
   <string name="full_screen_off">オフ</string>
   <string name="full_screen_system">ステータスバー（通知バー）を隠す</string>
@@ -133,7 +133,7 @@
   <string name="notification_pref">通知</string>
   <string name="notification_pref_title">通知のタイミング</string>
   <string name="never_notify">通知しない</string>
-  <string name="notify_when_pending">待機状態（AnkiDroidを表示していない間に進行していたデータ処理（例: 同期、バックアップ）が完了し、ユーザーが操作を再開できる状態）</string>
+  <string name="notify_when_pending">待機状態（AnkiProを表示していない間に進行していたデータ処理（例: 同期、バックアップ）が完了し、ユーザーが操作を再開できる状態）</string>
   <string name="notification_minimum_cards_due">待機状態の時と、 課題のカードが%d枚を超えている時</string>
   <string name="notification_minimum_cards_due_vibrate">振動でも通知</string>
   <string name="notification_minimum_cards_due_blink">LEDランプ点滅でも通知</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">画面の自動オフを無効にします</string>
   <string name="convert_fen_text">チェス表記のサポート</string>
   <string name="convert_fen_text_summ">Forsyth Edwards Notation 表記法を使いチェス盤を描画します。この表記は[fen][/fen] で囲む必要があります</string>
-  <string name="enable_api_title">AnkiDroid API を有効にする</string>
-  <string name="enable_api_summary">他のアプリがAnkiDroidに接続しデータを読み書きすることを許可します</string>
+  <string name="enable_api_title">AnkiPro API を有効にする</string>
+  <string name="enable_api_summary">他のアプリがAnkiProに接続しデータを読み書きすることを許可します</string>
   <string name="custom_buttons">Appバー アイコン</string>
   <string name="custom_buttons_summary">学習画面のAppバーにどの操作をアイコン表示するかをカスタマイズします</string>
   <string name="custom_buttons_setting_always_show">常に表示</string>

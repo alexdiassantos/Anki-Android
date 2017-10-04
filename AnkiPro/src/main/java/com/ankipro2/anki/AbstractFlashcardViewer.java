@@ -460,7 +460,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
                 Timber.e(e, "Error on dispatching touch event");
                 if (mInputWorkaround) {
                     Timber.e(e, "Error on using InputWorkaround");
-                    AnkiDroidApp.getSharedPrefs(getBaseContext()).edit().putBoolean("inputWorkaround", false).commit();
+                    AnkiProApp.getSharedPrefs(getBaseContext()).edit().putBoolean("inputWorkaround", false).commit();
                     AbstractFlashcardViewer.this.finishWithoutAnimation();
                 }
             }
@@ -618,7 +618,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
 
             Long[] elapsed = getCol().timeboxReached();
             if (elapsed != null) {
-                // AnkiDroid is always counting one rep ahead, so we decrement it before displaying
+                // AnkiPro is always counting one rep ahead, so we decrement it before displaying
                 // it to the user.
                 int nCards = elapsed[1].intValue() - 1;
                 int nMins = elapsed[0].intValue() / 60;
@@ -1036,10 +1036,10 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
             try {
                 mClipboard.setText(text);
             } catch (Exception e) {
-                // https://code.google.com/p/ankidroid/issues/detail?id=1746
-                // https://code.google.com/p/ankidroid/issues/detail?id=1820
+                // https://code.google.com/p/ankipro/issues/detail?id=1746
+                // https://code.google.com/p/ankipro/issues/detail?id=1820
                 // Some devices or external applications make the clipboard throw exceptions. If this happens, we
-                // must disable it or AnkiDroid will crash if it tries to use it.
+                // must disable it or AnkiPro will crash if it tries to use it.
                 Timber.e("Clipboard error. Disabling text selection setting.");
                 mDisableClipboard = true;
             }
@@ -1272,7 +1272,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
                     return 0;
             }
         } catch (RuntimeException e) {
-            AnkiDroidApp.sendExceptionReport(e, "AbstractReviewer-getRecommendedEase");
+            AnkiProApp.sendExceptionReport(e, "AbstractReviewer-getRecommendedEase");
             closeReviewer(DeckPicker.RESULT_DB_ERROR, true);
             return 0;
         }
@@ -1432,7 +1432,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
         initControls();
 
         // Position answer buttons
-        String answerButtonsPosition = AnkiDroidApp.getSharedPrefs(this).getString(
+        String answerButtonsPosition = AnkiProApp.getSharedPrefs(this).getString(
                 getString(R.string.answer_buttons_position_preference),
                 "bottom"
         );
@@ -1473,7 +1473,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
         // Start at the most zoomed-out level
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.setWebChromeClient(new AnkiDroidWebChromeClient());
+        webView.setWebChromeClient(new AnkiProWebChromeClient());
         // Problems with focus and input tags is the reason we keep the old type answer mechanism for old Androids.
         webView.setFocusableInTouchMode(mUseInputTag);
         webView.setScrollbarFadingEnabled(true);
@@ -1597,7 +1597,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
         try {
             buttonCount = mSched.answerButtons(mCurrentCard);
         } catch (RuntimeException e) {
-            AnkiDroidApp.sendExceptionReport(e, "AbstractReviewer-showEaseButtons");
+            AnkiProApp.sendExceptionReport(e, "AbstractReviewer-showEaseButtons");
             closeReviewer(DeckPicker.RESULT_DB_ERROR, true);
             return;
         }
@@ -1739,7 +1739,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
 
 
     protected SharedPreferences restorePreferences() {
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(getBaseContext());
         mPrefHideDueCount = preferences.getBoolean("hideDueCount", false);
         mPrefShowETA = preferences.getBoolean("showETA", true);
         mUseInputTag = preferences.getBoolean("useInputTag", false) && (CompatHelper.getSdkVersion() >= 15);
@@ -1763,7 +1763,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
         mDoubleScrolling = preferences.getBoolean("double_scrolling", false);
         mPrefCenterVertically = preferences.getBoolean("centerVertically", false);
 
-        mGesturesEnabled = AnkiDroidApp.initiateGestures(preferences);
+        mGesturesEnabled = AnkiProApp.initiateGestures(preferences);
         if (mGesturesEnabled) {
             mGestureSwipeUp = Integer.parseInt(preferences.getString("gestureSwipeUp", "9"));
             mGestureSwipeDown = Integer.parseInt(preferences.getString("gestureSwipeDown", "0"));
@@ -2171,7 +2171,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
 
         if (SAVE_CARD_CONTENT) {
             try {
-                FileOutputStream f = new FileOutputStream(new File(CollectionHelper.getCurrentAnkiDroidDirectory(this),
+                FileOutputStream f = new FileOutputStream(new File(CollectionHelper.getCurrentAnkiProDirectory(this),
                         "card.html"));
                 try {
                     f.write(mCardContent.toString().getBytes());
@@ -2366,7 +2366,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
 
 
     /**
-     * @return true if the AnkiDroid preference for writing answer is true and if the Anki Deck CardLayout specifies a
+     * @return true if the AnkiPro preference for writing answer is true and if the Anki Deck CardLayout specifies a
      *         field to query
      */
     private boolean typeAnswer() {
@@ -2626,7 +2626,7 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
     /**
      * Provides a hook for calling "alert" from javascript. Useful for debugging your javascript.
      */
-    public final class AnkiDroidWebChromeClient extends WebChromeClient {
+    public final class AnkiProWebChromeClient extends WebChromeClient {
         @Override
         public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
             Timber.i("AbstractFlashcardViewer:: onJsAlert: %s", message);
@@ -2720,26 +2720,26 @@ public abstract class AbstractFlashcardViewer extends NavigationDrawerActivity {
 
                     if (Math.abs(dx) > Math.abs(dy)) {
                         // horizontal swipe if moved further in x direction than y direction
-                        if (dx > AnkiDroidApp.sSwipeMinDistance
-                                && Math.abs(velocityX) > AnkiDroidApp.sSwipeThresholdVelocity
+                        if (dx > AnkiProApp.sSwipeMinDistance
+                                && Math.abs(velocityX) > AnkiProApp.sSwipeThresholdVelocity
                                 && !mIsXScrolling && !mIsSelecting) {
                             // right
                             executeCommand(mGestureSwipeRight);
-                        } else if (dx < -AnkiDroidApp.sSwipeMinDistance
-                                && Math.abs(velocityX) > AnkiDroidApp.sSwipeThresholdVelocity
+                        } else if (dx < -AnkiProApp.sSwipeMinDistance
+                                && Math.abs(velocityX) > AnkiProApp.sSwipeThresholdVelocity
                                 && !mIsXScrolling && !mIsSelecting) {
                             // left
                             executeCommand(mGestureSwipeLeft);
                         }
                     } else {
                         // otherwise vertical swipe
-                        if (dy > AnkiDroidApp.sSwipeMinDistance
-                                && Math.abs(velocityY) > AnkiDroidApp.sSwipeThresholdVelocity
+                        if (dy > AnkiProApp.sSwipeMinDistance
+                                && Math.abs(velocityY) > AnkiProApp.sSwipeThresholdVelocity
                                 && !mIsYScrolling) {
                             // down
                             executeCommand(mGestureSwipeDown);
-                        } else if (dy < -AnkiDroidApp.sSwipeMinDistance
-                                && Math.abs(velocityY) > AnkiDroidApp.sSwipeThresholdVelocity
+                        } else if (dy < -AnkiProApp.sSwipeMinDistance
+                                && Math.abs(velocityY) > AnkiProApp.sSwipeThresholdVelocity
                                 && !mIsYScrolling) {
                             // up
                             executeCommand(mGestureSwipeUp);

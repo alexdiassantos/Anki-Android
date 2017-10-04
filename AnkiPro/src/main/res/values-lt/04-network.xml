@@ -57,7 +57,7 @@
   <string name="password_repeat">Pakartokite slaptažodį</string>
   <string name="log_in">Prisijungti</string>
   <string name="sign_up_description">Nesate susikūrę „AnkiWeb“ paskyros? Tai padaryti galite nemokamai!</string>
-  <string name="sign_up_not_affiliated">Pastaba: „AnkiWeb“ nėra susijusi su „AnkiDroid“</string>
+  <string name="sign_up_not_affiliated">Pastaba: „AnkiWeb“ nėra susijusi su „AnkiPro“</string>
   <string name="sign_up">Užsiregistruoti</string>
   <string name="logged_as">Esate prisijungę kaip</string>
   <string name="log_out">Atsijungti</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">Laikmenos susinchronizuotos</string>
   <string name="sync_media_changes_count">Įkėlimui paruošta laikmenų: %d</string>
   <string name="sync_media_downloaded_count">Parsiųsta laikmenų: %d</string>
-  <string name="sync_sanity_failed">Susinchronizavus paaiškėjo, kad kolekcija skiriasi. Norėdama šią problemą išspręsti, „AnkiDroid“ programa atliks išsamų sinchronizavimą. Prašome pasirinkti, kurią versiją norėtumėte pasilikti.</string>
+  <string name="sync_sanity_failed">Susinchronizavus paaiškėjo, kad kolekcija skiriasi. Norėdama šią problemą išspręsti, „AnkiPro“ programa atliks išsamų sinchronizavimą. Prašome pasirinkti, kurią versiją norėtumėte pasilikti.</string>
   <string name="sync_media_sanity_failed">Laikmenos buvo susinchronizuotos, tačiau jų skaičius serveryje neatitinka. Norint ištaisyti šią klaidą, sekantį kartą bus atliktas išsamus sinchronizavimas.</string>
   <string name="sync_media_error">Susinchronizuoti laikmenų nepavyko</string>
   <string name="sync_media_error_check">Susinchronizuoti laikmenų nepavyko. Rekomenduojame laikmenas patikrinti.</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">Atlikti išsamų sinchronizavimą</string>
   <string name="force_full_sync_summary">Sinchronizuojant sekantį kartą vienoje iš versijų bus atlikti pakeitimai</string>
   <string name="full_sync_confirmation">Norint atlikti pageidaujamą pakeitimą, sekantį kartą sinchronizuojant jūsų kolekciją, reikės įkelti visą duomenų bazę. Jei kitame įrenginyje turite dar nesusinchronizuotų peržiūrų ar kitokių pakeitimų, jie bus panaikinti. Ar norite tęsti?</string>
-  <string name="full_sync_confirmation_upgrade">Kadangi praeitą kartą įdiegtoje „AnkiDroid“ versijoje atsirado pranešimas apie klaidą, rekomenduojame atlikti išsamų sinchronizavimą.</string>
-  <string name="sync_error_501_upgrade_required">Prašome įdiegti naujausią „AnkiDroid“ versiją</string>
+  <string name="full_sync_confirmation_upgrade">Kadangi praeitą kartą įdiegtoje „AnkiPro“ versijoje atsirado pranešimas apie klaidą, rekomenduojame atlikti išsamų sinchronizavimą.</string>
+  <string name="sync_error_501_upgrade_required">Prašome įdiegti naujausią „AnkiPro“ versiją</string>
 </resources>

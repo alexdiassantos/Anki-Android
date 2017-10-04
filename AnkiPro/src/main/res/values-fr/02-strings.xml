@@ -122,8 +122,8 @@
     <item quantity="one">%1$d minute</item>
     <item quantity="other">%1$d minutes</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Bienvenue sur AnkiDroid</string>
-  <string name="fact_adder_intent_title">Carte AnkiDroid</string>
+  <string name="studyoptions_welcome_title">Bienvenue sur AnkiPro</string>
+  <string name="fact_adder_intent_title">Carte AnkiPro</string>
   <string name="card_editor_add_card">Ajouter une note</string>
   <string name="card_editor_copy_card">Copier la carte</string>
   <string name="card_editor_reset_card">Remettre les compteurs à 0</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Taper la réponse : champ inconnu %s</string>
   <string name="delete_deck">Suppression du paquet&#8230;\nVeuillez patienter.</string>
   <string name="show_hint">Afficher %s</string>
-  <string name="info_rate">Noter AnkiDroid</string>
-  <string name="col_load_failed">Le chargement de la collection à échoué.\nAppuyez sur retour pour fermer AnkiDroid.</string>
+  <string name="info_rate">Noter AnkiPro</string>
+  <string name="col_load_failed">Le chargement de la collection à échoué.\nAppuyez sur retour pour fermer AnkiPro.</string>
   <string name="import_title">Importation en cours</string>
   <string name="import_select_title">Choisir un fichier à importer</string>
   <string name="import_message_add">Ajouter</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">Ajouter « %s » à la collection ? Ceci peut être long</string>
   <string name="import_log_no_apkg">Ce n\'est pas un fichier apkg valide</string>
   <string name="import_error_not_apkg_extension">Le nom de fichier %s n’a pas l’extension .apkg</string>
-  <string name="import_error_content_provider">Le fichier sélectionné n’a pas pu être importé automatiquement par AnkiDroid. Veuillez consulter le manuel de l’utilisateur pour savoir comment importer manuellement des fichiers de Anki : \n %s</string>
+  <string name="import_error_content_provider">Le fichier sélectionné n’a pas pu être importé automatiquement par AnkiPro. Veuillez consulter le manuel de l’utilisateur pour savoir comment importer manuellement des fichiers de Anki : \n %s</string>
   <string name="import_replacing">Remplacement de la collection en cours&#8230;</string>
   <string name="export_include_schedule">Inclure la planification</string>
   <string name="export_include_media">Inclure les médias</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">Export du fichier apkg en cours&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Salut !
         <br/><br/>
-        Ceci est un deck Anki envoyé depuis <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        Ceci est un deck Anki envoyé depuis <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Essayez de l’ouvrir avec une des <a href="http://ankisrs.net/#download">Distributions Anki</a> disponibles et amusez-vous avec un apprentissage rapide et efficace !
         ]]>
     </string>

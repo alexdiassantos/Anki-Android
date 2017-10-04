@@ -26,7 +26,7 @@ public class ExternalHookLoader {
      * https://code.google.com/p/android-custom-class-loading-sample/source/browse/#svn%2Ftrunk%2Fandroid-custom-class-loading-sample
      * 
      * @param Activity mainActivity : the activity which is going to load the hook
-     * @param String colPath : path to AnkiDroid collection. Hook plugins should go in ~/plugins/hooks as compiled apk or jar packages
+     * @param String colPath : path to AnkiPro collection. Hook plugins should go in ~/plugins/hooks as compiled apk or jar packages
      */
     public ExternalHookLoader(Activity mainActivity, String colPath) {
         mMainActivity = mainActivity;

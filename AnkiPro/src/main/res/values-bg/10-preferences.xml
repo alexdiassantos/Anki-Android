@@ -43,7 +43,7 @@
   <string name="disabled">Изключен</string>
   <string name="enabled">Enabled</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Общи настройки</string>
   <string name="pref_cat_reviewing">Преглед</string>
   <string name="pref_cat_reviewing_summ">Специфични настройки на разглеждането, които не касаят тестетата</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Производителност</string>
   <string name="pref_cat_workarounds">Заобикаляне на проблеми</string>
   <string name="pref_cat_plugins">Приложения</string>
-  <string name="about_title">Относно AnkiDroid</string>
+  <string name="about_title">Относно AnkiPro</string>
   <string name="about_version">Версия: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Ширина на щриха</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Увеличение на изображение</string>
   <string name="button_size">Размер на бутона за отговор</string>
   <string name="card_browser_font_size">Мащабиране на шрифта при разглеждане на картите</string>
-  <string name="col_path">Директория на AnkiDroid</string>
+  <string name="col_path">Директория на AnkiPro</string>
   <string name="fullscreen_review">Режим на цял екран</string>
   <string name="full_screen_off">Изкл.</string>
   <string name="full_screen_system">Скриване на системните ленти</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Изключване изчакването на екрана</string>
   <string name="convert_fen_text">Поддръжка на шахматна нотация</string>
   <string name="convert_fen_text_summ">Начертайте шахматна дъска за нотация на Форсайт-Едуърдс. Нотацията трябва да е затворена в [fen] [/fen] тагове.</string>
-  <string name="enable_api_title">Разрешаване на AnkiDroid API</string>
-  <string name="enable_api_summary">Нека други приложения, се свържат с AnkiDroid и да четат / записват данни без Ваша намеса</string>
+  <string name="enable_api_title">Разрешаване на AnkiPro API</string>
+  <string name="enable_api_summary">Нека други приложения, се свържат с AnkiPro и да четат / записват данни без Ваша намеса</string>
   <string name="custom_buttons">App bar buttons</string>
   <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
   <string name="custom_buttons_setting_always_show">Винаги показвай</string>

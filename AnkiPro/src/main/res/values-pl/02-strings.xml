@@ -124,8 +124,8 @@
     <item quantity="few">%1$d minut</item>
     <item quantity="other">%1$d minut</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Witamy w AnkiDroidzie</string>
-  <string name="fact_adder_intent_title">Karta AnkiDroida</string>
+  <string name="studyoptions_welcome_title">Witamy w AnkiProzie</string>
+  <string name="fact_adder_intent_title">Karta AnkiProa</string>
   <string name="card_editor_add_card">Dodaj notatkę</string>
   <string name="card_editor_copy_card">Kopiuj kartę</string>
   <string name="card_editor_reset_card">Resetuj postępy</string>
@@ -148,8 +148,8 @@
   <string name="unknown_type_field_warning">Wpisz odpowiedź: nieznane pole %s</string>
   <string name="delete_deck">Usuwanie talii...\nProszę czekać...</string>
   <string name="show_hint">Pokaż %s</string>
-  <string name="info_rate">Oceń AnkiDroid</string>
-  <string name="col_load_failed">Ładowanie kolekcji nie powiodło się.\nNaciśnij \"Back\" aby zamknąć AnkiDroid.</string>
+  <string name="info_rate">Oceń AnkiPro</string>
+  <string name="col_load_failed">Ładowanie kolekcji nie powiodło się.\nNaciśnij \"Back\" aby zamknąć AnkiPro.</string>
   <string name="import_title">Importowanie</string>
   <string name="import_select_title">Wybierz plik do importu</string>
   <string name="import_message_add">Dodaj</string>
@@ -157,7 +157,7 @@
   <string name="import_message_add_confirm">Dodać \"%s\" do kolekcji? To może trwać bardzo długo</string>
   <string name="import_log_no_apkg">To nie jst prawidłowy plik apkg</string>
   <string name="import_error_not_apkg_extension">Nazwa pliku \"%s\" nie ma rozszerzenia .apkg</string>
-  <string name="import_error_content_provider">Wybrany plik nie mógł zostać automatycznie zaimportowany przez AnkiDroid. Zapoznaj się z podręcznikiem użytkownika na temat ręcznego importowania plików anki: \n%s</string>
+  <string name="import_error_content_provider">Wybrany plik nie mógł zostać automatycznie zaimportowany przez AnkiPro. Zapoznaj się z podręcznikiem użytkownika na temat ręcznego importowania plików anki: \n%s</string>
   <string name="import_replacing">Zamiana kolekcji&#8230;</string>
   <string name="export_include_schedule">Włącznie z zaplanowanymi powtórkami</string>
   <string name="export_include_media">Włącznie z plikami mediów</string>
@@ -166,12 +166,12 @@
   <string name="export_in_progress">Eksportowanie pliku .apkg&#8230;</string>
   <string name="export_successful_title">Wysłać apkg?</string>
   <string name="export_successful">Plik \"%s\" został wyeksportowany. Czy nadal chcesz wysłać go przez inną aplikację?</string>
-  <string name="export_email_subject">AnkiDroid wyeksportował fiszki: %s</string>
+  <string name="export_email_subject">AnkiPro wyeksportował fiszki: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Cześć!
         <br/><br/>
-        To jest talia fiszek programu Anki wysłana z <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        To jest talia fiszek programu Anki wysłana z <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Spróbuj ją otworzyć używając jednej z dostępnych <a href="http://ankisrs.net/#download">wersji Anki</a> i ciesz się łatwą i efektywną nauką!
         ]]>
     </string>

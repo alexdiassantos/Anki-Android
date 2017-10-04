@@ -57,7 +57,7 @@
   <string name="password_repeat">再次輸入密碼</string>
   <string name="log_in">登入</string>
   <string name="sign_up_description">沒有 AnkiWeb 帳戶嗎？它是免費的！</string>
-  <string name="sign_up_not_affiliated">Note: AnkiWeb is not affiliated with AnkiDroid</string>
+  <string name="sign_up_not_affiliated">Note: AnkiWeb is not affiliated with AnkiPro</string>
   <string name="sign_up">註冊</string>
   <string name="logged_as">登入為</string>
   <string name="log_out">登出</string>
@@ -68,7 +68,7 @@
   <string name="downloaddeck_search">搜尋</string>
   <string name="preferences_title">偏好設定</string>
   <string name="deckpreferences_title">XXX 的選項</string>
-  <string name="sync_conflict_message">你本地的牌組與 AnkiWeb 牌組之間的差異無法合併，因此需要以某一方的牌組來覆蓋另一方的牌組。\n\n你想要上傳本地的牌組，或是從AnkiDroid 下載牌組呢？</string>
+  <string name="sync_conflict_message">你本地的牌組與 AnkiWeb 牌組之間的差異無法合併，因此需要以某一方的牌組來覆蓋另一方的牌組。\n\n你想要上傳本地的牌組，或是從AnkiPro 下載牌組呢？</string>
   <string name="sync_conflict_local">上傳</string>
   <string name="sync_conflict_remote">下載</string>
   <string name="sync_conflict_remote_confirm">覆蓋本地的收藏嗎？</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">成功同步媒體檔</string>
   <string name="sync_media_changes_count">將上傳 %d 個媒體檔變更</string>
   <string name="sync_media_downloaded_count">已下載 %d 個媒體檔案</string>
-  <string name="sync_sanity_failed">你的收藏狀態在同步以後不一致，AnkiDroid 會強制進行完整同步來修復這問題。請選擇你想要保留哪一邊的檔案。如果你想要稍後進行同步，請選擇取消。</string>
+  <string name="sync_sanity_failed">你的收藏狀態在同步以後不一致，AnkiPro 會強制進行完整同步來修復這問題。請選擇你想要保留哪一邊的檔案。如果你想要稍後進行同步，請選擇取消。</string>
   <string name="sync_media_sanity_failed">媒體檔案同步完成，不過媒體檔數量與伺服器上的不相等。下次將進行完整同步來更正這問題。</string>
   <string name="sync_media_error">同步媒體資料時出錯</string>
   <string name="sync_media_error_check">同步媒體檔時發生錯誤。建議進行一次媒體檢查。</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">強制完整同步</string>
   <string name="force_full_sync_summary">下一次同步時，強制單方面的修改</string>
   <string name="full_sync_confirmation">此變動會使你下一次同步你的收藏時，需要完整上傳你的資料庫。如果同步的話，你其他的裝置上尚未同步的複習卡片或其他變動的部分將會遺失，你是否要繼續？</string>
-  <string name="full_sync_confirmation_upgrade">由於先前安裝的 AnkiDroid 版本的程式錯誤，我們建議你強制完整同步一次。</string>
-  <string name="sync_error_501_upgrade_required">請更新到最新版的 AnkiDroid</string>
+  <string name="full_sync_confirmation_upgrade">由於先前安裝的 AnkiPro 版本的程式錯誤，我們建議你強制完整同步一次。</string>
+  <string name="sync_error_501_upgrade_required">請更新到最新版的 AnkiPro</string>
 </resources>

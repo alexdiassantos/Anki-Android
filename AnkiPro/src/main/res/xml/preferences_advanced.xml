@@ -22,12 +22,12 @@
 
 <!-- Advanced Preferences -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://arbitrary.app.namespace/com.ichi2.anki"
+    xmlns:app="http://arbitrary.app.namespace/com.ankipro2.anki"
     android:title="@string/pref_cat_advanced"
     android:summary="@string/pref_cat_advanced_summ"
     android:key="pref_screen_advanced">
         <EditTextPreference
-            android:defaultValue="/sdcard/AnkiDroid"
+            android:defaultValue="/sdcard/AnkiPro"
             android:key="deckPath"
             android:summary="@string/preference_summary_literal"
             android:title="@string/col_path" />

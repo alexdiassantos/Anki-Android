@@ -110,7 +110,7 @@
   <string name="create">Vytvořit</string>
   <string name="new_dynamic_deck">Vytvořit filtrovaný balíček</string>
   <string name="night_mode">Noční režim</string>
-  <string name="directory_inaccessible">AnkiDroid adresář není přístupný</string>
+  <string name="directory_inaccessible">AnkiPro adresář není přístupný</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -165,6 +165,6 @@
   <string name="invalid_template">Karta nemůže být vytvořena</string>
   <string name="card_template_editor_would_delete_note"> Odstraněním tohoto typu karty můžete způsobit, že jedna nebo         více poznámek budou odstraněny. Nejprve vytvořte nový typ karty.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Čtení a zápis do AnkiDroid databáze</string>
+  <string name="read_write_permission_label">Čtení a zápis do AnkiPro databáze</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

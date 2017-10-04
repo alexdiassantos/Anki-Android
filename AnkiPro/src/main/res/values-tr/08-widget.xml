@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Kartlar çalışılacak</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d AnkiDroid kartı çalışılacak</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d AnkiPro kartı çalışılacak</string>
   <string name="widget_no_cards_due">Çalışılacak kart yok</string>
   <string name="widget_loading">Widget yükleniyor...</string>
   <plurals name="widget_cards_in_decks_due">
@@ -52,8 +52,8 @@
     <item quantity="one">%1$d deste</item>
     <item quantity="other">%1$d deste</item>
   </plurals>
-  <string name="widget_small">AnkiDroid Küçük</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">AnkiPro Küçük</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d kart çalışılacak</item>
     <item quantity="other">%d kart çalışılacak</item>
@@ -63,5 +63,5 @@
     <item quantity="other">%d dakika kaldı</item>
   </plurals>
   <string name="widget_add_note">Not ekle</string>
-  <string name="widget_add_note_button">Yeni AnkiDroid notu ekle</string>
+  <string name="widget_add_note_button">Yeni AnkiPro notu ekle</string>
 </resources>

@@ -23,7 +23,7 @@ package com.ankipro2.libanki.sync;
 import android.content.SharedPreferences;
 import android.net.Uri;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.exception.UnknownHttpResponseException;
 import com.ankipro2.async.Connection;
 import com.ankipro2.libanki.Consts;
@@ -162,7 +162,7 @@ public class HttpSyncer {
                 buf.write(String.format(Locale.US, "Content-Disposition: form-data; name=\"%s\"\r\n\r\n%s\r\n", key,
                         mPostVars.get(key)));
             }
-            tmpFileBuffer = File.createTempFile("syncer", ".tmp", new File(AnkiDroidApp.getCacheStorageDirectory()));
+            tmpFileBuffer = File.createTempFile("syncer", ".tmp", new File(AnkiProApp.getCacheStorageDirectory()));
             FileOutputStream fos = new FileOutputStream(tmpFileBuffer);
             BufferedOutputStream bos = new BufferedOutputStream(fos);
             GZIPOutputStream tgt;
@@ -218,7 +218,7 @@ public class HttpSyncer {
             params.setParameter(ConnManagerPNames.MAX_TOTAL_CONNECTIONS, 30);
             params.setParameter(ConnManagerPNames.MAX_CONNECTIONS_PER_ROUTE, new ConnPerRouteBean(30));
             params.setParameter(CoreProtocolPNames.USE_EXPECT_CONTINUE, false);
-            params.setParameter(CoreProtocolPNames.USER_AGENT, "AnkiDroid-" + VersionUtils.getPkgVersionName());
+            params.setParameter(CoreProtocolPNames.USER_AGENT, "AnkiPro-" + VersionUtils.getPkgVersionName());
             HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
             HttpConnectionParams.setSoTimeout(params, Connection.CONN_TIMEOUT);
 
@@ -451,7 +451,7 @@ public class HttpSyncer {
 
     public String syncURL() {
         // Allow user to specify custom sync server
-        SharedPreferences userPreferences = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance());
+        SharedPreferences userPreferences = AnkiProApp.getSharedPrefs(AnkiProApp.getInstance());
         if (userPreferences!= null && userPreferences.getBoolean("useCustomSyncServer", false)) {
             Uri syncBase = Uri.parse(userPreferences.getString("syncBaseUrl", Consts.SYNC_BASE));
             return syncBase.buildUpon().appendPath("sync").toString() + "/";

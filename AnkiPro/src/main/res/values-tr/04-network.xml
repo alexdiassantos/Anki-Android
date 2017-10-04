@@ -57,7 +57,7 @@
   <string name="password_repeat">Şifre (tekrar)</string>
   <string name="log_in">Giriş yap</string>
   <string name="sign_up_description">AnkiWeb hesabınız yok mu? Ücretsiz edinin!</string>
-  <string name="sign_up_not_affiliated">Not: AnkiWeb, AnkiDroid\'le bağlı değildir</string>
+  <string name="sign_up_not_affiliated">Not: AnkiWeb, AnkiPro\'le bağlı değildir</string>
   <string name="sign_up">Kaydol</string>
   <string name="logged_as">Şu adla giriş yapıldı:</string>
   <string name="log_out">Çıkış yap</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">Medya başarıyla eşitlendi.</string>
   <string name="sync_media_changes_count">%d ortam yüklenmek için değiştirildi</string>
   <string name="sync_media_downloaded_count">%d ortam dosyası indirildi</string>
-  <string name="sync_sanity_failed">Eşitlemeden sonra, koleksiyon tutarsız bir durumdaydı. Bu sorunu düzeltmek için, AnkiDroid bir tam eşitleme gerektirecek. Lütfen hangi tarafı korumak istediğinizi seçin, veya sonra eşitlemeyi tercih ediyorsanız iptâl edin.</string>
+  <string name="sync_sanity_failed">Eşitlemeden sonra, koleksiyon tutarsız bir durumdaydı. Bu sorunu düzeltmek için, AnkiPro bir tam eşitleme gerektirecek. Lütfen hangi tarafı korumak istediğinizi seçin, veya sonra eşitlemeyi tercih ediyorsanız iptâl edin.</string>
   <string name="sync_media_sanity_failed">Medya eşitlemesi tamamlandı, ama medya sayısı sunucuyla uyuşmuyor. Bir sonraki medya eşitlemesi hataları düzeltmek için tam yapılacak.</string>
   <string name="sync_media_error">Medya veri senkronizasyonu hatası.</string>
   <string name="sync_media_error_check">Ortam eşitleme sırasında hata oluştu. Medyayı kontrol etmeniz tavsiye edilir.</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">Zorunlu tam senkronizasyon</string>
   <string name="force_full_sync_summary">Bir sonraki eşitlemede, değişiklikleri tek yönde yapın</string>
   <string name="full_sync_confirmation">İstenen değişiklik koleksiyonunuzu bir sonraki senkronize edişinizde veritabanının toptan karşıya yüklenmesini gerektirecek. Başka bir cihazda bekleyen, burada henüz senkronize edilmemiş çalışmalarınız veya başka değişiklikleriniz varsa kaybolacaklar. Devam edilsin mi?</string>
-  <string name="full_sync_confirmation_upgrade">AnkiDroid daha önce yüklenmiş sürümündeki bir hata nedeniyle, tam senkronizasyon yapma tavsiye edilir.</string>
-  <string name="sync_error_501_upgrade_required">Lütfen en son AnkiDroid sürümüne yükseltin</string>
+  <string name="full_sync_confirmation_upgrade">AnkiPro daha önce yüklenmiş sürümündeki bir hata nedeniyle, tam senkronizasyon yapma tavsiye edilir.</string>
+  <string name="sync_error_501_upgrade_required">Lütfen en son AnkiPro sürümüne yükseltin</string>
 </resources>

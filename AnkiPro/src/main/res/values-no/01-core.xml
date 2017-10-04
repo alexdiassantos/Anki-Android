@@ -107,7 +107,7 @@
   <string name="create">Opprett</string>
   <string name="new_dynamic_deck">Lag en filtrert kortstokk</string>
   <string name="night_mode">Nattmodus</string>
-  <string name="directory_inaccessible">AnkiDroid-mappen er utilgjengelig</string>
+  <string name="directory_inaccessible">AnkiPro-mappen er utilgjengelig</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">A card could not be generated</string>
   <string name="card_template_editor_would_delete_note">Fjerning av denne korttypen vil føre til at ett eller flere notater slettes. Vennligst lag en ny korttype først.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Read and write to the AnkiDroid database</string>
+  <string name="read_write_permission_label">Read and write to the AnkiPro database</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

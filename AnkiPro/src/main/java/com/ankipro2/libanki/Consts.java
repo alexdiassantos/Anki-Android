@@ -67,5 +67,5 @@ public class Consts {
 
     public static final String HELP_SITE = "http://ankisrs.net/docs/manual.html";
 
-    // The labels defined in consts.py are in AnkiDroid's resources files.
+    // The labels defined in consts.py are in AnkiPro's resources files.
 }

@@ -28,7 +28,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.ViewConfiguration;
 
-import com.ankipro2.anki.dialogs.AnkiDroidCrashReportDialog;
+import com.ankipro2.anki.dialogs.AnkiProCrashReportDialog;
 import com.ankipro2.anki.exception.StorageAccessException;
 import com.ankipro2.compat.CompatHelper;
 import com.ankipro2.utils.LanguageUtil;
@@ -52,7 +52,7 @@ import timber.log.Timber;
  * Application class.
  */
 @ReportsCrashes(
-        reportDialogClass = AnkiDroidCrashReportDialog.class,
+        reportDialogClass = AnkiProCrashReportDialog.class,
         httpMethod = HttpSender.Method.PUT,
         reportType = HttpSender.Type.JSON,
         formUri = "http://ankipro.com/webservice/ankierror/getform.php",
@@ -106,19 +106,19 @@ import timber.log.Timber;
             ReportField.THREAD_DETAILS
             //ReportField.USER_IP
         },
-        logcatArguments = { "-t", "100", "-v", "time", "ActivityManager:I", "SQLiteLog:W", AnkiDroidApp.TAG + ":D", "*:S" }
+        logcatArguments = { "-t", "100", "-v", "time", "ActivityManager:I", "SQLiteLog:W", AnkiProApp.TAG + ":D", "*:S" }
 )
-public class AnkiDroidApp extends Application {
+public class AnkiProApp extends Application {
 
-    public static final String XML_CUSTOM_NAMESPACE = "http://arbitrary.app.namespace/com.ichi2.anki";
+    public static final String XML_CUSTOM_NAMESPACE = "http://arbitrary.app.namespace/com.ankipro2.anki";
     public static final String FEEDBACK_REPORT_ASK = "2";
     public static final String FEEDBACK_REPORT_NEVER = "1";
     public static final String FEEDBACK_REPORT_ALWAYS = "0";
 
     // Tag for logging messages.
-    public static final String TAG = "AnkiDroid";
+    public static final String TAG = "AnkiPro";
     // Singleton instance of this class.
-    private static AnkiDroidApp sInstance;
+    private static AnkiProApp sInstance;
     // Constants for gestures
     public static int sSwipeMinDistance = -1;
     public static int sSwipeThresholdVelocity = -1;
@@ -162,7 +162,7 @@ public class AnkiDroidApp extends Application {
             String [] logcatArgs = { "-t", "300", "-v", "long", "ACRA:S"};
             ACRA.getConfig().setLogcatArguments(logcatArgs);
         } else {
-            // Disable verbose error logging and use fixed log tag "AnkiDroid"
+            // Disable verbose error logging and use fixed log tag "AnkiPro"
             Timber.plant(new ProductionCrashReportingTree());
             // Enable or disable crash reporting based on user setting
             setAcraReportingMode(preferences.getString("reportErrorMode", FEEDBACK_REPORT_ASK));
@@ -184,17 +184,17 @@ public class AnkiDroidApp extends Application {
         DEFAULT_SWIPE_MIN_DISTANCE = vc.getScaledPagingTouchSlop();
         DEFAULT_SWIPE_THRESHOLD_VELOCITY = vc.getScaledMinimumFlingVelocity();
 
-        // Create the AnkiDroid directory if missing. Send exception report if inaccessible.
+        // Create the AnkiPro directory if missing. Send exception report if inaccessible.
         if (CollectionHelper.hasStorageAccessPermission(this)) {
             try {
-                String dir = CollectionHelper.getCurrentAnkiDroidDirectory(this);
-                CollectionHelper.initializeAnkiDroidDirectory(dir);
+                String dir = CollectionHelper.getCurrentAnkiProDirectory(this);
+                CollectionHelper.initializeAnkiProDirectory(dir);
             } catch (StorageAccessException e) {
-                Timber.e(e, "Could not initialize AnkiDroid directory");
-                String defaultDir = CollectionHelper.getDefaultAnkiDroidDirectory();
-                if (isSdCardMounted() && CollectionHelper.getCurrentAnkiDroidDirectory(this).equals(defaultDir)) {
+                Timber.e(e, "Could not initialize AnkiPro directory");
+                String defaultDir = CollectionHelper.getDefaultAnkiProDirectory();
+                if (isSdCardMounted() && CollectionHelper.getCurrentAnkiProDirectory(this).equals(defaultDir)) {
                     // Don't send report if the user is using a custom directory as SD cards trip up here a lot
-                    sendExceptionReport(e, "AnkiDroidApp.onCreate");
+                    sendExceptionReport(e, "AnkiProApp.onCreate");
                 }
             }
         }
@@ -221,7 +221,7 @@ public class AnkiDroidApp extends Application {
     }
 
 
-    public static AnkiDroidApp getInstance() {
+    public static AnkiProApp getInstance() {
         return sInstance;
     }
 

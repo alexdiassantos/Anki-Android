@@ -24,7 +24,7 @@ import android.database.Cursor;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.UIUtils;
 import com.ankipro2.anki.exception.ConfirmModSchemaException;
@@ -266,7 +266,7 @@ public class Collection {
             lock();
             mDb.setMod(false);
         }
-        // undoing non review operation is handled differently in ankidroid
+        // undoing non review operation is handled differently in ankipro
 //        _markOp(name);
         mLastSave = Utils.now();
     }
@@ -307,7 +307,7 @@ public class Collection {
                     }
                 }
             } catch (RuntimeException e) {
-                AnkiDroidApp.sendExceptionReport(e, "closeDB");
+                AnkiProApp.sendExceptionReport(e, "closeDB");
             }
             if (!mServer) {
                 CompatHelper.getCompat().disableDatabaseWriteAheadLogging(mDb.getDatabase());
@@ -1453,7 +1453,7 @@ public class Collection {
                             + " WHERE id IN " + Utils.ids2str(Utils.arrayList2array(ids)));
                 }
                 mDb.getDatabase().setTransactionSuccessful();
-                // DB must have indices. Older versions of AnkiDroid didn't create them for new collections.
+                // DB must have indices. Older versions of AnkiPro didn't create them for new collections.
                 int ixs = mDb.queryScalar("select count(name) from sqlite_master where type = 'index'");
                 if (ixs < 7) {
                     problems.add("Indices were missing.");
@@ -1466,7 +1466,7 @@ public class Collection {
             }
         } catch (RuntimeException e) {
             Timber.e(e, "doInBackgroundCheckDatabase - RuntimeException on marking card");
-            AnkiDroidApp.sendExceptionReport(e, "doInBackgroundCheckDatabase");
+            AnkiProApp.sendExceptionReport(e, "doInBackgroundCheckDatabase");
             return -1;
         }
         // and finally, optimize

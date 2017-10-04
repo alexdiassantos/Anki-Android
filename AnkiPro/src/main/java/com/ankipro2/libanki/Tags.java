@@ -224,7 +224,7 @@ public class Tags {
 
     /**
      * FIXME: This method must be fixed before it is used. Its behaviour is currently incorrect.
-     * This method is currently unused in AnkiDroid so it will not cause any errors in its current state.
+     * This method is currently unused in AnkiPro so it will not cause any errors in its current state.
      */
     public void bulkAdd(List<Long> ids, String tags, boolean add) {
         List<String> newTags = split(tags);

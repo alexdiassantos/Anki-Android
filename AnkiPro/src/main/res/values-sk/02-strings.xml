@@ -124,8 +124,8 @@
     <item quantity="few">%1$d minúty</item>
     <item quantity="other">%1$d minút</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Vitajte v AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid kartička</string>
+  <string name="studyoptions_welcome_title">Vitajte v AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro kartička</string>
   <string name="card_editor_add_card">Pridať poznámku</string>
   <string name="card_editor_copy_card">Kopírovať kartičku</string>
   <string name="card_editor_reset_card">Vynulovať pokrok</string>
@@ -148,8 +148,8 @@
   <string name="unknown_type_field_warning">Typ odpovede: neznáme pole %s</string>
   <string name="delete_deck">Balíček sa odstraňuje&#8230;</string>
   <string name="show_hint">Zobraziť %s</string>
-  <string name="info_rate">Ohodnotiť AnkiDroid</string>
-  <string name="col_load_failed">Nahrávanie zbierky zlyhalo.\nProsím stlačte tlačidlo Späť a zavrite AnkiDroid.</string>
+  <string name="info_rate">Ohodnotiť AnkiPro</string>
+  <string name="col_load_failed">Nahrávanie zbierky zlyhalo.\nProsím stlačte tlačidlo Späť a zavrite AnkiPro.</string>
   <string name="import_title">Importuje sa</string>
   <string name="import_select_title">Zvoľte súbor pre import</string>
   <string name="import_message_add">Pridať</string>
@@ -157,7 +157,7 @@
   <string name="import_message_add_confirm">Pridať “%s” do zbierky? Môže to chvíľu trvať</string>
   <string name="import_log_no_apkg">Toto nie je platný súbor typu apkg</string>
   <string name="import_error_not_apkg_extension">Súbor “%s” nemá príponu .apkg</string>
-  <string name="import_error_content_provider">Zvolený súbor nemohol byť importovaný automaticky AnkiDroidom. Pozrite si, prosím, používateľský manuál ako manuálne importovať anki súbory: \n%s</string>
+  <string name="import_error_content_provider">Zvolený súbor nemohol byť importovaný automaticky AnkiProom. Pozrite si, prosím, používateľský manuál ako manuálne importovať anki súbory: \n%s</string>
   <string name="import_replacing">Zbierka sa nahrádza&#8230;</string>
   <string name="export_include_schedule">Zahrnúť plánovanie</string>
   <string name="export_include_media">Zahrnúť multimédia</string>
@@ -166,12 +166,12 @@
   <string name="export_in_progress">Exportuje sa apkg súbor&#8230;</string>
   <string name="export_successful_title">Odoslať apkg?</string>
   <string name="export_successful">Súbor “%s” bol exportovaný. Chcete ho odoslať s ďalšou aplikáciou?</string>
-  <string name="export_email_subject">AnkiDroid exportoval kartičky: %s</string>
+  <string name="export_email_subject">AnkiPro exportoval kartičky: %s</string>
   <string name="export_email_text">
 <![CDATA[
         Ahoj!
         <br/><br/>
-        Toto je Anki balíček kariet odoslaný z <a href="https://ankidroid.org/docs/manual.html">AnkiDroid webstránky</a>.
+        Toto je Anki balíček kariet odoslaný z <a href="https://ankipro.org/docs/manual.html">AnkiPro webstránky</a>.
         Vyskúšajte ho otvoriť za pomocou jednej z nasledovných <a href="http://ankisrs.net/#download">Anki distribúcií</a> a vychutnajte si tak jednoduché a efektívne učenie!
         ]]>    </string>
   <string name="export_unsuccessful">Chyba pri exportovaní apkg súboru</string>

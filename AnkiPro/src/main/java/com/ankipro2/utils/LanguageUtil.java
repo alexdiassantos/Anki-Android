@@ -16,7 +16,7 @@ package com.ankipro2.utils;
 
 import android.text.TextUtils;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 
 import java.util.Locale;
 
@@ -25,7 +25,7 @@ import java.util.Locale;
  */
 public class LanguageUtil {
 
-    /** A list of all languages supported by AnkiDroid */
+    /** A list of all languages supported by AnkiPro */
     public static final String[] APP_LANGUAGES = { "ar", "bg", "ca", "cs", "de", "el", "es-AR", "es-ES", "et", "fa",
             "fi", "fr", "got", "gl", "hi", "hu", "id", "it", "ja", "ko", "lt", "nl", "no", "pl", "pt_PT", "pt_BR", "ro", "ru",
             "sk", "sl", "sr", "sv", "th", "tr", "uk", "vi", "zh_CN", "zh_TW", "en" };
@@ -44,7 +44,7 @@ public class LanguageUtil {
         Locale locale;
         if (localeCode == null || TextUtils.isEmpty(localeCode)) {
 
-            localeCode = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance().getBaseContext()).getString(
+            localeCode = AnkiProApp.getSharedPrefs(AnkiProApp.getInstance().getBaseContext()).getString(
                     com.ankipro2.anki.Preferences.LANGUAGE, "");
             // If no code provided use the app language.
         }

@@ -56,11 +56,11 @@
   <string name="initializing_tts">Inicializuje sa TTS&#8230;</string>
   <string name="tts_no_tts">Nehovoriť</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Kartičky pre Android</h2>AnkiDroid je kartičková aplikácia plne kompatibilná s desktopovým programom <a href=\"%2$s\">Anki</a>. Môžete si tak vytvoriť, stiahnuť a učiť sa materiály na oboch platformách, či už je to AnkiDroid alebo Anki, a synchronizovať ich prostredníctvom AnkiWeb.]]></item>
-    <item><![CDATA[Aby ste nám pomohli spraviť AnkiDroid lepším, zašlite nám chyby na <a href=\"%1$s\">Issue Tracker</a>; nápady týkajúce sa funkcionality aplikácie sú taktiež veľmi vítané. Odpovede na ďalšie otázky môžete nájsť na <a href=\"%2$s\">wiki</a> alebo vytvorte diskusiu na <a href=\"%3$s\">fóre</a>.]]></item>
-    <item><![CDATA[AnkiDroid je <a href=\"%1$s\">open source softvér<a/>, preto vítame každého, kto sa chce <a href=\"%2$s\">stať jeho podporovateľom</a> :-)]]></item>
-    <item><![CDATA[Môžete pomôcť i napriek tomu, že nie ste vývojárom. Môžete napríklad <a href=\"%1$s\">pomôcť s prekladom</a> AnkiDroid, aktualizovať informácie na wiki, zasielať print-screeny alebo písať blog o AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid je vydaný pod <a href=\"%1$s\">licenciou GNU-GPL v3</a> a jeho zdrojový kód je dostupný na stránke <a href=\"%2$s\">GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Kartičky pre Android</h2>AnkiPro je kartičková aplikácia plne kompatibilná s desktopovým programom <a href=\"%2$s\">Anki</a>. Môžete si tak vytvoriť, stiahnuť a učiť sa materiály na oboch platformách, či už je to AnkiPro alebo Anki, a synchronizovať ich prostredníctvom AnkiWeb.]]></item>
+    <item><![CDATA[Aby ste nám pomohli spraviť AnkiPro lepším, zašlite nám chyby na <a href=\"%1$s\">Issue Tracker</a>; nápady týkajúce sa funkcionality aplikácie sú taktiež veľmi vítané. Odpovede na ďalšie otázky môžete nájsť na <a href=\"%2$s\">wiki</a> alebo vytvorte diskusiu na <a href=\"%3$s\">fóre</a>.]]></item>
+    <item><![CDATA[AnkiPro je <a href=\"%1$s\">open source softvér<a/>, preto vítame každého, kto sa chce <a href=\"%2$s\">stať jeho podporovateľom</a> :-)]]></item>
+    <item><![CDATA[Môžete pomôcť i napriek tomu, že nie ste vývojárom. Môžete napríklad <a href=\"%1$s\">pomôcť s prekladom</a> AnkiPro, aktualizovať informácie na wiki, zasielať print-screeny alebo písať blog o AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro je vydaný pod <a href=\"%1$s\">licenciou GNU-GPL v3</a> a jeho zdrojový kód je dostupný na stránke <a href=\"%2$s\">GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Náhľad</string>
   <string name="reset_card_dialog_title">Vynulovať zaznamenaný priebeh v učení kartičky</string>
@@ -70,13 +70,13 @@
   <string name="reschedule_card_dialog_message">Preplánovať opakovanie pre x dní:</string>
   <string name="reschedule_card_dialog_acknowledge">Kartička preplánovaná</string>
   <string name="answering_error_title">Chyba databázy</string>
-  <string name="answering_error_message">Chyba pri zápise do zbierky. Môže to súvisieť s poškodenou databázou alebo nedostatkom miesta na disku.\n\nAk sa to stáva častejšie, skúste skontrolovať databázu, opraviť zbierku alebo obnoviť zo zálohy ťuknutím na \"Možnosti\".\n\Taktiež to môže byť aj chyba AnkiDroid; prosím oznámte chybu, aby sme to mohli skontrolovať.</string>
+  <string name="answering_error_message">Chyba pri zápise do zbierky. Môže to súvisieť s poškodenou databázou alebo nedostatkom miesta na disku.\n\nAk sa to stáva častejšie, skúste skontrolovať databázu, opraviť zbierku alebo obnoviť zo zálohy ťuknutím na \"Možnosti\".\n\Taktiež to môže byť aj chyba AnkiPro; prosím oznámte chybu, aby sme to mohli skontrolovať.</string>
   <string name="answering_error_report">Nahlásiť chybu</string>
   <string name="repair_deck_dialog">Naozaj chcete skúsiť opraviť databázu?\n\nPred začatím pokusu o opravenie bude vytvorená kópia v podpriečinku \"%s\".</string>
   <string name="intent_add_saved_information">Uložené dáta</string>
   <string name="intent_add_clear_all">Vymazať všetko</string>
   <string name="intent_aedict_empty">Kategória \"predvolený\" je prázdna</string>
-  <string name="intent_aedict_category">Ak chcete pridať kartičky do AnkiDroid, odstráňte všetky kategórie poznámkového bloku alebo pridajte jednu s názvom \"predvolený\"</string>
+  <string name="intent_aedict_category">Ak chcete pridať kartičky do AnkiPro, odstráňte všetky kategórie poznámkového bloku alebo pridajte jednu s názvom \"predvolený\"</string>
   <string name="custom_study_new_total_new">Nové kartičky v balíčku: %s</string>
   <string name="custom_study_rev_total_rev">Kartičky na opakovanie v balíčku: %s</string>
   <string name="custom_study_new_extend">Zvýšiť dnešný limit nových kartičiek o</string>

@@ -21,7 +21,7 @@ import android.database.Cursor;
 import android.database.SQLException;
 
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.exception.UnknownHttpResponseException;
 import com.ankipro2.async.Connection;
@@ -113,7 +113,7 @@ public class Syncer {
                 int rts = rMeta.getInt("ts");
                 mRMod = rMeta.getLong("mod");
                 mMaxUsn = rMeta.getInt("usn");
-                // skip uname, AnkiDroid already stores and shows it
+                // skip uname, AnkiPro already stores and shows it
                 Timber.i("Sync: building local meta data");
                 JSONObject lMeta = meta();
                 mCol.log("lmeta", lMeta);
@@ -224,10 +224,10 @@ public class Syncer {
         } catch (JSONException | IllegalStateException e) {
             throw new RuntimeException(e);
         } catch (OutOfMemoryError e) {
-            AnkiDroidApp.sendExceptionReport(e, "Syncer-sync");
+            AnkiProApp.sendExceptionReport(e, "Syncer-sync");
             return new Object[] { "OutOfMemoryError" };
         } catch (IOException e) {
-            AnkiDroidApp.sendExceptionReport(e, "Syncer-sync");
+            AnkiProApp.sendExceptionReport(e, "Syncer-sync");
             return new Object[] { "IOException" };
         }
         return new Object[] { "success" };

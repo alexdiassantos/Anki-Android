@@ -120,8 +120,8 @@
   <plurals name="timebox_reached_minutes">
     <item quantity="other">%1$d분</item>
   </plurals>
-  <string name="studyoptions_welcome_title">AnkiDroid에 오신 것을 환영합니다</string>
-  <string name="fact_adder_intent_title">AnkiDroid 카드</string>
+  <string name="studyoptions_welcome_title">AnkiPro에 오신 것을 환영합니다</string>
+  <string name="fact_adder_intent_title">AnkiPro 카드</string>
   <string name="card_editor_add_card">노트 추가</string>
   <string name="card_editor_copy_card">카드 복사</string>
   <string name="card_editor_reset_card">학습 진도 재설정</string>
@@ -142,8 +142,8 @@
   <string name="unknown_type_field_warning">정답 입력: 알 수 없는 필드 %s</string>
   <string name="delete_deck">카드 묶음 삭제 중...\n 잠시만 기다리세요.</string>
   <string name="show_hint">%s 표시</string>
-  <string name="info_rate">AnkiDroid 평가하기</string>
-  <string name="col_load_failed">컬렉션을 불러오지 못했습니다.\nAnkiDroid을 종료하려면 뒤로가기 버튼을 누르세요.</string>
+  <string name="info_rate">AnkiPro 평가하기</string>
+  <string name="col_load_failed">컬렉션을 불러오지 못했습니다.\nAnkiPro을 종료하려면 뒤로가기 버튼을 누르세요.</string>
   <string name="import_title">가져오는 중</string>
   <string name="import_select_title">가져올 파일 선택</string>
   <string name="import_message_add">추가하기</string>
@@ -151,7 +151,7 @@
   <string name="import_message_add_confirm">\"%s\"를 컬렉션에 추가하시겠습니까? 시간이 오래 걸릴 수 있습니다.</string>
   <string name="import_log_no_apkg">유효하지 않은 apkg 파일입니다</string>
   <string name="import_error_not_apkg_extension">파일명 %s는 .apkg 확장자를 가지고 있지 않습니다.</string>
-  <string name="import_error_content_provider">선택된 파일은 AnkiDroid가 자동적으로 가져올 수 없습니다. anki 파일을 수동으로 가져오는 방법은 사용자 설명서를 참조하세요. \n %s</string>
+  <string name="import_error_content_provider">선택된 파일은 AnkiPro가 자동적으로 가져올 수 없습니다. anki 파일을 수동으로 가져오는 방법은 사용자 설명서를 참조하세요. \n %s</string>
   <string name="import_replacing">컬렉션을 대체하는 중...</string>
   <string name="export_include_schedule">일정 포함</string>
   <string name="export_include_media">미디어 포함</string>
@@ -160,12 +160,12 @@
   <string name="export_in_progress">apkg 파일 내보내는 중...</string>
   <string name="export_successful_title">Apkg 보내기?</string>
   <string name="export_successful">파일 \"%s\" 는 보내졌습니다. 다른 앱으로 보내고 싶으십니까?</string>
-  <string name="export_email_subject">AnkiDroid로 보내진 플래시 카드: %s</string>
+  <string name="export_email_subject">AnkiPro로 보내진 플래시 카드: %s</string>
   <string name="export_email_text">
         <![CDATA[
         안녕하세요!
         <br/><br/>
-      이것은 여기에서 보내진 안키 플래시 카드입니다. <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+      이것은 여기에서 보내진 안키 플래시 카드입니다. <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         이 중에서 이용 가능한 것을 사용하여 열어보세요 <a href="http://ankisrs.net/#download">Anki distributions</a> 쉽고 효율적으로 즐겁게 공부하세요!
         ]]>
     

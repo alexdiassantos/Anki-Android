@@ -43,7 +43,7 @@
   <string name="disabled">Disabled</string>
   <string name="enabled">Enabled</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Általános beállítások</string>
   <string name="pref_cat_reviewing">Ismétlés</string>
   <string name="pref_cat_reviewing_summ">Paklifüggetlen beállítások</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Teljesítmény</string>
   <string name="pref_cat_workarounds">Workarounds</string>
   <string name="pref_cat_plugins">Bővítmények</string>
-  <string name="about_title">AnkiDroidról</string>
+  <string name="about_title">AnkiProról</string>
   <string name="about_version">Verzió: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Ceruza vastagsága</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Képek nagyítása</string>
   <string name="button_size">Válasz gombok mérete</string>
   <string name="card_browser_font_size">Card browser font scaling</string>
-  <string name="col_path">AnkiDroid directory</string>
+  <string name="col_path">AnkiPro directory</string>
   <string name="fullscreen_review">Teljes képernyős mód</string>
   <string name="full_screen_off">Ki</string>
   <string name="full_screen_system">Eszköztár elrejtése</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
   <string name="convert_fen_text">Chess notation support</string>
   <string name="convert_fen_text_summ">Sakktábla bevitele Forsyth-Edwards jelöléssel. A jelölést [fen][/fen] címkék közé kell tenni.</string>
-  <string name="enable_api_title">Enable AnkiDroid API</string>
-  <string name="enable_api_summary">Let other apps connect to AnkiDroid and read / write data without your intervention</string>
+  <string name="enable_api_title">Enable AnkiPro API</string>
+  <string name="enable_api_summary">Let other apps connect to AnkiPro and read / write data without your intervention</string>
   <string name="custom_buttons">Eszköztár gombok</string>
   <string name="custom_buttons_summary">Testreszabhatod az eszköztárban megjelenő műveleteket</string>
   <string name="custom_buttons_setting_always_show">Always show</string>

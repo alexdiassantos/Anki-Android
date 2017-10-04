@@ -67,8 +67,8 @@ public class BackupManager {
     }
 
 
-    protected static File getBackupDirectory(File ankidroidDir) {
-        File directory = new File(ankidroidDir, BACKUP_SUFFIX);
+    protected static File getBackupDirectory(File ankiproDir) {
+        File directory = new File(ankiproDir, BACKUP_SUFFIX);
         if (!directory.isDirectory()) {
             directory.mkdirs();
         }
@@ -76,8 +76,8 @@ public class BackupManager {
     }
 
 
-    private static File getBrokenDirectory(File ankidroidDir) {
-        File directory = new File(ankidroidDir, BROKEN_DECKS_SUFFIX);
+    private static File getBrokenDirectory(File ankiproDir) {
+        File directory = new File(ankiproDir, BROKEN_DECKS_SUFFIX);
         if (!directory.isDirectory()) {
             directory.mkdirs();
         }
@@ -101,7 +101,7 @@ public class BackupManager {
 
 
     public static boolean performBackupInBackground(final String colPath, int interval, boolean force) {
-        SharedPreferences prefs = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance().getBaseContext());
+        SharedPreferences prefs = AnkiProApp.getSharedPrefs(AnkiProApp.getInstance().getBaseContext());
         if (prefs.getInt("backupMax", 8) == 0 && !force) {
             Timber.w("backups are disabled");
             return false;
@@ -189,7 +189,7 @@ public class BackupManager {
                     zos.close();
                     bis.close();
                     // Delete old backup files if needed
-                    SharedPreferences prefs = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance().getBaseContext());
+                    SharedPreferences prefs = AnkiProApp.getSharedPrefs(AnkiProApp.getInstance().getBaseContext());
                     deleteDeckBackups(colPath, prefs.getInt("backupMax", 8));
                     // set timestamp of file in order to avoid creating a new backup unless its changed
                     backupFile.setLastModified(colFile.lastModified());

@@ -122,8 +122,8 @@
     <item quantity="one">%1$d minuut</item>
     <item quantity="other">%1$d minuten</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Welkom bij AnkiDroid</string>
-  <string name="fact_adder_intent_title">Ankidroid kaart</string>
+  <string name="studyoptions_welcome_title">Welkom bij AnkiPro</string>
+  <string name="fact_adder_intent_title">Ankipro kaart</string>
   <string name="card_editor_add_card">Kaart toevoegen</string>
   <string name="card_editor_copy_card">Kopieer kaart</string>
   <string name="card_editor_reset_card">Vooruitgang resetten</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Type antwoord: onbekend veld %s</string>
   <string name="delete_deck">Leerset verwijderen...\nEven wachten.</string>
   <string name="show_hint">Toon %s</string>
-  <string name="info_rate">Beoordeel AnkiDroid</string>
-  <string name="col_load_failed">Laden van collectie mislukt.\nKlik \'terug\' om AnkiDroid te sluiten.</string>
+  <string name="info_rate">Beoordeel AnkiPro</string>
+  <string name="col_load_failed">Laden van collectie mislukt.\nKlik \'terug\' om AnkiPro te sluiten.</string>
   <string name="import_title">Importeren</string>
   <string name="import_select_title">Kies een bestand om te importeren</string>
   <string name="import_message_add">Toevoegen</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">“%s” aan de collectie toevoegen? Dit kan lang duren</string>
   <string name="import_log_no_apkg">Dit is geen geldig apkg-bestand</string>
   <string name="import_error_not_apkg_extension">Bestandsnaam “%s” mist de extensie .apkg</string>
-  <string name="import_error_content_provider">Het selecteerde bestand kon niet automatisch geïmporteerd worden door AnkiDroid. Bekijk de gebruikershandleiding om te zien hoe je anki bestanden handmatig importeert: \n%s</string>
+  <string name="import_error_content_provider">Het selecteerde bestand kon niet automatisch geïmporteerd worden door AnkiPro. Bekijk de gebruikershandleiding om te zien hoe je anki bestanden handmatig importeert: \n%s</string>
   <string name="import_replacing">Collectie vervangen&#8230;</string>
   <string name="export_include_schedule">Inclusief de planning</string>
   <string name="export_include_media">Inclusief media</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">Apkg-bestand exporteren&#8230;</string>
   <string name="export_successful_title">Apkg versturen?</string>
   <string name="export_successful">Bestand \"%s\" is geëxporteerd. Wilt u het met een andere app versturen?</string>
-  <string name="export_email_subject">AnkiDroid geëxporteerde flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro geëxporteerde flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hallo!
         <br/><br/>
-        Dot is een Anki flashcards deck verzonden vam <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        Dot is een Anki flashcards deck verzonden vam <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Probeer het te openen met een van de beschikbare Anki distributies <a href="http://ankisrs.net/#download">Anki distributions</a> en geniet van makkelijk en efficiënt leren!
         ]]>;
     </string>

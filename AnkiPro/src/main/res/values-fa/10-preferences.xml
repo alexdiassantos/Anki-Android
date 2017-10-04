@@ -43,7 +43,7 @@
   <string name="disabled">غیر فعال شده</string>
   <string name="enabled">فعال شده</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">تنظیمات کلی</string>
   <string name="pref_cat_reviewing">بازبینی</string>
   <string name="pref_cat_reviewing_summ">تنظیمات مرور بدون اختصاص به دسته ای خاص</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">کارآیی</string>
   <string name="pref_cat_workarounds">راه‌حل‌ها</string>
   <string name="pref_cat_plugins">افزونه‌ها</string>
-  <string name="about_title">درباره AnkiDroid</string>
+  <string name="about_title">درباره AnkiPro</string>
   <string name="about_version">نسخه: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">عرض حاشیه</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">بزرگ نمایی عکس</string>
   <string name="button_size">اندازه دکمه پاسخ</string>
   <string name="card_browser_font_size">تغییر اندازه فونت مرورگر کارت</string>
-  <string name="col_path">مسیر قرارگیری AnkiDroid</string>
+  <string name="col_path">مسیر قرارگیری AnkiPro</string>
   <string name="fullscreen_review">حالت تمام‌صفحه</string>
   <string name="full_screen_off">خاموش</string>
   <string name="full_screen_system">پنهان کردن نوار سیستم</string>
@@ -170,7 +170,7 @@
   <string name="convert_fen_text">پشتیبانی از ثبت حرکات شطرنج</string>
   <string name="convert_fen_text_summ">رسم صفحه شطرنجی از Forsyth Edwards Notation. یادداشت باید داخل تگ [fen][/fen] محصور باشد</string>
   <string name="enable_api_title">فعال کردن API این برنامه</string>
-  <string name="enable_api_summary">به دیگر برنامه ها اجازه دهید تا با ankidroid ارتباط داشته و اطلاعات را بدون دخالت شما بخوانند و بنویسند</string>
+  <string name="enable_api_summary">به دیگر برنامه ها اجازه دهید تا با ankipro ارتباط داشته و اطلاعات را بدون دخالت شما بخوانند و بنویسند</string>
   <string name="custom_buttons">دکمه های نوار برنامه</string>
   <string name="custom_buttons_summary">اینکه چه عملى در نوار برنامه ظاهر شود را شخصی سازی کنید</string>
   <string name="custom_buttons_setting_always_show">همیشه نمایش بده</string>

@@ -55,11 +55,11 @@
   <string name="initializing_tts">Inicializando TTS&#8230;</string>
   <string name="tts_no_tts">No hablar</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Tarjetas para Android</h2>AnkiDroid es una aplicación de tarjetas totalmente compatible con <a href=\"%2$s\">Anki</a>, el software de escritorio. Se puede crear, descargar y aprender material tanto en AnkiDroid como en Anki de escritorio, y sincronizarlo fácilmente con AnkiWeb.]]></item>
-    <item><![CDATA[Para ayudarnos a mejorar la AnkiDroid, por favor informe los errores por <a href=\"%1$s\">el issue tracker</a>; nuevas ideas son muy agradadecidas también. Encuentre las respuestas en <a href=\"%2$s\"> la wiki</a> o inicie una discusión en <a href=\"%3$s\">el foro</a>.]]></item>
-    <item><![CDATA[AnkiDroid es <a href=\"%1$s\">software libre<a/>, por lo que todo el mundo se anima a <a href=\"%2$s\"> ser un colaborador</a> :-)]]></item>
-    <item><![CDATA[Aunque no seas desarrollador también puedes ayudar. Por ejemplo, puedes <a href=\"%1$s\">ayudar a traducir</a> AnkiDroid, actualizar la wiki, aportar capturas de pantalla o escribir en blogs sobre AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid está publicado bajo la <a href=\"%1$s\">licencia de GNU-GPL v3</a> y el código fuente está disponible <a href=\"%2$s\">en GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Tarjetas para Android</h2>AnkiPro es una aplicación de tarjetas totalmente compatible con <a href=\"%2$s\">Anki</a>, el software de escritorio. Se puede crear, descargar y aprender material tanto en AnkiPro como en Anki de escritorio, y sincronizarlo fácilmente con AnkiWeb.]]></item>
+    <item><![CDATA[Para ayudarnos a mejorar la AnkiPro, por favor informe los errores por <a href=\"%1$s\">el issue tracker</a>; nuevas ideas son muy agradadecidas también. Encuentre las respuestas en <a href=\"%2$s\"> la wiki</a> o inicie una discusión en <a href=\"%3$s\">el foro</a>.]]></item>
+    <item><![CDATA[AnkiPro es <a href=\"%1$s\">software libre<a/>, por lo que todo el mundo se anima a <a href=\"%2$s\"> ser un colaborador</a> :-)]]></item>
+    <item><![CDATA[Aunque no seas desarrollador también puedes ayudar. Por ejemplo, puedes <a href=\"%1$s\">ayudar a traducir</a> AnkiPro, actualizar la wiki, aportar capturas de pantalla o escribir en blogs sobre AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro está publicado bajo la <a href=\"%1$s\">licencia de GNU-GPL v3</a> y el código fuente está disponible <a href=\"%2$s\">en GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Vista previa</string>
   <string name="reset_card_dialog_title">Resetear el progreso de la tarjeta</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Reprogramar para revisión en x días:</string>
   <string name="reschedule_card_dialog_acknowledge">Tarjeta reprogramada</string>
   <string name="answering_error_title">Error en la base de datos</string>
-  <string name="answering_error_message">Se ha producido un error al escribir en la colección. Esto podría estar relacionado con una base de datos dañada o con un espacio en disco insuficiente.\n\nSi esto ocurre con más frecuencia, intenta verificar la base de datos, reparar la colección o restaurar desde una copia de seguridad. Para ello, haz clic en \"Opciones\".\n\nDe todos modos, podría ser un error de AnkiDroid; por favor, informa del error para que podamos comprobarlo.</string>
+  <string name="answering_error_message">Se ha producido un error al escribir en la colección. Esto podría estar relacionado con una base de datos dañada o con un espacio en disco insuficiente.\n\nSi esto ocurre con más frecuencia, intenta verificar la base de datos, reparar la colección o restaurar desde una copia de seguridad. Para ello, haz clic en \"Opciones\".\n\nDe todos modos, podría ser un error de AnkiPro; por favor, informa del error para que podamos comprobarlo.</string>
   <string name="answering_error_report">Reportar error</string>
   <string name="repair_deck_dialog">¿Realmente deseas intentar reparar la base de datos?\n\nAntes de iniciar el intento, se creará una copia en la subcarpeta \'%s\'.</string>
   <string name="intent_add_saved_information">Datos guardados</string>
   <string name="intent_add_clear_all">Borrar todo</string>
   <string name="intent_aedict_empty">La categoría \'por defecto\' está vacía</string>
-  <string name="intent_aedict_category">Para añadir tarjetas AnkiDroid borra todas las categorías del Bloc de notas o agrega una llamada \'por defecto\'</string>
+  <string name="intent_aedict_category">Para añadir tarjetas AnkiPro borra todas las categorías del Bloc de notas o agrega una llamada \'por defecto\'</string>
   <string name="custom_study_new_total_new">Tarjetas nuevas en el mazo: %s</string>
   <string name="custom_study_rev_total_rev">Repasos pendientes en el mazo: %s</string>
   <string name="custom_study_new_extend">Aumentar el límite de tarjetas nuevas para hoy en</string>

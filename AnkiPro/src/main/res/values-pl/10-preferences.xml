@@ -43,7 +43,7 @@
   <string name="disabled">Wyłączone</string>
   <string name="enabled">Włączone</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Ustawienia ogólne</string>
   <string name="pref_cat_reviewing">Przegląd</string>
   <string name="pref_cat_reviewing_summ">Ustawienia wspólne dla wszystkich talii</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Wydajność</string>
   <string name="pref_cat_workarounds">Obejścia</string>
   <string name="pref_cat_plugins">Pluginy</string>
-  <string name="about_title">O programie AnkiDroid</string>
+  <string name="about_title">O programie AnkiPro</string>
   <string name="about_version">Wersja: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Szerokość kreski</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Powiększenie obrazów/grafiki</string>
   <string name="button_size">Rozmiar przycisku odpowiedzi</string>
   <string name="card_browser_font_size">Skalowanie fontu przeglądania kart</string>
-  <string name="col_path">Katalog AnkiDroid</string>
+  <string name="col_path">Katalog AnkiPro</string>
   <string name="fullscreen_review">Tryb pełnoekranowy</string>
   <string name="full_screen_off">Wyłączony</string>
   <string name="full_screen_system">Ukryj paski systemowe</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Zablokuj wyłącznik czasowy ekranu</string>
   <string name="convert_fen_text">Obsługa notacji szachowej</string>
   <string name="convert_fen_text_summ">Rysuj szachownicę z notacji Forsytha-Edwardsa. Notacja musi być w znacznikach [fen][/fen].</string>
-  <string name="enable_api_title">Zezwól na AnkiDroid API</string>
-  <string name="enable_api_summary">Pozwól innym aplikacjom na podłączanie do AnkiDroid i zapisywanie i odczyt danych bez Twojej ingerencji</string>
+  <string name="enable_api_title">Zezwól na AnkiPro API</string>
+  <string name="enable_api_summary">Pozwól innym aplikacjom na podłączanie do AnkiPro i zapisywanie i odczyt danych bez Twojej ingerencji</string>
   <string name="custom_buttons">Przyciski paska aplikacji</string>
   <string name="custom_buttons_summary">Ustaw, które akcje pokażą się na pasku aplikacji</string>
   <string name="custom_buttons_setting_always_show">Zawsze pokazuj</string>

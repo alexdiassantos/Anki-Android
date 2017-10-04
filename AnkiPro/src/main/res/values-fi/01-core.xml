@@ -107,7 +107,7 @@
   <string name="create">Luo</string>
   <string name="new_dynamic_deck">Uusi suodatettu pakka</string>
   <string name="night_mode">Yötila</string>
-  <string name="directory_inaccessible">AnkiDroidin hakemisto ei ole käytettävissä</string>
+  <string name="directory_inaccessible">AnkiProin hakemisto ei ole käytettävissä</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">Korttia ei voitu luoda</string>
   <string name="card_template_editor_would_delete_note">Korttityypin poistaminen aiheuttaisi yhden tai useamman kortin poistamisen. Luo uusi korttityyppi.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Lue ja kirjoita AnkiDroidi-tietokantaan</string>
+  <string name="read_write_permission_label">Lue ja kirjoita AnkiProi-tietokantaan</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

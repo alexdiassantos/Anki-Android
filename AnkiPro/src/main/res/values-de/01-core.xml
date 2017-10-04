@@ -107,7 +107,7 @@
   <string name="create">Erstellen</string>
   <string name="new_dynamic_deck">Gefilterten Stapel erstellen</string>
   <string name="night_mode">Nachtmodus</string>
-  <string name="directory_inaccessible">Auf AnkiDroid-Verzeichnis kann nicht zugegriffen werden</string>
+  <string name="directory_inaccessible">Auf AnkiPro-Verzeichnis kann nicht zugegriffen werden</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">Es konnte keine Karte erzeugt werden</string>
   <string name="card_template_editor_would_delete_note">Kartentyp kann nicht gelöscht werden, da dadurch mindestens eine Notiz gelöscht würde.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">AnkiDroid-Datenbank lesen und schreiben</string>
+  <string name="read_write_permission_label">AnkiPro-Datenbank lesen und schreiben</string>
   <string name="read_write_permission_description">Sowohl Zugriff auf vorhandene Notizen, Karten, Hinweis-Typen und den Decks, als auch das Erstellen von neuen</string>
 </resources>

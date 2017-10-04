@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Tarjetas programadas</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d tarjetas programadas en AnkiDroid</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d tarjetas programadas en AnkiPro</string>
   <string name="widget_no_cards_due">No hay tarjetas programadas</string>
   <string name="widget_loading">Cargando widget&#8230;</string>
   <plurals name="widget_cards_in_decks_due">
@@ -52,8 +52,8 @@
     <item quantity="one">%1$d mazo</item>
     <item quantity="other">%1$d mazos</item>
   </plurals>
-  <string name="widget_small">AnkiDroid pequeño</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">AnkiPro pequeño</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d tarjeta programada</item>
     <item quantity="other">%d tarjetas programadas</item>
@@ -63,5 +63,5 @@
     <item quantity="other">%d minutos restantes</item>
   </plurals>
   <string name="widget_add_note">Añadir nota</string>
-  <string name="widget_add_note_button">Añadir nueva nota de Ankidroid</string>
+  <string name="widget_add_note_button">Añadir nueva nota de Ankipro</string>
 </resources>

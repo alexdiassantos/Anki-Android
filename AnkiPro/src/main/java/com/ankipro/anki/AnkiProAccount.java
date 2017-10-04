@@ -36,7 +36,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.ankipro2.anim.ActivityTransitionAnimation;
 import com.ankipro2.anki.AnkiActivity;
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.UIUtils;
 import com.ankipro2.async.Connection;
@@ -66,7 +66,7 @@ public class AnkiProAccount extends AnkiActivity {
     private void switchToState(int newState) {
         switch (newState) {
             case STATE_LOGGED_IN:
-                String username = AnkiDroidApp.getSharedPrefs(getBaseContext()).getString("username", "");
+                String username = AnkiProApp.getSharedPrefs(getBaseContext()).getString("username", "");
                 mUsernameLoggedIn.setText(username);
                 mToolbar = (Toolbar) mLoggedIntoAnkiProAccountView.findViewById(R.id.toolbar);
                 if (mToolbar != null) {
@@ -97,7 +97,7 @@ public class AnkiProAccount extends AnkiActivity {
         mayOpenUrl(Uri.parse(getResources().getString(R.string.register_url)));
         initAllContentViews();
 
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(getBaseContext());
         if (preferences.getString("hkey", "").length() > 0) {
             switchToState(STATE_LOGGED_IN);
         } else {
@@ -123,7 +123,7 @@ public class AnkiProAccount extends AnkiActivity {
     // }
 
     private void saveAnkiProUserInformation(String username, String ninjakey,String password, List<Produto> result) {
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(getBaseContext());
         Editor editor = preferences.edit();
         editor.remove("username");
         editor.remove("hkey");
@@ -167,7 +167,7 @@ public class AnkiProAccount extends AnkiActivity {
 
 
     private void logout() {
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(getBaseContext());
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(getBaseContext());
         Editor editor = preferences.edit();
         editor.remove("username");
         editor.remove("hkey");

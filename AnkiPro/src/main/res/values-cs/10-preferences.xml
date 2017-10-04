@@ -43,7 +43,7 @@
   <string name="disabled">Vypnuto</string>
   <string name="enabled">Povoleno</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Obecné nastavení</string>
   <string name="pref_cat_reviewing">Opakování</string>
   <string name="pref_cat_reviewing_summ">Obecné nastavení pro opakování</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Výkon</string>
   <string name="pref_cat_workarounds">Možná zástupná řešení</string>
   <string name="pref_cat_plugins">Pluginy</string>
-  <string name="about_title">O AnkiDroid</string>
+  <string name="about_title">O AnkiPro</string>
   <string name="about_version">Verze: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Šířka tahu</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Zvětšení obrázku</string>
   <string name="button_size">Velikost tlačítka pro odpověď</string>
   <string name="card_browser_font_size">Velikost písma v prohlížení</string>
-  <string name="col_path">Adresář AnkiDroid</string>
+  <string name="col_path">Adresář AnkiPro</string>
   <string name="fullscreen_review">Celoobrazovkový režim</string>
   <string name="full_screen_off">Vypnout</string>
   <string name="full_screen_system">Skrýt panely systému</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Nepovolit zhasnutí displeje</string>
   <string name="convert_fen_text">Podpora šachovnicového zápisu</string>
   <string name="convert_fen_text_summ">Vykreslení šachovnice z Forsyth Edwards Notation. Zápis musí být uzavřen mezi značky [fen][/fen].</string>
-  <string name="enable_api_title">Povolit AnkiDroid API</string>
-  <string name="enable_api_summary">Umožnit ostatním aplikacím číst a zapisovat data AnkiDroid bez uživatelské intervence</string>
+  <string name="enable_api_title">Povolit AnkiPro API</string>
+  <string name="enable_api_summary">Umožnit ostatním aplikacím číst a zapisovat data AnkiPro bez uživatelské intervence</string>
   <string name="custom_buttons">Tlačítka na panelu aplikace</string>
   <string name="custom_buttons_summary">Vlastní akce, které se objeví v panelu aplikace</string>
   <string name="custom_buttons_setting_always_show">Vždy zobrazovat</string>

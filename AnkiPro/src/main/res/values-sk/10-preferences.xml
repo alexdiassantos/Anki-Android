@@ -43,7 +43,7 @@
   <string name="disabled">Vypnuté</string>
   <string name="enabled">Zapnuté</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Všeobecné nastavenia</string>
   <string name="pref_cat_reviewing">Opakovanie</string>
   <string name="pref_cat_reviewing_summ">Všeobecné nastavenia pre opakovania</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Výkon</string>
   <string name="pref_cat_workarounds">Možné riešenia</string>
   <string name="pref_cat_plugins">Rozšírenia</string>
-  <string name="about_title">O AnkiDroid</string>
+  <string name="about_title">O AnkiPro</string>
   <string name="about_version">Verzia: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Hrúbka ťahu</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Priblíženie obrázka</string>
   <string name="button_size">Veľkosť tlačidla pre odpoveď</string>
   <string name="card_browser_font_size">Veľkosť písma v prehliadači kartičiek</string>
-  <string name="col_path">Adresár AnkiDroid</string>
+  <string name="col_path">Adresár AnkiPro</string>
   <string name="fullscreen_review">Celoobrazovkový režim</string>
   <string name="full_screen_off">Vypnúť</string>
   <string name="full_screen_system">Skryť systémové panely</string>
@@ -170,8 +170,8 @@
   <string name="pref_keep_screen_on_summ">Zakázať vypínanie obrazovky</string>
   <string name="convert_fen_text">Podpora šachového zápisu</string>
   <string name="convert_fen_text_summ">Vykresliť šachovnicu zo systému zápisu Forsyth–Edwards. Zápis musí byť uzavretý medzi značkami [fen][/fen].</string>
-  <string name="enable_api_title">Povoliť AnkiDroid API</string>
-  <string name="enable_api_summary">Umožniť ostatným aplikáciám pripojiť sa k AnkiDroid a dovoliť čítať/zapisovať údaje bez vášho zásahu</string>
+  <string name="enable_api_title">Povoliť AnkiPro API</string>
+  <string name="enable_api_summary">Umožniť ostatným aplikáciám pripojiť sa k AnkiPro a dovoliť čítať/zapisovať údaje bez vášho zásahu</string>
   <string name="custom_buttons">Tlačidlá panelu aplikácie</string>
   <string name="custom_buttons_summary">Nastaviť, aké akcie sa zobrazia v paneli aplikácie</string>
   <string name="custom_buttons_setting_always_show">Vždy zobraziť</string>

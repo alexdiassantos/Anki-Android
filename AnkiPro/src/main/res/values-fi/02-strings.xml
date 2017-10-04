@@ -122,8 +122,8 @@
     <item quantity="one">%1$d minuutti</item>
     <item quantity="other">%1$d minuuttia</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Tervetuloa AnkiDroidiin</string>
-  <string name="fact_adder_intent_title">AnkiDroid-kortti</string>
+  <string name="studyoptions_welcome_title">Tervetuloa AnkiProiin</string>
+  <string name="fact_adder_intent_title">AnkiPro-kortti</string>
   <string name="card_editor_add_card">Lisää merkintä</string>
   <string name="card_editor_copy_card">Kopioi kortti</string>
   <string name="card_editor_reset_card">Tyhjennä edistyminen</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Kirjoita vastaus: tuntematon kenttä %s</string>
   <string name="delete_deck">Poistetaan pakkaa&#8230;</string>
   <string name="show_hint">Näytä %s</string>
-  <string name="info_rate">Arvostele AnkiDroid</string>
-  <string name="col_load_failed">Kokoelman lataaminen epäonnistui.\nPaina Takaisin-painiketta sulkeaksesi AnkiDroidin.</string>
+  <string name="info_rate">Arvostele AnkiPro</string>
+  <string name="col_load_failed">Kokoelman lataaminen epäonnistui.\nPaina Takaisin-painiketta sulkeaksesi AnkiProin.</string>
   <string name="import_title">Tuodaan</string>
   <string name="import_select_title">Valitse tuotava tiedosto</string>
   <string name="import_message_add">Lisää</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">Lisää \"%s\" kokoelmaan? Se voi kestää pitkään</string>
   <string name="import_log_no_apkg">Tämä ei ole validi apkg-tiedosto</string>
   <string name="import_error_not_apkg_extension">Tiedostolla \"%s\" ei ole .apkg -päätettä</string>
-  <string name="import_error_content_provider">Valittua tiedostoa ei voitu tuoda automaattisesti AnkiDroidiin. Katso käyttöohjeesta, kuinka tuoda manuaalisesti anki-tiedostoja: \n%s</string>
+  <string name="import_error_content_provider">Valittua tiedostoa ei voitu tuoda automaattisesti AnkiProiin. Katso käyttöohjeesta, kuinka tuoda manuaalisesti anki-tiedostoja: \n%s</string>
   <string name="import_replacing">Korvataan kokoelmaa&#8230;</string>
   <string name="export_include_schedule">Myös ajoitukset</string>
   <string name="export_include_media">Myös media</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">Tallennetaan apkg-tiedostoa&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
 <![CDATA[
         Hei!
         <br/><br/>
-        Tämä on Anki-korttipakka <a href="https://ankidroid.org/docs/manual.html">AnkiDroidista</a>.
+        Tämä on Anki-korttipakka <a href="https://ankipro.org/docs/manual.html">AnkiProista</a>.
         Avaa se käyttämällä jotain olemassa olevaa <a href="http://ankisrs.net/#download">Anki -sovellusta</a> ja nauti helposta ja tehokkaasta opiskelusta!
         ]]>
     </string>

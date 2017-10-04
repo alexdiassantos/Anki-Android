@@ -54,11 +54,11 @@
   <string name="initializing_tts">正在初始化TTS引擎...</string>
   <string name="tts_no_tts">不要朗读</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Android上的卡片记忆应用</h2>AnkiDroid是一个与<a href=\"%2$s\">Anki桌面客户端</a>完全兼容的卡片记忆应用。你可以在Anki桌面客户端或者AnkiDroid添加和下载学习资料，它们可以很方便的通过AnkiWeb进行同步。]]></item>
-    <item><![CDATA[为了帮助改进AnkiDroid，请把Bugs发送到<a href=\"%1$s\">问题跟踪系统</a>；也欢迎提出新功能建议。\n在<a href=\"%2$s\">AnkiDroid的Wiki页面</a>上您可以找到一些问题的答案，也可以加入<a href=\"%3$s\">论坛</a>参与讨论。]]></item>
-    <item><![CDATA[AnkiDroid 是一个<a href=\"%1$s\">开源软件<a/>，鼓励每个人都<a href=\"%2$s\">成为它的贡献者</a>。:-)]]></item>
-    <item><![CDATA[非开发者亦可帮助。例如，你可以<a href=\"%1$s\">帮助翻译</a>AnkiDroid、更新wiki、提供屏幕截图，或写关于AnkiDroid的博客。]]></item>
-    <item><![CDATA[AnkiDroid 在<a href=\"%1$s\"> GNU GPL v3 许可证</a>下发布。源代码在<a href=\"%2$s\">GitHub</a>上提供。]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Android上的卡片记忆应用</h2>AnkiPro是一个与<a href=\"%2$s\">Anki桌面客户端</a>完全兼容的卡片记忆应用。你可以在Anki桌面客户端或者AnkiPro添加和下载学习资料，它们可以很方便的通过AnkiWeb进行同步。]]></item>
+    <item><![CDATA[为了帮助改进AnkiPro，请把Bugs发送到<a href=\"%1$s\">问题跟踪系统</a>；也欢迎提出新功能建议。\n在<a href=\"%2$s\">AnkiPro的Wiki页面</a>上您可以找到一些问题的答案，也可以加入<a href=\"%3$s\">论坛</a>参与讨论。]]></item>
+    <item><![CDATA[AnkiPro 是一个<a href=\"%1$s\">开源软件<a/>，鼓励每个人都<a href=\"%2$s\">成为它的贡献者</a>。:-)]]></item>
+    <item><![CDATA[非开发者亦可帮助。例如，你可以<a href=\"%1$s\">帮助翻译</a>AnkiPro、更新wiki、提供屏幕截图，或写关于AnkiPro的博客。]]></item>
+    <item><![CDATA[AnkiPro 在<a href=\"%1$s\"> GNU GPL v3 许可证</a>下发布。源代码在<a href=\"%2$s\">GitHub</a>上提供。]]></item>
   </string-array>
   <string name="preview_title">预览</string>
   <string name="reset_card_dialog_title">重设卡片进度</string>
@@ -68,13 +68,13 @@
   <string name="reschedule_card_dialog_message">重新安排在x天后复习</string>
   <string name="reschedule_card_dialog_acknowledge">已重设该卡片学习进度</string>
   <string name="answering_error_title">数据库错误</string>
-  <string name="answering_error_message">写入集合时出错。可能是数据库损坏，或者磁盘空间不足。\n\n如果频繁发生此错误，请检查数据库，修复集合或从备份中恢复。点击\"选项\"按钮以执行上述操作。\n\n当然，也可能只是AnkiDroid的bug，请报告这个错误，我们会尽力解决。</string>
+  <string name="answering_error_message">写入集合时出错。可能是数据库损坏，或者磁盘空间不足。\n\n如果频繁发生此错误，请检查数据库，修复集合或从备份中恢复。点击\"选项\"按钮以执行上述操作。\n\n当然，也可能只是AnkiPro的bug，请报告这个错误，我们会尽力解决。</string>
   <string name="answering_error_report">报告错误</string>
   <string name="repair_deck_dialog">确实要尝试修复数据库吗？\n\n在开始前，副本将保存在子目录“%s”里。</string>
   <string name="intent_add_saved_information">已保存的数据</string>
   <string name="intent_add_clear_all">全部清除</string>
   <string name="intent_aedict_empty">类别“默认”为空</string>
-  <string name="intent_aedict_category">向AnkiDroid中添加卡牌，需要删除所有NotePad类别，或者添加“默认(default)”类别。</string>
+  <string name="intent_aedict_category">向AnkiPro中添加卡牌，需要删除所有NotePad类别，或者添加“默认(default)”类别。</string>
   <string name="custom_study_new_total_new">牌组中的新卡片数量：%s</string>
   <string name="custom_study_rev_total_rev">牌组中到期的卡牌数量：%s</string>
   <string name="custom_study_new_extend">将今天新卡牌的数量限制增加</string>

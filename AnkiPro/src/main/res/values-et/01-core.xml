@@ -107,7 +107,7 @@
   <string name="create">Loo</string>
   <string name="new_dynamic_deck">Create filtered deck</string>
   <string name="night_mode">Öörežiim</string>
-  <string name="directory_inaccessible">AnkiDroid directory is inaccessible</string>
+  <string name="directory_inaccessible">AnkiPro directory is inaccessible</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">A card could not be generated</string>
   <string name="card_template_editor_would_delete_note">Selle kaardi eemaldamine võib põhjustada ühe või rohkema märkme kaotsiminekut. Looge esmalt uus kaardi tüüp.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Read and write to the AnkiDroid database</string>
+  <string name="read_write_permission_label">Read and write to the AnkiPro database</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

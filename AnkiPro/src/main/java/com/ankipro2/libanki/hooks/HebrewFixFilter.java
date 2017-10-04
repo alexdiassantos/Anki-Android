@@ -70,7 +70,7 @@ public class HebrewFixFilter extends Hook {
      * Translates sections of Hebrew (RTL) unicode into western locations to bypass the
      * flakey Android BiDi algorithm. This is necessary if the text includes Hebrew vowels.
      * This is supposed to be used in conjuction with a specially modified font Tohu.ttf,
-     * see ankidroid forum for more details:
+     * see ankipro forum for more details:
      * https://groups.google.com/forum/?fromgroups#!topic/anki-android/n9JpDiQ_dgU
      *
      * @param text Hebrew text

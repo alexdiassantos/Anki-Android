@@ -43,7 +43,7 @@
   <string name="disabled">사용하지 않음</string>
   <string name="enabled">사용함</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">일반 설정</string>
   <string name="pref_cat_reviewing">복습</string>
   <string name="pref_cat_reviewing_summ">특정 카드 묶음에 한정되지 않은 복습 설정</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">성능</string>
   <string name="pref_cat_workarounds">차선책</string>
   <string name="pref_cat_plugins">플러그인</string>
-  <string name="about_title">AnkiDroid에 대해서</string>
+  <string name="about_title">AnkiPro에 대해서</string>
   <string name="about_version">버전: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">획 두께</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">이미지 확대</string>
   <string name="button_size">정답 버튼 크기</string>
   <string name="card_browser_font_size">카드 탐색기 글꼴 크기 조정</string>
-  <string name="col_path">AnkiDroid 디렉토리</string>
+  <string name="col_path">AnkiPro 디렉토리</string>
   <string name="fullscreen_review">전체 화면 모드</string>
   <string name="full_screen_off">끔</string>
   <string name="full_screen_system">시스템 바 숨기기</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">화면 시간 제한 해제</string>
   <string name="convert_fen_text">체스 표기법 지원</string>
   <string name="convert_fen_text_summ">Forsyth–Edwards 표기법으로 체스판을 그립니다. 표기법은 [fen][/fen] 태그에서 묶어야 합니다.</string>
-  <string name="enable_api_title">AnkiDroid API를 사용하도록 설정</string>
-  <string name="enable_api_summary">사용자의 개입 없이 다른 앱이 AnkiDroid에 연결하고 데이터를 읽고 쓸 수 있도록 허용</string>
+  <string name="enable_api_title">AnkiPro API를 사용하도록 설정</string>
+  <string name="enable_api_summary">사용자의 개입 없이 다른 앱이 AnkiPro에 연결하고 데이터를 읽고 쓸 수 있도록 허용</string>
   <string name="custom_buttons">앱 바 버튼</string>
   <string name="custom_buttons_summary">앱 바에 어떠한 동작이 표시될 것인지 지정</string>
   <string name="custom_buttons_setting_always_show">항상 표시</string>

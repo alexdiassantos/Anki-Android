@@ -57,7 +57,7 @@
   <string name="password_repeat">确认密码</string>
   <string name="log_in">登录</string>
   <string name="sign_up_description">还没有AnkiWeb账户吗？它是免费的！</string>
-  <string name="sign_up_not_affiliated">注 ︰ AnkiWeb不属于AnkiDroid</string>
+  <string name="sign_up_not_affiliated">注 ︰ AnkiWeb不属于AnkiPro</string>
   <string name="sign_up">注册</string>
   <string name="logged_as">登录为</string>
   <string name="log_out">注销</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">媒体同步成功。</string>
   <string name="sync_media_changes_count">上传%d个媒体文件</string>
   <string name="sync_media_downloaded_count">已下载%d个媒体文件</string>
-  <string name="sync_sanity_failed">同步之后，牌组集合处于不一致的状态。AnkiDroid将会强制完全同步以修复这一问题。请选择你想保留哪一方的状态，如果你想稍后再同步，请取消</string>
+  <string name="sync_sanity_failed">同步之后，牌组集合处于不一致的状态。AnkiPro将会强制完全同步以修复这一问题。请选择你想保留哪一方的状态，如果你想稍后再同步，请取消</string>
   <string name="sync_media_sanity_failed">媒体同步完成，但媒体数量与服务器不一致。下一次将进行全部同步，以纠正错误。</string>
   <string name="sync_media_error">同步媒体数据出错。</string>
   <string name="sync_media_error_check">同步媒体文件时出错。建议检查媒体文件。</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">强制完全同步</string>
   <string name="force_full_sync_summary">在下一次同步时, 强制单方向的改变.</string>
   <string name="full_sync_confirmation">请求的改变需要在下次同步你的集合时上传整个数据库. 如果你还有在其他设备上未同步的复习或者其他改变, 他们将会丢失, 是否继续?</string>
-  <string name="full_sync_confirmation_upgrade">因先前安装的AnkiDroid版本中Bug的原因，我们建议强制完全同步一次。</string>
-  <string name="sync_error_501_upgrade_required">请升级到最新版本的AnkiDroid</string>
+  <string name="full_sync_confirmation_upgrade">因先前安装的AnkiPro版本中Bug的原因，我们建议强制完全同步一次。</string>
+  <string name="sync_error_501_upgrade_required">请升级到最新版本的AnkiPro</string>
 </resources>

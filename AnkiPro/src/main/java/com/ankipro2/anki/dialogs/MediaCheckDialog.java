@@ -106,7 +106,7 @@ public class MediaCheckDialog extends AsyncDialogFragment {
                 }
 
                 // We also prefix the report with a message about the media db being rebuilt, since
-                // we do a full media scan and update the db on each media check on AnkiDroid.
+                // we do a full media scan and update the db on each media check on AnkiPro.
                 report = res().getString(R.string.check_media_db_updated) + "\n\n" + report;
                 builder.content(report)
                         .cancelable(true);

@@ -12,7 +12,7 @@ import android.widget.RelativeLayout;
 
 import com.ankipro2.anki.AbstractFlashcardViewer;
 import com.ankipro2.anki.AnkiActivity;
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.themes.Themes;
 
@@ -35,7 +35,7 @@ public class CompatV19 extends CompatV17 implements Compat {
                         | View.SYSTEM_UI_FLAG_IMMERSIVE
         );
         // Show / hide the Action bar together with the status bar
-        SharedPreferences prefs = AnkiDroidApp.getSharedPrefs(a);
+        SharedPreferences prefs = AnkiProApp.getSharedPrefs(a);
         final int fullscreenMode = Integer.parseInt(prefs.getString("fullscreenMode", "0"));
         CompatHelper.getCompat().setStatusBarColor(a.getWindow(), Themes.getColorFromAttr(a, R.attr.colorPrimaryDark));
         View decorView = a.getWindow().getDecorView();

@@ -53,7 +53,7 @@
     <item quantity="other">%1$d دسته ها</item>
   </plurals>
   <string name="widget_small">آنکی دروید کوچک</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">موعد مرور %d کارت</item>
     <item quantity="other">موعد مرور %d کارت</item>

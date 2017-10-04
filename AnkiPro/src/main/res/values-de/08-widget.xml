@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Fällige Karten</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d AnkiDroid-Karten fällig</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d AnkiPro-Karten fällig</string>
   <string name="widget_no_cards_due">Keine fälligen Karten</string>
   <string name="widget_loading">Widget wird geladen&#8230;</string>
   <plurals name="widget_cards_in_decks_due">
@@ -52,8 +52,8 @@
     <item quantity="one">%1$d Stapel</item>
     <item quantity="other">%1$d Stapel</item>
   </plurals>
-  <string name="widget_small">AnkiDroid klein</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">AnkiPro klein</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d Karte fällig</item>
     <item quantity="other">%d Karten fällig</item>
@@ -63,5 +63,5 @@
     <item quantity="other">%d Minuten verbleiben</item>
   </plurals>
   <string name="widget_add_note">Notiz hinzufügen</string>
-  <string name="widget_add_note_button">Neue AnkiDroid-Notiz hinzufügen</string>
+  <string name="widget_add_note_button">Neue AnkiPro-Notiz hinzufügen</string>
 </resources>

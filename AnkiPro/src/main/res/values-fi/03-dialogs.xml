@@ -55,11 +55,11 @@
   <string name="initializing_tts">Valmistellaan TTS:ää&#8230;</string>
   <string name="tts_no_tts">Älä puhu</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Kääntökorttisovellus Androidille</h2>AnkiDroid on ohjelma opiskeluun kääntökorttien (flashcard) avulla. Se on täysin yhteensopiva <a href=\"%2$s\">Anki</a> -työpöytäsovelluksen kanssa. Voit luoda kortteja, ladata niitä ja opiskella sekä AnkiDroidilla, että Ankilla ja synkronoida ne helposti toistensa kanssa.]]></item>
-    <item><![CDATA[Auta tekemään AnkiDroidista parempi, raportoi löytämäsi virheet <a href=\"%1$s\">täällä</a>. Ideoita uusiksi ominaisuuksiksi otetaan myös vastaan, käytä <a href=\"%2$s\">wikiä</a> ja käy <a href=\"%3$s\">foorumilla</a>.]]></item>
-    <item><![CDATA[AnkiDroid is <a href=\"%1$s\">open source software<a/>, so everyone is encouraged to <a href=\"%2$s\">become a contributor</a> :-)]]></item>
-    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiDroid, update the wiki, provide screenshots, or blog about AnkiDroid.]]></item>
-    <item><![CDATA[AnkiDroid is released under the <a href=\"%1$s\">GNU-GPL v3 license</a> and the source code is available <a href=\"%2$s\">on GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Kääntökorttisovellus Androidille</h2>AnkiPro on ohjelma opiskeluun kääntökorttien (flashcard) avulla. Se on täysin yhteensopiva <a href=\"%2$s\">Anki</a> -työpöytäsovelluksen kanssa. Voit luoda kortteja, ladata niitä ja opiskella sekä AnkiProilla, että Ankilla ja synkronoida ne helposti toistensa kanssa.]]></item>
+    <item><![CDATA[Auta tekemään AnkiProista parempi, raportoi löytämäsi virheet <a href=\"%1$s\">täällä</a>. Ideoita uusiksi ominaisuuksiksi otetaan myös vastaan, käytä <a href=\"%2$s\">wikiä</a> ja käy <a href=\"%3$s\">foorumilla</a>.]]></item>
+    <item><![CDATA[AnkiPro is <a href=\"%1$s\">open source software<a/>, so everyone is encouraged to <a href=\"%2$s\">become a contributor</a> :-)]]></item>
+    <item><![CDATA[Non-developers can also help. For instance, you can <a href=\"%1$s\">help translate</a> AnkiPro, update the wiki, provide screenshots, or blog about AnkiPro.]]></item>
+    <item><![CDATA[AnkiPro is released under the <a href=\"%1$s\">GNU-GPL v3 license</a> and the source code is available <a href=\"%2$s\">on GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Esikatselu</string>
   <string name="reset_card_dialog_title">Nollaa kortin edistyminen</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Toista uudestaan x päivän päästä:</string>
   <string name="reschedule_card_dialog_acknowledge">Kortti on ajoitettu uudelleen</string>
   <string name="answering_error_title">Tietokantavirhe</string>
-  <string name="answering_error_message">Kokoelmaan kirjoittaminen epäonnistui. Tämä voi aiheutua viallisesta tietokannasta tai liian vähäisestä levytilasta.\n\nJos tämä tapahtuu usein, yritä tarkistaa tietokanta, korjata kokoelma tai palauttaa se varmuuskopioista. Voit tehdä tämän napauttamalla \"Asetukset\"-painiketta.\n\nKyseessä voi olla myös vika AnkiDroidissa, joten ilmoita tästä meille jotta voimme tarkastaa asian.</string>
+  <string name="answering_error_message">Kokoelmaan kirjoittaminen epäonnistui. Tämä voi aiheutua viallisesta tietokannasta tai liian vähäisestä levytilasta.\n\nJos tämä tapahtuu usein, yritä tarkistaa tietokanta, korjata kokoelma tai palauttaa se varmuuskopioista. Voit tehdä tämän napauttamalla \"Asetukset\"-painiketta.\n\nKyseessä voi olla myös vika AnkiProissa, joten ilmoita tästä meille jotta voimme tarkastaa asian.</string>
   <string name="answering_error_report">Ilmoita viasta</string>
   <string name="repair_deck_dialog">Haluatko varmasti yrittää korjata tietokannan?\n\nEnnen yritystä kopio tietokannasta luodaan alihakemistoon \"%s\".</string>
   <string name="intent_add_saved_information">Tallennetut tiedot</string>
   <string name="intent_add_clear_all">Tyhjennä kaikki</string>
   <string name="intent_aedict_empty">Luokka \"oletus\" on tyhjä</string>
-  <string name="intent_aedict_category">Lisätäksesi kortteja AnkiDroidiin poista kaikki Notepad-kategoriat tai lisää uusi nimellä \"default\"</string>
+  <string name="intent_aedict_category">Lisätäksesi kortteja AnkiProiin poista kaikki Notepad-kategoriat tai lisää uusi nimellä \"default\"</string>
   <string name="custom_study_new_total_new">Uusia kortteja pakassa: %s</string>
   <string name="custom_study_rev_total_rev">Opiskeltavia kortteja pakassa: %s</string>
   <string name="custom_study_new_extend">Lisää tämän päivän uusien korttien rajoitusta</string>

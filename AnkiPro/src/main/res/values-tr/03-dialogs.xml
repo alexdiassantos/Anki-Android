@@ -55,11 +55,11 @@
   <string name="initializing_tts">Metin okuma başlatılıyor&#8230;</string>
   <string name="tts_no_tts">Konuşma</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Android için bilgi kartları</h2>AnkiDroid, masaüstü yazılımı <a href=\"%2$s\">Anki</a>\'yle tamamen uyumlu bir bilgi kartı uygulamasıdır. İster AnkiDroid\'de ister Anki Masaüstü\'nde materyal oluşturup, indirip ve öğrenip, bunları AnkiWeb\'le kolayca senkronize edebilirsiniz.]]></item>
-    <item><![CDATA[AnkiDroid\'i daha iyi hâle getirmemize yardım etmek için, lütfen bugları <a href=\"%1$s\">sorun takipçisi</a>ne bildirin; yeni özellik fikirlerinizi de bekliyoruz. <a href=\"%2$s\">Wiki</a>de sorularınıza cevap arayın veya <a href=\"%3$s\">forum</a>da bir tartışma açın.]]></item>
-    <item><![CDATA[AnkiDroid <a href=\"%1$s\">açık kaynaklı bir programdır<a/>, böylece herkes <a href=\"%2$s\"> katılımcı olabilir</a> :-)]]></item>
-    <item><![CDATA[Yazılımcı olmayanlar da yardım edebilir. Örneğin; AnkiDroid\'in <a href=\"%1$s\">tercümesine yardım edebilir</a>, vikiyi güncelleyebilir, ekran görüntüleri sağlayabilir, veya AnkiDroid hakkında bloglayabilirsiniz.]]></item>
-    <item><![CDATA[AnkiDroid GNU-GPL v3 <a href=\"%1$s\"> lisansı altında çıkartılmıştır </a> kaynak kodlarına <a href=\"%2$s\"> GitHub\'dan ulaşabilirsiniz</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Android için bilgi kartları</h2>AnkiPro, masaüstü yazılımı <a href=\"%2$s\">Anki</a>\'yle tamamen uyumlu bir bilgi kartı uygulamasıdır. İster AnkiPro\'de ister Anki Masaüstü\'nde materyal oluşturup, indirip ve öğrenip, bunları AnkiWeb\'le kolayca senkronize edebilirsiniz.]]></item>
+    <item><![CDATA[AnkiPro\'i daha iyi hâle getirmemize yardım etmek için, lütfen bugları <a href=\"%1$s\">sorun takipçisi</a>ne bildirin; yeni özellik fikirlerinizi de bekliyoruz. <a href=\"%2$s\">Wiki</a>de sorularınıza cevap arayın veya <a href=\"%3$s\">forum</a>da bir tartışma açın.]]></item>
+    <item><![CDATA[AnkiPro <a href=\"%1$s\">açık kaynaklı bir programdır<a/>, böylece herkes <a href=\"%2$s\"> katılımcı olabilir</a> :-)]]></item>
+    <item><![CDATA[Yazılımcı olmayanlar da yardım edebilir. Örneğin; AnkiPro\'in <a href=\"%1$s\">tercümesine yardım edebilir</a>, vikiyi güncelleyebilir, ekran görüntüleri sağlayabilir, veya AnkiPro hakkında bloglayabilirsiniz.]]></item>
+    <item><![CDATA[AnkiPro GNU-GPL v3 <a href=\"%1$s\"> lisansı altında çıkartılmıştır </a> kaynak kodlarına <a href=\"%2$s\"> GitHub\'dan ulaşabilirsiniz</a>.]]></item>
   </string-array>
   <string name="preview_title">Önizleme</string>
   <string name="reset_card_dialog_title">Kart ilerlemesini sıfırla</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Şu kadar gün sonra çalışmaya zamanla:</string>
   <string name="reschedule_card_dialog_acknowledge">Kartın zamanı değiştirildi</string>
   <string name="answering_error_title">Veritabanı hatası</string>
-  <string name="answering_error_message">Koleksiyon yazılırken bir hatâ meydana geldi. Bu bozuk bir veritabanıyla veya yetersiz disk alanıyla ilgili olabilir.\n\nEğer bu daha sık olmaya başlarsa, lütfen veritabanını kontrol etmeyi, koleksiyonu onarmayı veya bir yedekten geri yüklemeyi deneyin.\n\nTabii bu bir AnkiDroid sorunu da olabilir; lütfen hatâyı bildirin ki kontrol edebilelim.</string>
+  <string name="answering_error_message">Koleksiyon yazılırken bir hatâ meydana geldi. Bu bozuk bir veritabanıyla veya yetersiz disk alanıyla ilgili olabilir.\n\nEğer bu daha sık olmaya başlarsa, lütfen veritabanını kontrol etmeyi, koleksiyonu onarmayı veya bir yedekten geri yüklemeyi deneyin.\n\nTabii bu bir AnkiPro sorunu da olabilir; lütfen hatâyı bildirin ki kontrol edebilelim.</string>
   <string name="answering_error_report">Hatayı bildir</string>
   <string name="repair_deck_dialog">Veritabanını onarmayı gerçekten denemek istiyor musunuz?\n\nGirişime başlamadan önce, \"%s\" altklasöründe bir kopya oluşturulacak.</string>
   <string name="intent_add_saved_information">Veri kaydedildi</string>
   <string name="intent_add_clear_all">Hepsini temizle</string>
   <string name="intent_aedict_empty">\"Varsayılan\" kategorisi boş</string>
-  <string name="intent_aedict_category">AnkiDroid\'e kart eklemek için bütün Not Defteri kategorilerini kaldırın veya \"default\" isminde bir tane ekleyin</string>
+  <string name="intent_aedict_category">AnkiPro\'e kart eklemek için bütün Not Defteri kategorilerini kaldırın veya \"default\" isminde bir tane ekleyin</string>
   <string name="custom_study_new_total_new">Desteden yeni kartlar: %s</string>
   <string name="custom_study_rev_total_rev">Destede çalışılacak kart: %s</string>
   <string name="custom_study_new_extend">Bugünün yeni kart limitini artırın</string>

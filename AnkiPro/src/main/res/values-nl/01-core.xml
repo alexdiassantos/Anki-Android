@@ -107,7 +107,7 @@
   <string name="create">Maak</string>
   <string name="new_dynamic_deck">Gefilterde leerset maken</string>
   <string name="night_mode">Nachtmodus</string>
-  <string name="directory_inaccessible">AnkiDroidmap is ontoegankelijk</string>
+  <string name="directory_inaccessible">AnkiPromap is ontoegankelijk</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">De kaart kon niet worden aangemaakt</string>
   <string name="card_template_editor_would_delete_note">Het verwijderen van dit kaarttype zou er mogelijk voor zorgen dat een of meer notities worden verwijderd. Gelieve een nieuw kaarttype eerst te maken.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Lees en schrijf naar de AnkiDroid database</string>
+  <string name="read_write_permission_label">Lees en schrijf naar de AnkiPro database</string>
   <string name="read_write_permission_description">toegang tot bestaande notities, kaarten, notitietypen en dekken (ook nieuwe maken)</string>
 </resources>

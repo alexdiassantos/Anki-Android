@@ -29,13 +29,13 @@ import android.view.View;
 import android.widget.RemoteViews;
 
 import com.ankipro.anki.IntentHandler;
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.compat.CompatHelper;
 
 import timber.log.Timber;
 
-public class AnkiDroidWidgetSmall extends AppWidgetProvider {
+public class AnkiProWidgetSmall extends AppWidgetProvider {
 
     private static BroadcastReceiver mMountReceiver = null;
     private static boolean remounted = false;
@@ -53,7 +53,7 @@ public class AnkiDroidWidgetSmall extends AppWidgetProvider {
     public void onEnabled(Context context) {
         super.onEnabled(context);
         Timber.d("SmallWidget: Widget enabled");
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(context);
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(context);
         preferences.edit().putBoolean("widgetSmallEnabled", true).commit();
     }
 
@@ -62,14 +62,14 @@ public class AnkiDroidWidgetSmall extends AppWidgetProvider {
     public void onDisabled(Context context) {
         super.onDisabled(context);
         Timber.d("SmallWidget: Widget disabled");
-        SharedPreferences preferences = AnkiDroidApp.getSharedPrefs(context);
+        SharedPreferences preferences = AnkiProApp.getSharedPrefs(context);
         preferences.edit().putBoolean("widgetSmallEnabled", false).commit();
     }
 
     @Override
     public void onReceive(Context context, Intent intent) {
         if (intent.getAction().contentEquals("com.sec.android.widgetapp.APPWIDGET_RESIZE")) {
-            CompatHelper.getCompat().updateWidgetDimensions(context, new RemoteViews(context.getPackageName(), R.layout.widget_small), AnkiDroidWidgetSmall.class);
+            CompatHelper.getCompat().updateWidgetDimensions(context, new RemoteViews(context.getPackageName(), R.layout.widget_small), AnkiProWidgetSmall.class);
         }
         super.onReceive(context, intent);
     }
@@ -90,7 +90,7 @@ public class AnkiDroidWidgetSmall extends AppWidgetProvider {
 
             RemoteViews updateViews = buildUpdate(this, true);
 
-            ComponentName thisWidget = new ComponentName(this, AnkiDroidWidgetSmall.class);
+            ComponentName thisWidget = new ComponentName(this, AnkiProWidgetSmall.class);
             AppWidgetManager manager = AppWidgetManager.getInstance(this);
             manager.updateAppWidget(thisWidget, updateViews);
         }
@@ -101,11 +101,11 @@ public class AnkiDroidWidgetSmall extends AppWidgetProvider {
 
             RemoteViews updateViews = new RemoteViews(context.getPackageName(), R.layout.widget_small);
 
-            boolean mounted = AnkiDroidApp.isSdCardMounted();
+            boolean mounted = AnkiProApp.isSdCardMounted();
             if (!mounted) {
                 updateViews.setViewVisibility(R.id.widget_due, View.INVISIBLE);
                 updateViews.setViewVisibility(R.id.widget_eta, View.INVISIBLE);
-                updateViews.setViewVisibility(R.id.ankidroid_widget_small_finish_layout, View.GONE);
+                updateViews.setViewVisibility(R.id.ankipro_widget_small_finish_layout, View.GONE);
 
                 if (mMountReceiver == null) {
                     mMountReceiver = new BroadcastReceiver() {
@@ -140,13 +140,13 @@ public class AnkiDroidWidgetSmall extends AppWidgetProvider {
                     eta = counts[1];
                     if (dueCardsCount <= 0) {
                         if (dueCardsCount == 0) {
-                            updateViews.setViewVisibility(R.id.ankidroid_widget_small_finish_layout, View.VISIBLE);
+                            updateViews.setViewVisibility(R.id.ankipro_widget_small_finish_layout, View.VISIBLE);
                         } else {
-                            updateViews.setViewVisibility(R.id.ankidroid_widget_small_finish_layout, View.INVISIBLE);
+                            updateViews.setViewVisibility(R.id.ankipro_widget_small_finish_layout, View.INVISIBLE);
                         }
                         updateViews.setViewVisibility(R.id.widget_due, View.INVISIBLE);
                     } else {
-                        updateViews.setViewVisibility(R.id.ankidroid_widget_small_finish_layout, View.INVISIBLE);
+                        updateViews.setViewVisibility(R.id.ankipro_widget_small_finish_layout, View.INVISIBLE);
                         updateViews.setViewVisibility(R.id.widget_due, View.VISIBLE);
                         updateViews.setTextViewText(R.id.widget_due, Integer.toString(dueCardsCount));
                         updateViews.setContentDescription(R.id.widget_due, getResources().getQuantityString(R.plurals.widget_cards_due, dueCardsCount, dueCardsCount));
@@ -166,11 +166,11 @@ public class AnkiDroidWidgetSmall extends AppWidgetProvider {
             Intent ankiDroidIntent = new Intent(context, IntentHandler.class);
             ankiDroidIntent.setAction(Intent.ACTION_MAIN);
             ankiDroidIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-            PendingIntent pendingAnkiDroidIntent = PendingIntent.getActivity(context, 0, ankiDroidIntent,
+            PendingIntent pendingAnkiProIntent = PendingIntent.getActivity(context, 0, ankiDroidIntent,
                     PendingIntent.FLAG_UPDATE_CURRENT);
-            updateViews.setOnClickPendingIntent(R.id.ankidroid_widget_small_button, pendingAnkiDroidIntent);
+            updateViews.setOnClickPendingIntent(R.id.ankipro_widget_small_button, pendingAnkiProIntent);
 
-            CompatHelper.getCompat().updateWidgetDimensions(context, updateViews, AnkiDroidWidgetSmall.class);
+            CompatHelper.getCompat().updateWidgetDimensions(context, updateViews, AnkiProWidgetSmall.class);
 
             return updateViews;
         }

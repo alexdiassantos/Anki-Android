@@ -43,7 +43,7 @@
   <string name="disabled">Disabled</string>
   <string name="enabled">Enabled</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Cài đặt chung</string>
   <string name="pref_cat_reviewing">Ôn tập/ Xem lại</string>
   <string name="pref_cat_reviewing_summ">Cài đặt bộ ôn tập không có chủ đề cụ thể</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Hiệu năng</string>
   <string name="pref_cat_workarounds">Nền tảng công việc xung quanh</string>
   <string name="pref_cat_plugins">Các bổ sung plugins</string>
-  <string name="about_title">Về AnkiDroid</string>
+  <string name="about_title">Về AnkiPro</string>
   <string name="about_version">Phiên bản: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Chiều rộng không cố định</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Image zoom</string>
   <string name="button_size">Kích thước nút trả lời </string>
   <string name="card_browser_font_size">Thẻ trình duyệt font rộng</string>
-  <string name="col_path">AnkiDroid directory</string>
+  <string name="col_path">AnkiPro directory</string>
   <string name="fullscreen_review">Chế độ toàn màn hình</string>
   <string name="full_screen_off">Off</string>
   <string name="full_screen_system">Hide the system bars</string>
@@ -170,8 +170,8 @@
   <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
   <string name="convert_fen_text">Chess notation support</string>
   <string name="convert_fen_text_summ">Draw chessboard from Forsyth–Edwards Notation. The notation must be enclosed in [fen][/fen] tags.</string>
-  <string name="enable_api_title">Enable AnkiDroid API</string>
-  <string name="enable_api_summary">Let other apps connect to AnkiDroid and read / write data without your intervention</string>
+  <string name="enable_api_title">Enable AnkiPro API</string>
+  <string name="enable_api_summary">Let other apps connect to AnkiPro and read / write data without your intervention</string>
   <string name="custom_buttons">App bar buttons</string>
   <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
   <string name="custom_buttons_setting_always_show">Always show</string>

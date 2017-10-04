@@ -107,7 +107,7 @@
   <string name="create">Skapei</string>
   <string name="new_dynamic_deck">Skapei wikon mi</string>
   <string name="night_mode">Nahtamodus</string>
-  <string name="directory_inaccessible">AnkiDroid staþ atgaggan mahts nist</string>
+  <string name="directory_inaccessible">AnkiPro staþ atgaggan mahts nist</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -162,6 +162,6 @@
   <string name="card_template_editor_would_delete_note"> Usniman þis kartahaidaus tawidedi aina fawanda aiþþau 
         managizo fawandaizo meleine. Skapei þata frumist niujata kartahaidu.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Read and write to the AnkiDroid database</string>
+  <string name="read_write_permission_label">Read and write to the AnkiPro database</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

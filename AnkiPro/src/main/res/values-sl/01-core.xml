@@ -113,7 +113,7 @@
   <string name="create">Ustvari</string>
   <string name="new_dynamic_deck">Ustvari filtriran komplet</string>
   <string name="night_mode">Nočni način</string>
-  <string name="directory_inaccessible">Slovar AnkiDroid ni na voljo</string>
+  <string name="directory_inaccessible">Slovar AnkiPro ni na voljo</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -169,6 +169,6 @@
   <string name="invalid_template">Kartice ni bilo mogoče ustvariti</string>
   <string name="card_template_editor_would_delete_note">Odstranjevanje te vrste kartice lahko povzroči izbris enega ali več zapiskov. Najprej ustvarite novo vrsto kartice.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Branje in pisanje v podatkovno zbirko AnkiDroid</string>
+  <string name="read_write_permission_label">Branje in pisanje v podatkovno zbirko AnkiPro</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

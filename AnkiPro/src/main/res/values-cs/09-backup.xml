@@ -39,7 +39,7 @@
 ~ this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="backup_deck_no_space_left">Poslední zálohování nelze provést vzhledem k nedostatku místa na vaší SD kartě.\n\nUvolněte nějaké místo na kartě nebo snižte hloubku zálohování - počet záloh AnkiDroid.</string>
+  <string name="backup_deck_no_space_left">Poslední zálohování nelze provést vzhledem k nedostatku místa na vaší SD kartě.\n\nUvolněte nějaké místo na kartě nebo snižte hloubku zálohování - počet záloh AnkiPro.</string>
   <string name="sd_space_warning">Na vaší SD kartě je méně místa než %d mb.\nUvolněte trochu místa, aby se zabránilo ztrátě dat.</string>
   <string name="backup_delete">Výmaz záloh.\nProsím čekejte...</string>
   <string name="backup_restore">Obnovit ze zálohy</string>
@@ -57,7 +57,7 @@
   <string name="backup_error">Chyba</string>
   <string name="backup_invalid_file_error">Vybraný záložní soubor je neplatný</string>
   <string name="backup_restore_select_title">Vyberte zálohu pro obnovení</string>
-  <string name="backup_restore_no_backups">Žádné zálohy pro tento balíček nejsou k dispozici. Máte-li zálohu na stolním počítači, zkopírujte jí ručně do složky AnkiDroid</string>
+  <string name="backup_restore_no_backups">Žádné zálohy pro tento balíček nejsou k dispozici. Máte-li zálohu na stolním počítači, zkopírujte jí ručně do složky AnkiPro</string>
   <string name="open_collection_failed_title">Kolekce není otevřena</string>
   <string name="open_collection_failed_message">Databázi nelze otevřít. Buď to není reálná databáze Anki nebo je porušena.\n\nKlikněte na \'Možnosti\' pro způsob obnovení databáze, nebo na další informace o opravě poškozených balíčcích viz: \n%1$s</string>
   <string name="corrupt_db_message">Bohužel váš balíček se porušil.\n\nKlokněte na \'Možnosti\' pro obnovení ze zálohy. Pokud se obnova nepovede, viz následující pokyny k ruční opravě databáze: \n%1$s</string>

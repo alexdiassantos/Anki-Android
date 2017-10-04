@@ -619,7 +619,7 @@ public class Sched {
                 }
                 if (!mNewQueue.isEmpty()) {
                     // Note: libanki reverses mNewQueue and returns the last element in _getNewCard().
-                    // AnkiDroid differs by leaving the queue intact and returning the *first* element
+                    // AnkiPro differs by leaving the queue intact and returning the *first* element
                     // in _getNewCard().
                     return true;
                 }
@@ -1284,7 +1284,7 @@ public class Sched {
                         if (mCol.getDecks().get(did).getInt("dyn") != 0) {
                             // dynamic decks need due order preserved
                             // Note: libanki reverses mRevQueue and returns the last element in _getRevCard().
-                            // AnkiDroid differs by leaving the queue intact and returning the *first* element
+                            // AnkiPro differs by leaving the queue intact and returning the *first* element
                             // in _getRevCard().
                         } else {
                             Random r = new Random();

@@ -22,7 +22,7 @@ import android.text.InputType;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 import com.ankipro2.anki.UIUtils;
 
@@ -168,6 +168,6 @@ public class StepsPreference extends EditTextPreference {
         if (attrs == null) {
             return true;
         }
-        return attrs.getAttributeBooleanValue(AnkiDroidApp.XML_CUSTOM_NAMESPACE, "allowEmpty", true);
+        return attrs.getAttributeBooleanValue(AnkiProApp.XML_CUSTOM_NAMESPACE, "allowEmpty", true);
     }
 }

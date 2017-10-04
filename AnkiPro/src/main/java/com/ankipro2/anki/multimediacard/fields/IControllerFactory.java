@@ -1,5 +1,5 @@
-/***********************************************import com.ichi2.anki.IFieldController;
-import com.ichi2.anki.multimediacard.IField;
+/***********************************************import com.ankipro2.anki.IFieldController;
+import com.ankipro2.anki.multimediacard.IField;
 shrestha@gmail.com>                          *
  * Copyright (c) 2013 Zaur Molotnikov <qutorial@gmail.com>                              *
  * Copyright (c) 2013 Nicolas Raoul <nicolas.raoul@gmail.com>                           *

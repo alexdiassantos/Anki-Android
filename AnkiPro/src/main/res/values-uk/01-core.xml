@@ -110,7 +110,7 @@
   <string name="create">Створити</string>
   <string name="new_dynamic_deck">Створити фільтровану колоду</string>
   <string name="night_mode">Нічний режим</string>
-  <string name="directory_inaccessible">AnkiDroid каталог не доступний</string>
+  <string name="directory_inaccessible">AnkiPro каталог не доступний</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -165,6 +165,6 @@
   <string name="invalid_template">Картка не може бути створена</string>
   <string name="card_template_editor_would_delete_note">Видалення цього типу картки зумовить знищення однієї чи декількох приміток. Будь ласка, створіть спочатку новий тип карток.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Читати і записувати в базу даних AnkiDroid</string>
+  <string name="read_write_permission_label">Читати і записувати в базу даних AnkiPro</string>
   <string name="read_write_permission_description">доступ до існуючих приміток, карток, типів приміток та колод, а також створення нових</string>
 </resources>

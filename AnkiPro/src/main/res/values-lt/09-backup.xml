@@ -57,7 +57,7 @@
   <string name="backup_error">Klaida</string>
   <string name="backup_invalid_file_error">Pasirinktos atsarginės kopijos failas neveikia</string>
   <string name="backup_restore_select_title">Norėdami atkurti, pasirinkite atsarginę kopiją</string>
-  <string name="backup_restore_no_backups">Šiame įrenginyje nėra jokių atsarginių kopijų. Jei turite atsarginių kopijų kompiuteryje, nukopijuokite jas rankiniu būdu į „AnkiDroid“ katalogą.</string>
+  <string name="backup_restore_no_backups">Šiame įrenginyje nėra jokių atsarginių kopijų. Jei turite atsarginių kopijų kompiuteryje, nukopijuokite jas rankiniu būdu į „AnkiPro“ katalogą.</string>
   <string name="open_collection_failed_title">Neatidaryta kolekcija</string>
   <string name="open_collection_failed_message">Duomenų bazė neatsidaro. Tai nėra „Anki“ duomenų bazė arba ji yra sugadinta.\n\nNorėdami pamatyti daugiau duomenų bazės atkūrimo parinkčių, paspauskite „Parinktys“, o norėdami gauti daugiau informacijos apie tai, kaip galima pataisyti sugadintas kolekcijas, skaitykite:\n%1$s</string>
   <string name="corrupt_db_message">Jūsų kolekcija yra sugadinta.\n\nNorėdami atkurti ją iš atsarginės kopijos, spauskite „Parinktys“, o jei tai nepadeda, tuomet peržiūrėkite toliau pateiktus nurodymus, kaip galite duomenų bazė pataisyti rankiniu būdu:\n%1$s</string>

@@ -1,11 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ankidroid="http://schemas.android.com/apk/res-auto" >
+    xmlns:ankipro="http://schemas.android.com/apk/res-auto" >
 
     <item
         android:id="@+id/action_save"
         android:icon="@drawable/ic_done_white_24dp"
         android:title="@string/save"
-        ankidroid:showAsAction="always"/>
+        ankipro:showAsAction="always"/>
     <item
         android:id="@+id/action_add_card_from_card_editor"
         android:title="@string/card_editor_add_card"

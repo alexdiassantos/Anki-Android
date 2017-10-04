@@ -104,7 +104,7 @@
   <string name="create">Buat</string>
   <string name="new_dynamic_deck">Buat penyaringan dek</string>
   <string name="night_mode">Mode malam</string>
-  <string name="directory_inaccessible">AnkiDroid direktori tidak dapat diakses</string>
+  <string name="directory_inaccessible">AnkiPro direktori tidak dapat diakses</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -157,6 +157,6 @@
   <string name="invalid_template">A card could not be generated</string>
   <string name="card_template_editor_would_delete_note">Menghapus jenis kartu ini akan menyebabkan satu atau lebih catatan terhapus. Harap membuat dahulu jenis kartu yang baru.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Read and write to the AnkiDroid database</string>
+  <string name="read_write_permission_label">Read and write to the AnkiPro database</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

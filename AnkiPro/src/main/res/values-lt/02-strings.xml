@@ -124,8 +124,8 @@
     <item quantity="few">%1$d minutes</item>
     <item quantity="other">%1$d minučių</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Sveiki apsilankę „AnkiDroid“ programoje</string>
-  <string name="fact_adder_intent_title">„AnkiDroid“ kortelė</string>
+  <string name="studyoptions_welcome_title">Sveiki apsilankę „AnkiPro“ programoje</string>
+  <string name="fact_adder_intent_title">„AnkiPro“ kortelė</string>
   <string name="card_editor_add_card">Pridėti užrašą</string>
   <string name="card_editor_copy_card">Kopijuoti kortelę</string>
   <string name="card_editor_reset_card">Atkurti pažangą</string>
@@ -148,8 +148,8 @@
   <string name="unknown_type_field_warning">Atsakymo tipas: nežinomas laukelis %s</string>
   <string name="delete_deck">Rinkinys trinamas&#8230;</string>
   <string name="show_hint">Rodyti %s</string>
-  <string name="info_rate">Įvertinkite „AnkiDroid“</string>
-  <string name="col_load_failed">Įkelti kolekcijos nepavyko.\nNorėdami „AnkiDroid“ uždaryti, grįžkite atgal.</string>
+  <string name="info_rate">Įvertinkite „AnkiPro“</string>
+  <string name="col_load_failed">Įkelti kolekcijos nepavyko.\nNorėdami „AnkiPro“ uždaryti, grįžkite atgal.</string>
   <string name="import_title">Importuojama</string>
   <string name="import_select_title">Pasirinkite įkeliamą failą</string>
   <string name="import_message_add">Pridėti</string>
@@ -157,7 +157,7 @@
   <string name="import_message_add_confirm">Ar norite į kolekciją įtraukti „%s“? Tai gali ilgai užtrukti</string>
   <string name="import_log_no_apkg">Tai nėra galiojantis apkg failas</string>
   <string name="import_error_not_apkg_extension">Failas „%s“ neturi .apkg plėtinio</string>
-  <string name="import_error_content_provider">Pažymėto failo „AnkiDroid“ automatiškai įkelti negali. Norėdami sužinoti, kaip „anki“ failus galėtumėte įkelti rankiniu būdu, prašome perskaityti vartotojo vadovą: \n%s</string>
+  <string name="import_error_content_provider">Pažymėto failo „AnkiPro“ automatiškai įkelti negali. Norėdami sužinoti, kaip „anki“ failus galėtumėte įkelti rankiniu būdu, prašome perskaityti vartotojo vadovą: \n%s</string>
   <string name="import_replacing">Pakeičiama kolekcija&#8230;</string>
   <string name="export_include_schedule">Įtraukti mokymosi laiko planavimą</string>
   <string name="export_include_media">Įtraukti laikmenas</string>
@@ -166,12 +166,12 @@
   <string name="export_in_progress">Eksportuojamas apkg failas&#8230;</string>
   <string name="export_successful_title">Siųsti apkg?</string>
   <string name="export_successful">Failas „%s“ buvo eksportuotas. Ar norite jį siųsti kita programa?</string>
-  <string name="export_email_subject">Eksportuota „AnkiDroid“ kortelių: %s</string>
+  <string name="export_email_subject">Eksportuota „AnkiPro“ kortelių: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Sveiki!
         <br/><br/>
-        Tai yra „Anki“ kortelių rinkinys, gautas iš <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        Tai yra „Anki“ kortelių rinkinys, gautas iš <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Bandykite jį atidaryti naudodami vieną iš siūlomų <a href="http://ankisrs.net/#download">„Anki“ platinamų programų</a> ir mėgaukitės lengvu ir produktyviu mokymusi!
         ]]>;
     </string>

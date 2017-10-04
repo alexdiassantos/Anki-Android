@@ -43,7 +43,7 @@
   <string name="disabled">Выключено</string>
   <string name="enabled">Включено</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Общие установки</string>
   <string name="pref_cat_reviewing">Обучение</string>
   <string name="pref_cat_reviewing_summ">Специальные настройки обозревателя, не относящиеся к колодам</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Производительность</string>
   <string name="pref_cat_workarounds">Заплатки</string>
   <string name="pref_cat_plugins">Плагины</string>
-  <string name="about_title">О AnkiDroid</string>
+  <string name="about_title">О AnkiPro</string>
   <string name="about_version">Версия: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Толщина штриха</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Масштаб картинок</string>
   <string name="button_size">Размер кнопки ответа</string>
   <string name="card_browser_font_size">Масштаб шрифта обозревателя карт</string>
-  <string name="col_path">AnkiDroid каталог</string>
+  <string name="col_path">AnkiPro каталог</string>
   <string name="fullscreen_review">Полноэкранный режим</string>
   <string name="full_screen_off">Выключено</string>
   <string name="full_screen_system">Скрыть системную панель</string>
@@ -173,8 +173,8 @@
   <string name="pref_keep_screen_on_summ">Отключить таймаут экрана</string>
   <string name="convert_fen_text">Поддержка шахматной нотации</string>
   <string name="convert_fen_text_summ">Нарисовать шахматную доску из Нотации Форсайта — Эдвардса. Нотация должна быть заключена в [fen][/fen] теги.</string>
-  <string name="enable_api_title">Включить AnkiDroid API</string>
-  <string name="enable_api_summary">Позволить другим приложениям подключаться к AnkiDroid и читать / записывать
+  <string name="enable_api_title">Включить AnkiPro API</string>
+  <string name="enable_api_summary">Позволить другим приложениям подключаться к AnkiPro и читать / записывать
     данные без вашего вмешательства</string>
   <string name="custom_buttons">Панель кнопок приложения</string>
   <string name="custom_buttons_summary">Настройка кнопок на панели приложения</string>

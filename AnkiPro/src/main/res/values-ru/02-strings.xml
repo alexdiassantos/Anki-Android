@@ -124,8 +124,8 @@
     <item quantity="few">%1$d мин.</item>
     <item quantity="other">%1$d мин.</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Добро пожаловать в AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid Карта</string>
+  <string name="studyoptions_welcome_title">Добро пожаловать в AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro Карта</string>
   <string name="card_editor_add_card">Добавить заметку</string>
   <string name="card_editor_copy_card">Копировать карту</string>
   <string name="card_editor_reset_card">Сбросить прогресс</string>
@@ -148,8 +148,8 @@
   <string name="unknown_type_field_warning">Неизвестный тип поля: %s</string>
   <string name="delete_deck">Удаление колоды&#8230;</string>
   <string name="show_hint">Показать %s</string>
-  <string name="info_rate">Оценить AnkiDroid</string>
-  <string name="col_load_failed">Сбой загрузки коллекции.\nНажмите кнопку назад, чтобы закрыть AnkiDroid.</string>
+  <string name="info_rate">Оценить AnkiPro</string>
+  <string name="col_load_failed">Сбой загрузки коллекции.\nНажмите кнопку назад, чтобы закрыть AnkiPro.</string>
   <string name="import_title">Импорт коллекции</string>
   <string name="import_select_title">Выбрать файл для импорта</string>
   <string name="import_message_add">Добавить</string>
@@ -166,12 +166,12 @@
   <string name="export_in_progress">Экспортирую apkg файл&#8230;</string>
   <string name="export_successful_title">Отправить apkg?</string>
   <string name="export_successful">Файл «%s» был экспортирован. Вы хотите отправить его с помощью другого приложения?</string>
-  <string name="export_email_subject">AnkiDroid экспортировал колоды карточек: %s</string>
+  <string name="export_email_subject">AnkiPro экспортировал колоды карточек: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Привет!
         <br/><br/>
-        Это колода карточек, отправленная из приложения <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        Это колода карточек, отправленная из приложения <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
        Установите на компьютер приложение <a href="http://ankisrs.net/#download">Anki</a>, чтобы открыть эту колоду и наслаждаться легким и эффективным обучением!
         ]]>
     </string>

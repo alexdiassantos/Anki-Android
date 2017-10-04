@@ -110,7 +110,7 @@
   <string name="create">Креирај</string>
   <string name="new_dynamic_deck">Направи филтриран шпил</string>
   <string name="night_mode">Ноћни режим</string>
-  <string name="directory_inaccessible">Недоступан каталог AnkiDroid</string>
+  <string name="directory_inaccessible">Недоступан каталог AnkiPro</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -165,6 +165,6 @@
   <string name="invalid_template">A card could not be generated</string>
   <string name="card_template_editor_would_delete_note">Брисање тог типа карата довешће до брисања једног или неколико белешки. Направите прво нови тип карата.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Читати и писати у бази података AnkiDroid</string>
+  <string name="read_write_permission_label">Читати и писати у бази података AnkiPro</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

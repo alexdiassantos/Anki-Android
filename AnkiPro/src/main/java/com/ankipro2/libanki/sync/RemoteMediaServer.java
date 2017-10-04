@@ -21,7 +21,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.exception.MediaSyncException;
 import com.ankipro2.anki.exception.UnknownHttpResponseException;
 import com.ankipro2.async.Connection;
@@ -59,7 +59,7 @@ public class RemoteMediaServer extends HttpSyncer {
     @Override
     public String syncURL() {
         // Allow user to specify custom sync server
-        SharedPreferences userPreferences = AnkiDroidApp.getSharedPrefs(AnkiDroidApp.getInstance());
+        SharedPreferences userPreferences = AnkiProApp.getSharedPrefs(AnkiProApp.getInstance());
         if (userPreferences!= null && userPreferences.getBoolean("useCustomSyncServer", false)) {
             Uri mediaSyncBase = Uri.parse(userPreferences.getString("syncMediaUrl", Consts.SYNC_MEDIA_BASE));
             return mediaSyncBase.toString() + "/";
@@ -74,7 +74,7 @@ public class RemoteMediaServer extends HttpSyncer {
             mPostVars = new HashMap<>();
             mPostVars.put("k", mHKey);
             mPostVars.put("v",
-                    String.format(Locale.US, "ankidroid,%s,%s", VersionUtils.getPkgVersionName(), Utils.platDesc()));
+                    String.format(Locale.US, "ankipro,%s,%s", VersionUtils.getPkgVersionName(), Utils.platDesc()));
 
             HttpResponse resp = super.req("begin", super.getInputStream(Utils.jsonToString(new JSONObject())));
             JSONObject jresp = new JSONObject(super.stream2String(resp.getEntity().getContent()));

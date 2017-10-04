@@ -43,7 +43,7 @@
   <string name="disabled">Devredışı</string>
   <string name="enabled">Etkin</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Genel ayarlar</string>
   <string name="pref_cat_reviewing">Çalışma</string>
   <string name="pref_cat_reviewing_summ">Desteye özel olmayan çalışma ayarları</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Performans</string>
   <string name="pref_cat_workarounds">Geçici çözümler</string>
   <string name="pref_cat_plugins">Eklentiler</string>
-  <string name="about_title">AnkiDroid hakkında</string>
+  <string name="about_title">AnkiPro hakkında</string>
   <string name="about_version">Sürüm: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Kontur genişliği</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Görüntü yakınlaştırma</string>
   <string name="button_size">Cevap düğmesi büyüklüğü</string>
   <string name="card_browser_font_size">Kart tarayıcısı font ölçeği</string>
-  <string name="col_path">AnkiDroid dizini</string>
+  <string name="col_path">AnkiPro dizini</string>
   <string name="fullscreen_review">Tamekran modu</string>
   <string name="full_screen_off">Devre Dışı</string>
   <string name="full_screen_system">Sistem çubuklarını gizle</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Ekran zaman aşımını devredışı bırak</string>
   <string name="convert_fen_text">Satranç gösterimi desteği</string>
   <string name="convert_fen_text_summ">Forsyth Edwards Notasyonundan satranç tahtası çiz. Notasyon [fen][/fen] etiketi içine alınmış olmalıdır.</string>
-  <string name="enable_api_title">AnkiDroid API etkinleştir</string>
-  <string name="enable_api_summary">Diğer uygulamaların AnkiDroid\'e bağlanmasına ve müdahaleniz olmadan veriyi okuyup / yazmasına izin verir</string>
+  <string name="enable_api_title">AnkiPro API etkinleştir</string>
+  <string name="enable_api_summary">Diğer uygulamaların AnkiPro\'e bağlanmasına ve müdahaleniz olmadan veriyi okuyup / yazmasına izin verir</string>
   <string name="custom_buttons">Uygulama çubuğundaki düğmeler</string>
   <string name="custom_buttons_summary">Hangi eylemlerin uygulama çubuğunda gözüktüğünü seç</string>
   <string name="custom_buttons_setting_always_show">Hep göster</string>

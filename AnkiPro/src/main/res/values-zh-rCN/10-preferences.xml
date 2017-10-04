@@ -43,7 +43,7 @@
   <string name="disabled">禁用</string>
   <string name="enabled">启用</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">常用设置</string>
   <string name="pref_cat_reviewing">复习</string>
   <string name="pref_cat_reviewing_summ">非牌组复习界面设置</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">图片缩放</string>
   <string name="button_size">显示答案按钮大小</string>
   <string name="card_browser_font_size">卡片浏览器字体缩放</string>
-  <string name="col_path">AnkiDroid路径</string>
+  <string name="col_path">AnkiPro路径</string>
   <string name="fullscreen_review">全屏显示</string>
   <string name="full_screen_off">关闭</string>
   <string name="full_screen_system">隐藏系统状态栏</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">禁用屏幕超时</string>
   <string name="convert_fen_text">国际象棋标注支持</string>
   <string name="convert_fen_text_summ">使用福斯夫－爱德华兹记号法来画棋盘。记号必须用[fen][/fen]标签括起来。</string>
-  <string name="enable_api_title">启用AnkiDroid API</string>
-  <string name="enable_api_summary">让其他的应用程序连接到AnkiDroid读写数据</string>
+  <string name="enable_api_title">启用AnkiPro API</string>
+  <string name="enable_api_summary">让其他的应用程序连接到AnkiPro读写数据</string>
   <string name="custom_buttons">顶栏按钮</string>
   <string name="custom_buttons_summary">自定义顶栏按钮</string>
   <string name="custom_buttons_setting_always_show">总是显示</string>

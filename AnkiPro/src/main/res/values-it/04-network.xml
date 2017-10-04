@@ -57,7 +57,7 @@
   <string name="password_repeat">Ripeti la password</string>
   <string name="log_in">Accedi</string>
   <string name="sign_up_description">Non hai un account AnkiWeb? È gratis!</string>
-  <string name="sign_up_not_affiliated">Nota: AnkiWeb non è affiliato con AnkiDroid</string>
+  <string name="sign_up_not_affiliated">Nota: AnkiWeb non è affiliato con AnkiPro</string>
   <string name="sign_up">Registrati</string>
   <string name="logged_as">Connesso come</string>
   <string name="log_out">Esci</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">Media sincronizzati con successo.</string>
   <string name="sync_media_changes_count">%d modifiche media da caricare</string>
   <string name="sync_media_downloaded_count">%d file multimediali scaricati</string>
-  <string name="sync_sanity_failed">Dopo la sincronizzazione, la collezione era in uno stato incoerente. Per risolvere questo problema, AnkiDroid forzerà una sincronizzazione completa. Scegliere quali dati vuoi mantenere, o annulla se preferisci sincronizzare più tardi.</string>
+  <string name="sync_sanity_failed">Dopo la sincronizzazione, la collezione era in uno stato incoerente. Per risolvere questo problema, AnkiPro forzerà una sincronizzazione completa. Scegliere quali dati vuoi mantenere, o annulla se preferisci sincronizzare più tardi.</string>
   <string name="sync_media_sanity_failed">Sincronizzazione dei contenuti multimediali terminata, ma il conteggio dei media non corrisponde con il server. La prossima volta verrà eseguita una sincronizzazione completa per correggere eventuali errori.</string>
   <string name="sync_media_error">Errore di sincronizzazione dei dati multimediali.</string>
   <string name="sync_media_error_check">Errore durante la sincronizzazione di media. Si raccomanda un controllo del media.</string>
@@ -120,6 +120,6 @@
   <string name="force_full_sync_title">Forza sincronizzazione completa</string>
   <string name="force_full_sync_summary">Alla prossima sincronizzazione, forza le modifiche in una direzione</string>
   <string name="full_sync_confirmation">La modifica richiesta provocherà il caricamento completo del database la prossima volta che sincronizzi la collezione. Se hai delle ripetizioni o degli altri cambiamenti in sospeso su un altro dispositivo che non sono ancora stati sincronizzati qui, andranno persi. Continuare?</string>
-  <string name="full_sync_confirmation_upgrade">A causa di un bug nella versione precedentemente installata di AnkiDroid, si consiglia di forzare una sincronizzazione completa.</string>
-  <string name="sync_error_501_upgrade_required">Aggiorna all\'ultima versione di AnkiDroid</string>
+  <string name="full_sync_confirmation_upgrade">A causa di un bug nella versione precedentemente installata di AnkiPro, si consiglia di forzare una sincronizzazione completa.</string>
+  <string name="sync_error_501_upgrade_required">Aggiorna all\'ultima versione di AnkiPro</string>
 </resources>

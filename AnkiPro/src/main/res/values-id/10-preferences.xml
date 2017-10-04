@@ -43,7 +43,7 @@
   <string name="disabled">Disabled</string>
   <string name="enabled">Enabled</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Pengaturan umum</string>
   <string name="pref_cat_reviewing">Meninjau</string>
   <string name="pref_cat_reviewing_summ">Non-dek-spesifik pengaturan resensi</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Kinerja</string>
   <string name="pref_cat_workarounds">Solusi</string>
   <string name="pref_cat_plugins">Pengaya</string>
-  <string name="about_title">Tentang AnkiDroid</string>
+  <string name="about_title">Tentang AnkiPro</string>
   <string name="about_version">Versi: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Lebar pukulan</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Image zoom</string>
   <string name="button_size">Ukuran tombol jawaban</string>
   <string name="card_browser_font_size">Kartu browser penskalaan huruf</string>
-  <string name="col_path">AnkiDroid directory</string>
+  <string name="col_path">AnkiPro directory</string>
   <string name="fullscreen_review">Mode layar penuh</string>
   <string name="full_screen_off">Off</string>
   <string name="full_screen_system">Hide the system bars</string>
@@ -170,8 +170,8 @@
   <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
   <string name="convert_fen_text">Dukungan notasi catur</string>
   <string name="convert_fen_text_summ">Menggambar papan catur dari Notasi Forsyth-Edwards. Notasi harus tertutup dalam tag [fen][/fen].</string>
-  <string name="enable_api_title">Enable AnkiDroid API</string>
-  <string name="enable_api_summary">Let other apps connect to AnkiDroid and read / write data without your intervention</string>
+  <string name="enable_api_title">Enable AnkiPro API</string>
+  <string name="enable_api_summary">Let other apps connect to AnkiPro and read / write data without your intervention</string>
   <string name="custom_buttons">App bar buttons</string>
   <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
   <string name="custom_buttons_setting_always_show">Always show</string>

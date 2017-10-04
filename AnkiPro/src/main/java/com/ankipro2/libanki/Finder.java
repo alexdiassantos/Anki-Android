@@ -225,7 +225,7 @@ public class Finder {
 
     /**
      * LibAnki creates a dictionary and operates on it with an inner function inside _where().
-     * AnkiDroid combines the two in this class instead.
+     * AnkiPro combines the two in this class instead.
      */
     public class SearchState {
         public boolean isnot;
@@ -1073,7 +1073,7 @@ public class Finder {
     }
     
     /**
-     * A copy of _query() with a custom SQL query specific to the AnkiDroid card browser.
+     * A copy of _query() with a custom SQL query specific to the AnkiPro card browser.
      */
     private String _queryForCardBrowser(String preds, String order) {
         String sql = "select c.id, n.sfld, c.did, c.queue, n.tags from cards c, notes n where c.nid=n.id and ";

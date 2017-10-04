@@ -427,7 +427,7 @@ public class Card implements Cloneable {
     /**
      * Resume the timer that counts the time spent reviewing this card.
      *
-     * Unlike the desktop client, AnkiDroid must pause and resume the process in the middle of
+     * Unlike the desktop client, AnkiPro must pause and resume the process in the middle of
      * reviewing. This method is required to keep track of the actual amount of time spent in
      * the reviewer and *must* be called on resume before any calls to timeTaken() take place
      * or the result of timeTaken() will be wrong.

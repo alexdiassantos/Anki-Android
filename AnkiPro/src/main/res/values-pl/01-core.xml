@@ -110,7 +110,7 @@
   <string name="create">Utwórz</string>
   <string name="new_dynamic_deck">Stwórz filtrowaną talię</string>
   <string name="night_mode">Tryb nocny</string>
-  <string name="directory_inaccessible">Katalog AnkiDroid jest niedostępny</string>
+  <string name="directory_inaccessible">Katalog AnkiPro jest niedostępny</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -165,6 +165,6 @@
   <string name="invalid_template">Karta nie mogła zostać wygenerowana</string>
   <string name="card_template_editor_would_delete_note">Usunięcie typu karty może spowodować usunięcie jednej lub większej ilości notatek. Proszę o utworzenie najpierw nowej karty.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Odczyt i zapis do bazy danych AnkiDroid</string>
+  <string name="read_write_permission_label">Odczyt i zapis do bazy danych AnkiPro</string>
   <string name="read_write_permission_description">access existing notes, cards, note types, and decks, as well as create new ones</string>
 </resources>

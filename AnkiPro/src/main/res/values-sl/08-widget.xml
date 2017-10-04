@@ -41,7 +41,7 @@
 <resources>
   <!-- Widget -->
   <string name="widget_minimum_cards_due_notification_ticker_title">Zapadlih kartic</string>
-  <string name="widget_minimum_cards_due_notification_ticker_text">%d kartic AnkiDroid zapadlo</string>
+  <string name="widget_minimum_cards_due_notification_ticker_text">%d kartic AnkiPro zapadlo</string>
   <string name="widget_no_cards_due">Nobena kar. ni zapadla</string>
   <string name="widget_loading">Nalaganje pripomočka &#8230;</string>
   <plurals name="widget_cards_in_decks_due">
@@ -56,8 +56,8 @@
     <item quantity="few">%1$d kompleti</item>
     <item quantity="other">%1$d kompletov</item>
   </plurals>
-  <string name="widget_small">AnkiDroid - majhen</string>
-  <string name="widget_small_button">AnkiDroid</string>
+  <string name="widget_small">AnkiPro - majhen</string>
+  <string name="widget_small_button">AnkiPro</string>
   <plurals name="widget_cards_due">
     <item quantity="one">%d kartica zapadla</item>
     <item quantity="two">%d kartici zapadli</item>
@@ -71,5 +71,5 @@
     <item quantity="other">Preostalih je %d minut</item>
   </plurals>
   <string name="widget_add_note">Dodaj zapisek</string>
-  <string name="widget_add_note_button">Dodaj nov zapisek AnkiDroid</string>
+  <string name="widget_add_note_button">Dodaj nov zapisek AnkiPro</string>
 </resources>

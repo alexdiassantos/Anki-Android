@@ -34,7 +34,7 @@ import android.os.Build;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.BuildConfig;
 import com.ankipro2.anki.CollectionHelper;
 import com.ankipro2.anki.FlashCardsContract;
@@ -137,7 +137,7 @@ public class CardContentProvider extends ContentProvider {
      * applied to more columns. "MID", "USN", "MOD" are not really user friendly.
      */
     private static final String[] sDefaultNoteProjectionDBAccess = FlashCardsContract.Note.DEFAULT_PROJECTION.clone();
-    private static final String COL_NULL_ERROR_MSG = "AnkiDroid database inaccessible. Open AnkiDroid to see what's wrong.";
+    private static final String COL_NULL_ERROR_MSG = "AnkiPro database inaccessible. Open AnkiPro to see what's wrong.";
 
     static {
         for (int idx = 0; idx < sDefaultNoteProjectionDBAccess.length; idx++) {
@@ -700,7 +700,7 @@ public class CardContentProvider extends ContentProvider {
     /**
      * This can be used to insert multiple notes into a single deck. The deck is specified as a query parameter.
      *
-     * For example: content://com.ichi2.anki.flashcards/notes?deckId=1234567890123
+     * For example: content://com.ankipro2.anki.flashcards/notes?deckId=1234567890123
      *
      * @param uri content Uri
      * @param values for notes uri, it is acceptable for values to contain null items. Such items will be skipped
@@ -1166,7 +1166,7 @@ public class CardContentProvider extends ContentProvider {
             }
         } catch (RuntimeException e) {
             Timber.e(e, "answerCard - RuntimeException on answering card");
-            AnkiDroidApp.sendExceptionReport(e, "doInBackgroundAnswerCard");
+            AnkiProApp.sendExceptionReport(e, "doInBackgroundAnswerCard");
             return;
         }
     }

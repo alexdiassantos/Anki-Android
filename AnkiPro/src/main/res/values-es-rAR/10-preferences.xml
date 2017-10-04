@@ -43,7 +43,7 @@
   <string name="disabled">Desactivado</string>
   <string name="enabled">Activado</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Ajustes generales</string>
   <string name="pref_cat_reviewing">Revisión</string>
   <string name="pref_cat_reviewing_summ">Configuración de repasos sin especificación de mazo</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Rendimiento</string>
   <string name="pref_cat_workarounds">Soluciones</string>
   <string name="pref_cat_plugins">Plugins</string>
-  <string name="about_title">Acerca de AnkiDroid</string>
+  <string name="about_title">Acerca de AnkiPro</string>
   <string name="about_version">Versión: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Ancho del trazo</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Zoom de la imagen</string>
   <string name="button_size">Tamaño del botón de respuesta</string>
   <string name="card_browser_font_size">Escalado de fuentes del explorador de tarjetas</string>
-  <string name="col_path">Directorio de AnkiDroid</string>
+  <string name="col_path">Directorio de AnkiPro</string>
   <string name="fullscreen_review">Pantalla completa</string>
   <string name="full_screen_off">Apagado</string>
   <string name="full_screen_system">Ocultar las barras del sistema</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Desactivar el tiempo de espera de pantalla</string>
   <string name="convert_fen_text">Soporte para notación de ajedrez</string>
   <string name="convert_fen_text_summ">Dibujar un tablero de ajedrez a partir de la notación de Edward Forsyth. La notación debe estar enmarcada en una etiqueta que contenga [fen][/fen].</string>
-  <string name="enable_api_title">Habilitar API de AnkiDroid</string>
-  <string name="enable_api_summary">Permitir que otras aplicaciones se conecten a AnkiDroid y lean / escriban datos sin tu intervención</string>
+  <string name="enable_api_title">Habilitar API de AnkiPro</string>
+  <string name="enable_api_summary">Permitir que otras aplicaciones se conecten a AnkiPro y lean / escriban datos sin tu intervención</string>
   <string name="custom_buttons">Botones de la barra de la aplicación</string>
   <string name="custom_buttons_summary">Personalizar qué acciones aparecen en la barra de la aplicación</string>
   <string name="custom_buttons_setting_always_show">Mostrar siempre</string>

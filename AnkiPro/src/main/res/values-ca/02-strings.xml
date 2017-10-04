@@ -122,8 +122,8 @@
     <item quantity="one">%1$d minut</item>
     <item quantity="other">%1$d minuts</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Benvingut a l\'AnkiDroid</string>
-  <string name="fact_adder_intent_title">Fitxa AnkiDroid</string>
+  <string name="studyoptions_welcome_title">Benvingut a l\'AnkiPro</string>
+  <string name="fact_adder_intent_title">Fitxa AnkiPro</string>
   <string name="card_editor_add_card">Afegeix una nota</string>
   <string name="card_editor_copy_card">Còpia la fitxa</string>
   <string name="card_editor_reset_card">Reinicia</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Tipus de resposta: camp desconegut %s</string>
   <string name="delete_deck">S\'està suprimint el paquet...\nUn moment si us plau.</string>
   <string name="show_hint">Mostra %s</string>
-  <string name="info_rate">Valoreu l\'AnkiDroid</string>
-  <string name="col_load_failed">Ha fallat la càrrega de col lecció. \nPremeu Torna per tal de tancar l\'AnkiDroid.</string>
+  <string name="info_rate">Valoreu l\'AnkiPro</string>
+  <string name="col_load_failed">Ha fallat la càrrega de col lecció. \nPremeu Torna per tal de tancar l\'AnkiPro.</string>
   <string name="import_title">Importing</string>
   <string name="import_select_title">Escolliu el fitxer per importar</string>
   <string name="import_message_add">Afegeix</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">Afegeix \"%s\" a la col·lecció? Això pot trigar molt de temps</string>
   <string name="import_log_no_apkg">Això fitxer apkg no és vàlid</string>
   <string name="import_error_not_apkg_extension">El nom del fitxer \"%s\" no té l\'extensió .apkg</string>
-  <string name="import_error_content_provider">El fitxer seleccionat no s\'ha importat automàticament per AnkiDroid. Consulteu el manual d\'usuari per com importar arxius anki manualment: \n%s</string>
+  <string name="import_error_content_provider">El fitxer seleccionat no s\'ha importat automàticament per AnkiPro. Consulteu el manual d\'usuari per com importar arxius anki manualment: \n%s</string>
   <string name="import_replacing">Replacing collection&#8230;</string>
   <string name="export_include_schedule">Incloueu la planificació</string>
   <string name="export_include_media">Incloure multimèdia</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">S\'està important l\'arxiu apkg&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

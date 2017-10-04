@@ -55,11 +55,11 @@
   <string name="initializing_tts">A inicializar TTS&#8230;</string>
   <string name="tts_no_tts">Não falar</string>
   <string-array name="about_content">
-    <item><![CDATA[<h2>%1$s:<br/>Flashcards para Android</h2>AnkiDroid é uma aplicação de flashcards que é totalmente compatível com o software de PC <a href=\"%2$s\">Anki</a>. Você pode criar, descarregar e aprender conteúdos em ambos, AnkiDroid ou Anki Desktop, e sincronizá-los facilmente com AnkiWeb.]]></item>
-    <item><![CDATA[Para nos ajudar a melhorar a AnkiDroid, por favor, comunique os erros para <a href=\"%1$s\">o rastreador de problemas</a>; também são bem-vindas novas ideias de funcionalidades. Encontrar respostas na <a href=\"%2$s\">wiki</a> ou iniciar uma discussão no <a href=\"%3$s\">fórum</a>.]]></item>
-    <item><![CDATA[AnkiDroid é um <a href=\"%1$s\">programa de código aberto<a/>, e assim toda a gente é incentivada a <a href=\"%2$s\">tornar-se um colaborador</a> :-)]]></item>
-    <item><![CDATA[Não desenvolvedores também podem ajudar. Por exemplo, você pode <a href=\"%1$s\">ajudar a traduzir</a> AnkiDroid, actualizar a wiki, fornecer capturas de ecrã ou escrever um blogue sobre AnkiDroid.]]></item>
-    <item><![CDATA[O AnkiDroid é publicado sob a <a href=\"%1$s\">licença GNU-GPL v3</a> e o código fonte está disponível no <a href=\"%2$s\">GitHub</a>.]]></item>
+    <item><![CDATA[<h2>%1$s:<br/>Flashcards para Android</h2>AnkiPro é uma aplicação de flashcards que é totalmente compatível com o software de PC <a href=\"%2$s\">Anki</a>. Você pode criar, descarregar e aprender conteúdos em ambos, AnkiPro ou Anki Desktop, e sincronizá-los facilmente com AnkiWeb.]]></item>
+    <item><![CDATA[Para nos ajudar a melhorar a AnkiPro, por favor, comunique os erros para <a href=\"%1$s\">o rastreador de problemas</a>; também são bem-vindas novas ideias de funcionalidades. Encontrar respostas na <a href=\"%2$s\">wiki</a> ou iniciar uma discussão no <a href=\"%3$s\">fórum</a>.]]></item>
+    <item><![CDATA[AnkiPro é um <a href=\"%1$s\">programa de código aberto<a/>, e assim toda a gente é incentivada a <a href=\"%2$s\">tornar-se um colaborador</a> :-)]]></item>
+    <item><![CDATA[Não desenvolvedores também podem ajudar. Por exemplo, você pode <a href=\"%1$s\">ajudar a traduzir</a> AnkiPro, actualizar a wiki, fornecer capturas de ecrã ou escrever um blogue sobre AnkiPro.]]></item>
+    <item><![CDATA[O AnkiPro é publicado sob a <a href=\"%1$s\">licença GNU-GPL v3</a> e o código fonte está disponível no <a href=\"%2$s\">GitHub</a>.]]></item>
   </string-array>
   <string name="preview_title">Pré-visualizar</string>
   <string name="reset_card_dialog_title">Reiniciar progresso da ficha</string>
@@ -69,13 +69,13 @@
   <string name="reschedule_card_dialog_message">Reagendar para revisão em x dias:</string>
   <string name="reschedule_card_dialog_acknowledge">Ficha reagendada</string>
   <string name="answering_error_title">Erro na base de dados</string>
-  <string name="answering_error_message">Ocorreu um erro ao gravar na coleção. Tal poderá estar relacionado com uma base de dados corrompida ou espaço insuficiente no disco.\n\nSe isso acontecer mais frequentemente, tente verificar a base de dados, repare a coleção ou restaure-a de uma cópia de segurança. Para tal, carregue em \'Opções\'.\n\nEm todo caso, isso poderá até ser um bug do AnkiDroid; denuncie o erro para que o possamos verificar.</string>
+  <string name="answering_error_message">Ocorreu um erro ao gravar na coleção. Tal poderá estar relacionado com uma base de dados corrompida ou espaço insuficiente no disco.\n\nSe isso acontecer mais frequentemente, tente verificar a base de dados, repare a coleção ou restaure-a de uma cópia de segurança. Para tal, carregue em \'Opções\'.\n\nEm todo caso, isso poderá até ser um bug do AnkiPro; denuncie o erro para que o possamos verificar.</string>
   <string name="answering_error_report">Comunicar erro</string>
   <string name="repair_deck_dialog">Realmente deseja tentar reparar a base de dados?\n\nAntes de iniciar a tentativa, será criada uma cópia na subpasta \'%s\'.</string>
   <string name="intent_add_saved_information">Dados guardados</string>
   <string name="intent_add_clear_all">Limpar tudo</string>
   <string name="intent_aedict_empty">A categoria \'predefinida\' está vazia</string>
-  <string name="intent_aedict_category">Para adicionar fichas na AnkiDroid remova todas as categorias de notas ou adicione uma com o nome \'predefinida\'</string>
+  <string name="intent_aedict_category">Para adicionar fichas na AnkiPro remova todas as categorias de notas ou adicione uma com o nome \'predefinida\'</string>
   <string name="custom_study_new_total_new">Novas fichas no baralho: %s</string>
   <string name="custom_study_rev_total_rev">Revisões pendentes no baralho: %s</string>
   <string name="custom_study_new_extend">Aumentar o limite de fichas novas de hoje em</string>

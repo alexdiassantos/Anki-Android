@@ -110,7 +110,7 @@
   <string name="create">Kurti</string>
   <string name="new_dynamic_deck">Kurti rinktinį rinkinį</string>
   <string name="night_mode">Naktinis režimas</string>
-  <string name="directory_inaccessible">„AnkiDroid“ katalogas yra nepasiekiamas</string>
+  <string name="directory_inaccessible">„AnkiPro“ katalogas yra nepasiekiamas</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -165,6 +165,6 @@
   <string name="invalid_template">Kortelės sukurti nepavyko</string>
   <string name="card_template_editor_would_delete_note">Ištrynus šį kortelių tipą, kartu bus ištrintas vienas ar keli užrašai. Prašome pirmiausiai sukurti naują kortelių tipą.</string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">Skaitykite ir rašykite į „AnkiDroid“ duomenų bazę</string>
+  <string name="read_write_permission_label">Skaitykite ir rašykite į „AnkiPro“ duomenų bazę</string>
   <string name="read_write_permission_description">prisijunkite prie turimų užrašų, kortelių, užrašų tipų ir rinkinių bei kurkite naujus</string>
 </resources>

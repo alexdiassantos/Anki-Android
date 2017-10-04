@@ -18,7 +18,7 @@ package com.ankipro2.libanki.hooks;
 
 import android.content.res.Resources;
 
-import com.ankipro2.anki.AnkiDroidApp;
+import com.ankipro2.anki.AnkiProApp;
 import com.ankipro2.anki.R;
 
 public class HintFilter {
@@ -33,7 +33,7 @@ public class HintFilter {
             if (txt.trim().length() == 0) {
                 return "";
             }
-            Resources res = AnkiDroidApp.getAppResources();
+            Resources res = AnkiProApp.getAppResources();
             // random id
             String domid = "hint" + txt.hashCode();
             return "<a class=hint href=\"#\" onclick=\"this.style.display='none';document.getElementById('" +

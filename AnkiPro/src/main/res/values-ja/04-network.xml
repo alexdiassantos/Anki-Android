@@ -57,7 +57,7 @@
   <string name="password_repeat">パスワード（確認）</string>
   <string name="log_in">ログイン</string>
   <string name="sign_up_description">AnkiWebのアカウントを新規登録（無料）</string>
-  <string name="sign_up_not_affiliated">備考: AnkiWebはAnkiのサービスです。Ankiから独立して活動しているAnkiDroid開発グループが管理するものではありません。</string>
+  <string name="sign_up_not_affiliated">備考: AnkiWebはAnkiのサービスです。Ankiから独立して活動しているAnkiPro開発グループが管理するものではありません。</string>
   <string name="sign_up">新規登録用ページに進む</string>
   <string name="logged_as">ログイン中のアカウント：</string>
   <string name="log_out">ログアウト</string>
@@ -111,7 +111,7 @@
   <string name="sync_media_success">メディアの同期が完了しました</string>
   <string name="sync_media_changes_count">%d 個のメディアが変更されアップロードが必要です</string>
   <string name="sync_media_downloaded_count">%d 個のメディアをダウンロードしました</string>
-  <string name="sync_sanity_failed">同期中にコレクションの不整合が発見されました。この問題を解決するためには完全同期が必要です。Ankiweb側（クラウド）と AnkiDroid側（ローカル）のいずれのコレクションを保持するかを選択してください。</string>
+  <string name="sync_sanity_failed">同期中にコレクションの不整合が発見されました。この問題を解決するためには完全同期が必要です。Ankiweb側（クラウド）と AnkiPro側（ローカル）のいずれのコレクションを保持するかを選択してください。</string>
   <string name="sync_media_sanity_failed">メディアの同期が完了しました。しかし、メディアの数がAnkiWeb上のものと一致しません。次にメディアを同期するときには、エラーを修正するために完全同期を行います。</string>
   <string name="sync_media_error">メディアデータの同期中のエラー</string>
   <string name="sync_media_error_check">メディアの同期中にエラーが発生しました。「メディアをチェック」を実行することをおすすめします。</string>
@@ -121,5 +121,5 @@
   <string name="force_full_sync_summary">次回の同期で、一方向の変更を強制実行します</string>
   <string name="full_sync_confirmation">要求した変更を行うには、次回のコレクションの同期の際にデータベースの完全なアップロードが必要です。他の端末で復習やその他の変更を行ってまだ同期が済んでいない場合、それらの変更は失われます。処理を続けますか？</string>
   <string name="full_sync_confirmation_upgrade">以前のバージョンのバグの修正を反映させるため、完全な同期をお勧めします。</string>
-  <string name="sync_error_501_upgrade_required">AnkiDroid の最新バージョンにアップグレードしてください</string>
+  <string name="sync_error_501_upgrade_required">AnkiPro の最新バージョンにアップグレードしてください</string>
 </resources>

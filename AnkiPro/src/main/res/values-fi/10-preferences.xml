@@ -43,7 +43,7 @@
   <string name="disabled">Ei käytössä</string>
   <string name="enabled">Käytössä</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Yleiset asetukset</string>
   <string name="pref_cat_reviewing">Läpikäynti</string>
   <string name="pref_cat_reviewing_summ">Pakasta riippumattomat kertausasetukset</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Suorituskyky</string>
   <string name="pref_cat_workarounds">Korjaukset</string>
   <string name="pref_cat_plugins">Lisäosat</string>
-  <string name="about_title">Tietoja AnkiDroidista</string>
+  <string name="about_title">Tietoja AnkiProista</string>
   <string name="about_version">Versio: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Viivan leveys</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Kuvan tarkennus</string>
   <string name="button_size">Vastauspainikkeen koko</string>
   <string name="card_browser_font_size">Korttiselaimen kirjasimien skaalaus</string>
-  <string name="col_path">AnkiDroid-hakemisto</string>
+  <string name="col_path">AnkiPro-hakemisto</string>
   <string name="fullscreen_review">Koko näytön tila</string>
   <string name="full_screen_off">Pois päältä</string>
   <string name="full_screen_system">Piilota järjestelmäpalkit</string>
@@ -169,8 +169,8 @@
   <string name="pref_keep_screen_on_summ">Poista näytön aikakatkaisu</string>
   <string name="convert_fen_text">Tuki shakkinotaatiolle</string>
   <string name="convert_fen_text_summ">Piirrä shakkilauta Forsyth-Edwards-notaatiolla. Tekstin pitää olla ympäröity [fen][/fen] tunnisteilla.</string>
-  <string name="enable_api_title">Ota käyttöön AnkiDroid-rajapinta</string>
-  <string name="enable_api_summary">Anna muiden sovellusten käyttää itsenäisesti AnkiDroidin tietoja</string>
+  <string name="enable_api_title">Ota käyttöön AnkiPro-rajapinta</string>
+  <string name="enable_api_summary">Anna muiden sovellusten käyttää itsenäisesti AnkiProin tietoja</string>
   <string name="custom_buttons">Sovelluspalkin painikkeet</string>
   <string name="custom_buttons_summary">Mukauta, mitkä toiminnot näkyvät sovelluspalkissa</string>
   <string name="custom_buttons_setting_always_show">Näytä aina</string>

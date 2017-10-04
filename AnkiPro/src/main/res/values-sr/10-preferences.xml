@@ -43,7 +43,7 @@
   <string name="disabled">Disabled</string>
   <string name="enabled">Enabled</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Општа подешавања</string>
   <string name="pref_cat_reviewing">Обука</string>
   <string name="pref_cat_reviewing_summ">Подешавање прегледача за опште шпилове</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Перформансе</string>
   <string name="pref_cat_workarounds">Трикови</string>
   <string name="pref_cat_plugins">Додаци</string>
-  <string name="about_title">O AnkiDroid-у</string>
+  <string name="about_title">O AnkiPro-у</string>
   <string name="about_version">Верзија: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Ширина капи</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Зумирање слике</string>
   <string name="button_size">Величина дугмета за одговор</string>
   <string name="card_browser_font_size">Величина фонта прегледача картица</string>
-  <string name="col_path">AnkiDroid directory</string>
+  <string name="col_path">AnkiPro directory</string>
   <string name="fullscreen_review">Пуноекрански режим</string>
   <string name="full_screen_off">Off</string>
   <string name="full_screen_system">Hide the system bars</string>
@@ -170,8 +170,8 @@
   <string name="pref_keep_screen_on_summ">Онемогући спавање екрана</string>
   <string name="convert_fen_text">Подршка шаховских бележака</string>
   <string name="convert_fen_text_summ">Цртај шаховску таблу са Форсит-Едвардс нотацијом. Нотација мора да буде ограђена [fen][/fen] таговима.</string>
-  <string name="enable_api_title">Омогући AnkiDroid API</string>
-  <string name="enable_api_summary">Нека се друге апликације повежу са AnkiDroid и читају/записују податке без ваше интервенције</string>
+  <string name="enable_api_title">Омогући AnkiPro API</string>
+  <string name="enable_api_summary">Нека се друге апликације повежу са AnkiPro и читају/записују податке без ваше интервенције</string>
   <string name="custom_buttons">App bar buttons</string>
   <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
   <string name="custom_buttons_setting_always_show">Always show</string>

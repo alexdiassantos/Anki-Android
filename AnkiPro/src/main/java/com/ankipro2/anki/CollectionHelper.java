@@ -92,10 +92,10 @@ public class CollectionHelper {
         if (!colIsOpen()) {
             // Check that the directory has been created and initialized
             try {
-                initializeAnkiDroidDirectory(getParentDirectory(path));
+                initializeAnkiProDirectory(getParentDirectory(path));
                 mPath = path;
             } catch (StorageAccessException e) {
-                Timber.e(e, "Could not initialize AnkiDroid directory");
+                Timber.e(e, "Could not initialize AnkiPro directory");
                 return null;
             }
             // Open the database
@@ -115,7 +115,7 @@ public class CollectionHelper {
         try {
             return getCol(context);
         } catch (Exception e) {
-            AnkiDroidApp.sendExceptionReport(e, "CollectionHelper.getColSafe");
+            AnkiProApp.sendExceptionReport(e, "CollectionHelper.getColSafe");
             return null;
         }
     }
@@ -155,28 +155,28 @@ public class CollectionHelper {
     }
 
     /**
-     * Create the AnkiDroid directory if it doesn't exist and add a .nomedia file to it if needed.
+     * Create the AnkiPro directory if it doesn't exist and add a .nomedia file to it if needed.
      *
-     * The AnkiDroid directory is a user preference stored under the "deckPath" key, and a sensible
+     * The AnkiPro directory is a user preference stored under the "deckPath" key, and a sensible
      * default is chosen if the preference hasn't been created yet (i.e., on the first run).
      *
      * The presence of a .nomedia file indicates to media scanners that the directory must be
      * excluded from their search. We need to include this to avoid media scanners including
      * media files from the collection.media directory. The .nomedia file works at the directory
-     * level, so placing it in the AnkiDroid directory will ensure media scanners will also exclude
+     * level, so placing it in the AnkiPro directory will ensure media scanners will also exclude
      * the collection.media sub-directory.
      *
      * @param path  Directory to initialize
      * @throws StorageAccessException If no write access to directory
      */
-    public static synchronized void initializeAnkiDroidDirectory(String path) throws StorageAccessException {
+    public static synchronized void initializeAnkiProDirectory(String path) throws StorageAccessException {
         // Create specified directory if it doesn't exit
         File dir = new File(path);
         if (!dir.exists() && !dir.mkdirs()) {
-            throw new StorageAccessException("Failed to create AnkiDroid directory");
+            throw new StorageAccessException("Failed to create AnkiPro directory");
         }
         if (!dir.canWrite()) {
-            throw new StorageAccessException("No write access to AnkiDroid directory");
+            throw new StorageAccessException("No write access to AnkiPro directory");
         }
         // Add a .nomedia file to it if it doesn't exist
         File nomedia = new File(dir, ".nomedia");
@@ -190,13 +190,13 @@ public class CollectionHelper {
     }
 
     /**
-     * Try to access the current AnkiDroid directory
+     * Try to access the current AnkiPro directory
      * @return whether or not dir is accessible
      * @param context to get directory with
      */
-    public static boolean isCurrentAnkiDroidDirAccessible(Context context) {
+    public static boolean isCurrentAnkiProDirAccessible(Context context) {
         try {
-            initializeAnkiDroidDirectory(getCurrentAnkiDroidDirectory(context));
+            initializeAnkiProDirectory(getCurrentAnkiProDirectory(context));
             return true;
         } catch (StorageAccessException e) {
             return false;
@@ -206,12 +206,12 @@ public class CollectionHelper {
 
     /**
      * Get the absolute path to a directory that is suitable to be the default starting location
-     * for the AnkiDroid folder. This is a folder named "AnkiDroid" at the top level of the
+     * for the AnkiPro folder. This is a folder named "AnkiPro" at the top level of the
      * external storage directory.
      * @return the folder path
      */
-    public static String getDefaultAnkiDroidDirectory() {
-        return new File(Environment.getExternalStorageDirectory(), "AnkiDroid").getAbsolutePath();
+    public static String getDefaultAnkiProDirectory() {
+        return new File(Environment.getExternalStorageDirectory(), "AnkiPro").getAbsolutePath();
     }
 
     /**
@@ -219,22 +219,22 @@ public class CollectionHelper {
      * @return the path to the actual {@link Collection} file
      */
     public static String getCollectionPath(Context context) {
-        return new File(getCurrentAnkiDroidDirectory(context), COLLECTION_FILENAME).getAbsolutePath();
+        return new File(getCurrentAnkiProDirectory(context), COLLECTION_FILENAME).getAbsolutePath();
     }
 
 
     /**
-     * @return the absolute path to the AnkiDroid directory.
+     * @return the absolute path to the AnkiPro directory.
      */
-    public static String getCurrentAnkiDroidDirectory(Context context) {
+    public static String getCurrentAnkiProDirectory(Context context) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context.getApplicationContext());
-        return preferences.getString("deckPath", getDefaultAnkiDroidDirectory());
+        return preferences.getString("deckPath", getDefaultAnkiProDirectory());
     }
 
     /**
      * Get parent directory given the {@link Collection} path.
-     * @param path path to AnkiDroid collection
-     * @return path to AnkiDroid folder
+     * @param path path to AnkiPro collection
+     * @return path to AnkiPro folder
      */
     private static String getParentDirectory(String path) {
         return new File(path).getParentFile().getAbsolutePath();

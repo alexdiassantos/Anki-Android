@@ -107,7 +107,7 @@
   <string name="create">ساختن</string>
   <string name="new_dynamic_deck">ایجاد دسته فیلتر شده</string>
   <string name="night_mode">حالت شب</string>
-  <string name="directory_inaccessible">فهرست ankidroid غیر قابل دسترس است</string>
+  <string name="directory_inaccessible">فهرست ankipro غیر قابل دسترس است</string>
   <!--
         The time_quantities are units of time. They are used without
         plurals or dots.
@@ -161,6 +161,6 @@
   <string name="invalid_template">کارت جدید نمی تواند ساخته شود</string>
   <string name="card_template_editor_would_delete_note">پاکسازی این نوع کارت ممکن است منجر به پاک شدن یک یا تعدادی یادداشت شود.لطفاً در ابتدا یک نوع کارت بسازید. </string>
   <!-- Permissions -->
-  <string name="read_write_permission_label">خواندن و نوشتن داده ها روی AnkiDroid</string>
+  <string name="read_write_permission_label">خواندن و نوشتن داده ها روی AnkiPro</string>
   <string name="read_write_permission_description">به یادداشتهای موجود، کارت ها، نوع یادداشتها و دسته ها و همچنین ایجاد موارد جدید دسترسی داشته باشید</string>
 </resources>

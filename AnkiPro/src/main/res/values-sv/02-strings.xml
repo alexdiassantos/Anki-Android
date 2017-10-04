@@ -122,8 +122,8 @@
     <item quantity="one">%1$d minut</item>
     <item quantity="other">%1$d minuter</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Välkommen till AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid-kort</string>
+  <string name="studyoptions_welcome_title">Välkommen till AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro-kort</string>
   <string name="card_editor_add_card">Lägg till not</string>
   <string name="card_editor_copy_card">Kopiera kort</string>
   <string name="card_editor_reset_card">Återställ framsteg</string>
@@ -145,8 +145,8 @@
   <string name="unknown_type_field_warning">Skriv svar: okänt fält %s</string>
   <string name="delete_deck">Tar bort kortlek...\nVänligen vänta.</string>
   <string name="show_hint">Visa %s</string>
-  <string name="info_rate">Betygsätt AnkiDroid</string>
-  <string name="col_load_failed">Fel vid inläsning av samling.\nTryck bakåt för att stänga AnkiDroid.</string>
+  <string name="info_rate">Betygsätt AnkiPro</string>
+  <string name="col_load_failed">Fel vid inläsning av samling.\nTryck bakåt för att stänga AnkiPro.</string>
   <string name="import_title">Importera</string>
   <string name="import_select_title">Välj fil att importera</string>
   <string name="import_message_add">Lägg till</string>
@@ -154,7 +154,7 @@
   <string name="import_message_add_confirm">Vill du lägga till \"%s\" till samling? Det här kan ta lång tid</string>
   <string name="import_log_no_apkg">Detta är inte en giltig apkg-fil</string>
   <string name="import_error_not_apkg_extension">Filnamnet %s har inget .apkg-suffix</string>
-  <string name="import_error_content_provider">Den valda filen kunde inte importeras automatiskt av AnkiDroid. Vänligen se användarmanualen för information om manuell import av Anki-filer: \n %s</string>
+  <string name="import_error_content_provider">Den valda filen kunde inte importeras automatiskt av AnkiPro. Vänligen se användarmanualen för information om manuell import av Anki-filer: \n %s</string>
   <string name="import_replacing">Ersätter samling&#8230;</string>
   <string name="export_include_schedule">Inkludera schemaläggning</string>
   <string name="export_include_media">Inkludera media</string>
@@ -163,12 +163,12 @@
   <string name="export_in_progress">Exporterar APKG-fil&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

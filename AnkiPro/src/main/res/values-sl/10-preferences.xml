@@ -43,7 +43,7 @@
   <string name="disabled">Onemogočeno</string>
   <string name="enabled">Omogočeno</string>
   <!-- preferences.xml categories-->
-  <string name="pref_cat_general">AnkiDroid</string>
+  <string name="pref_cat_general">AnkiPro</string>
   <string name="pref_cat_general_summ">Splošne nastavitve</string>
   <string name="pref_cat_reviewing">Pregledovanje</string>
   <string name="pref_cat_reviewing_summ">Nastavitve pregledovalcev, ki niso samo za komplete</string>
@@ -63,7 +63,7 @@
   <string name="pref_cat_performance">Zmogljivost</string>
   <string name="pref_cat_workarounds">Zaobidenja</string>
   <string name="pref_cat_plugins">Vstavki</string>
-  <string name="about_title">O AnkiDroidu</string>
+  <string name="about_title">O AnkiProu</string>
   <string name="about_version">Različica: </string>
   <!-- preferences.xml entries-->
   <string name="whiteboard_stroke_width">Debelina črte</string>
@@ -84,7 +84,7 @@
   <string name="image_zoom">Povečava slike</string>
   <string name="button_size">Velikost gumba za odgovor</string>
   <string name="card_browser_font_size">Umer. pisave brs. kartic</string>
-  <string name="col_path">Mapa AnkiDroid</string>
+  <string name="col_path">Mapa AnkiPro</string>
   <string name="fullscreen_review">Celozaslonski način</string>
   <string name="full_screen_off">Izklopljen</string>
   <string name="full_screen_system">Skrij sistemske vrstice</string>
@@ -170,8 +170,8 @@
   <string name="pref_keep_screen_on_summ">Onemogoči časovno omejitev zaslona</string>
   <string name="convert_fen_text">Podpora za šahovski zapis</string>
   <string name="convert_fen_text_summ">Nariši šahovnico iz zapisa Forsyth–Edwards. Zapis se mora nahajati znotraj oznak [fen][/fen].</string>
-  <string name="enable_api_title">Omogoči API AnkiDroid</string>
-  <string name="enable_api_summary">Omogoči drugim napravam povezavo z AnkiDroidom in branje/pisanje podatkov brez mojega posredovanja</string>
+  <string name="enable_api_title">Omogoči API AnkiPro</string>
+  <string name="enable_api_summary">Omogoči drugim napravam povezavo z AnkiProom in branje/pisanje podatkov brez mojega posredovanja</string>
   <string name="custom_buttons">Gumbi vrstice programa</string>
   <string name="custom_buttons_summary">Prilagodite, kateri gumbi naj se pojavijo v vrstici programa</string>
   <string name="custom_buttons_setting_always_show">Vedno prikaži</string>

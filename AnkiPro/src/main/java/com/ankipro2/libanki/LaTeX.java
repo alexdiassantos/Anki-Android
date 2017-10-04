@@ -34,7 +34,7 @@ import java.util.regex.Pattern;
  * 2 - [$]...[$]
  * 3 - [$$]...[$$]
  *
- * Unlike the original python implementation of this class, the AnkiDroid version does not support
+ * Unlike the original python implementation of this class, the AnkiPro version does not support
  * the generation of LaTeX images.
  */
 public class LaTeX {
@@ -53,7 +53,7 @@ public class LaTeX {
     /**
      * Convert HTML with embedded latex tags to image links.
      * NOTE: Unlike the original python version of this method, only two parameters are required
-     * in AnkiDroid. The omitted parameters are used to generate LaTeX images. AnkiDroid does not
+     * in AnkiPro. The omitted parameters are used to generate LaTeX images. AnkiPro does not
      * support the generation of LaTeX media and the provided parameters are sufficient for all
      * other cases.
      * NOTE: _imgLink produces an alphanumeric filename so there is no need to escape the replacement string.

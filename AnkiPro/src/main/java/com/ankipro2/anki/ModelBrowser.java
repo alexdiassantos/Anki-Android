@@ -311,7 +311,7 @@ public class ModelBrowser extends AnkiActivity {
         String add = getResources().getString(R.string.model_browser_add_add);
         String clone = getResources().getString(R.string.model_browser_add_clone);
 
-        // AnkiDroid doesn't have stdmodels class or model name localization, this could be much cleaner if implemented
+        // AnkiPro doesn't have stdmodels class or model name localization, this could be much cleaner if implemented
         final String basicName = "Basic";
         final String addForwardReverseName = "Basic (and reversed card)";
         final String addForwardOptionalReverseName = "Basic (optional reversed card)";
@@ -397,7 +397,7 @@ public class ModelBrowser extends AnkiActivity {
      */
     private void addNewNoteType(String modelName, int position) {
         //Temporary workaround - Lack of stdmodels class, so can only handle 4 default English mModels
-        //like Ankidroid but unlike desktop Anki
+        //like Ankipro but unlike desktop Anki
         JSONObject model;
         try {
             if (modelName.length() > 0) {

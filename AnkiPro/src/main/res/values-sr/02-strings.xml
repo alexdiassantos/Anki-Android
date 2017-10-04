@@ -124,8 +124,8 @@
     <item quantity="few">%1$d минута</item>
     <item quantity="other">%1$d minutes</item>
   </plurals>
-  <string name="studyoptions_welcome_title">Добро дошли у AnkiDroid</string>
-  <string name="fact_adder_intent_title">AnkiDroid карта</string>
+  <string name="studyoptions_welcome_title">Добро дошли у AnkiPro</string>
+  <string name="fact_adder_intent_title">AnkiPro карта</string>
   <string name="card_editor_add_card">Додај белешку</string>
   <string name="card_editor_copy_card">Копирај карту</string>
   <string name="card_editor_reset_card">Ресетуј напредак</string>
@@ -148,8 +148,8 @@
   <string name="unknown_type_field_warning">Врста одговора: непознато поље %s</string>
   <string name="delete_deck">Брисање шпила...\nМолим сачекајте.</string>
   <string name="show_hint">Прикажи %s</string>
-  <string name="info_rate">Оцени AnkiDroid</string>
-  <string name="col_load_failed">Прекид учитавања колекције.\nПритисните дугме назад, да бисте затворили AnkiDroid.</string>
+  <string name="info_rate">Оцени AnkiPro</string>
+  <string name="col_load_failed">Прекид учитавања колекције.\nПритисните дугме назад, да бисте затворили AnkiPro.</string>
   <string name="import_title">Importing</string>
   <string name="import_select_title">Изаберите датотеку за увоз</string>
   <string name="import_message_add">Додај</string>
@@ -166,12 +166,12 @@
   <string name="export_in_progress">Извозивање apkg датотеке у току&#8230;</string>
   <string name="export_successful_title">Send apkg?</string>
   <string name="export_successful">File “%s” was exported. Do you want to send it with another app?</string>
-  <string name="export_email_subject">AnkiDroid exported flashcards: %s</string>
+  <string name="export_email_subject">AnkiPro exported flashcards: %s</string>
   <string name="export_email_text">
         <![CDATA[
         Hi!
         <br/><br/>
-        This is an Anki flashcards deck send from <a href="https://ankidroid.org/docs/manual.html">AnkiDroid</a>.
+        This is an Anki flashcards deck send from <a href="https://ankipro.org/docs/manual.html">AnkiPro</a>.
         Try to open it using one of the available <a href="http://ankisrs.net/#download">Anki distributions</a> and enjoy easy and efficient learning!
         ]]>
     </string>

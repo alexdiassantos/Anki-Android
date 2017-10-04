@@ -64,7 +64,7 @@
     <string name="image_zoom">Image zoom</string>
     <string name="button_size">Answer button size</string>
     <string name="card_browser_font_size">Card browser font scaling</string>
-    <string name="col_path">AnkiDroid directory</string>
+    <string name="col_path">AnkiPro directory</string>
     <string name="fullscreen_review">Fullscreen mode</string>
     <string name="full_screen_off">Off</string>
     <string name="full_screen_system">Hide the system bars</string>
@@ -150,8 +150,8 @@
     <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
     <string name="convert_fen_text">Chess notation support</string>
     <string name="convert_fen_text_summ">Draw chessboard from Forsyth–Edwards Notation. The notation must be enclosed in [fen][/fen] tags.</string>
-    <string name="enable_api_title">Enable AnkiDroid API</string>
-    <string name="enable_api_summary">Let other apps connect to AnkiDroid and read / write data without your intervention</string>
+    <string name="enable_api_title">Enable AnkiPro API</string>
+    <string name="enable_api_summary">Let other apps connect to AnkiPro and read / write data without your intervention</string>
     <string name="custom_buttons">App bar buttons</string>
     <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
     <string name="custom_buttons_setting_always_show">Always show</string>

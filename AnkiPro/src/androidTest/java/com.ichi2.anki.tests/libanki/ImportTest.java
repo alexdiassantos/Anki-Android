@@ -284,7 +284,7 @@ public class ImportTest extends AndroidTestCase {
     }
 
     /**
-     * Custom tests for AnkiDroid.
+     * Custom tests for AnkiPro.
      */
 
 
