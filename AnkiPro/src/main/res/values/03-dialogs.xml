@@ -118,5 +118,5 @@
     <string name="empty_cards_count">Cards to delete: %d</string>
     <string name="empty_cards_deleted">Cards deleted: %d</string>
 
-    <string name="empty_products">No products to select.</string>
+    <string name="empty_products" translatable="false">No products to select.</string>
 </resources>

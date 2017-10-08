@@ -243,5 +243,5 @@
     <string name="deck_conf_cram_steps_summ">Define custom steps</string>
     <string name="deck_conf_reminders_enabled">Enable reminder notifications for this deck</string>
     <string name="deck_conf_reminders_time">Remind at</string>
-    <string name="ninja_sync_account">Concurseiro Ninja account</string>
+    <string name="ninja_sync_account" translatable="false">AnkiPro account</string>
 </resources>
