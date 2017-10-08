@@ -149,8 +149,10 @@
     <string name="import_replacing">Replacing collection…</string>
     <string name="export_include_schedule">Include scheduling</string>
     <string name="export_include_media">Include media</string>
-    <string name="confirm_apkg_export">Export collection as ankipro file?</string>
-    <string name="confirm_apkg_export_deck">Export “%s” as ankipro file?</string>
+    <string name="confirm_apkg_export">Export collection as apkg file?</string>
+    <string name="confirm_apkg_export_deck">Export “%s” as apkg file?</string>
+    <string name="confirm_ankipro_export" translatable="false">Export as ankipro collection?</string>
+    <string name="confirm_ankipro_export_deck" translatable="false">Export \"%s\" as ankipro file?</string>
     <string name="export_in_progress">Exporting ankipro file…</string>
     <string name="export_successful_title">Email ankipro?</string>
     <string name="export_successful">File “%s” was exported. Do you want to email it?</string>

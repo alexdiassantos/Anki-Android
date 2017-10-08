@@ -16,6 +16,7 @@ android {
         abortOnError false
         disable 'TypographyEllipsis'
         disable 'MissingTranslation'
+        disable 'ExtraTranslation'
 
     }
     signingConfigs {
@@ -31,6 +32,9 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
+            lintOptions {
+                disable 'MissingTranslation'
+            }
         }
     }
     useLibrary 'org.apache.http.legacy'

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="confirm_ankipro_export" translatable="false">Export as ankipro collection?</string>
-    <string name="confirm_ankipro_export_deck" translatable="false">Export \"%s\" as ankipro file?</string>
 </resources>
